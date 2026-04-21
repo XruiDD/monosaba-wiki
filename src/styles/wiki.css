@@ -3,13 +3,13 @@
    ====================================================== */
 @font-face {
   font-family: "OpenSans";
-  src: url("../assets/fonts/opensans_regular.ttf") format("truetype");
+  src: url("/assets/fonts/opensans_regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "OpenSans";
-  src: url("../assets/fonts/opensans_italic.ttf") format("truetype");
+  src: url("/assets/fonts/opensans_italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
