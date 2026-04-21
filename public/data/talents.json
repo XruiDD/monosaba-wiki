@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "zh_name": "力量",
+    "slug": "talent1",
+    "functions": [
+      "talent/function/talent1/strength.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 2,
+    "zh_name": "夜视",
+    "slug": "talent2",
+    "functions": [
+      "talent/function/talent2/night_vision.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 3,
+    "zh_name": "魔女",
+    "slug": "talent3",
+    "functions": [
+      "talent/function/talent3/witch.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 4,
+    "zh_name": "啊哇",
+    "slug": "talent4",
+    "functions": [
+      "talent/function/talent4/awa.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 5,
+    "zh_name": "潜行",
+    "slug": "talent5",
+    "functions": [
+      "talent/function/talent5/sneak.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 6,
+    "zh_name": "笔记本",
+    "slug": "talent6",
+    "functions": [
+      "talent/function/talent6/notebook.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 7,
+    "zh_name": "扫帚",
+    "slug": "talent7",
+    "functions": [
+      "talent/function/talent7/broom.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 8,
+    "zh_name": "诺亚",
+    "slug": "talent8",
+    "functions": [
+      "talent/function/talent8/noa.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  },
+  {
+    "id": 9,
+    "zh_name": "山羊",
+    "slug": "talent9",
+    "functions": [
+      "talent/function/talent9/goat.mcfunction",
+      "talent/function/talent9/goat_head.mcfunction"
+    ],
+    "items": [],
+    "tellraw_texts": []
+  }
+]

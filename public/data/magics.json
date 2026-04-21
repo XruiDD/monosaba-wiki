@@ -1,0 +1,1152 @@
+[
+  {
+    "id": 1,
+    "zh_name": "冰",
+    "directory": "1",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic1_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/1/magic1_unlock_give.mcfunction"
+      },
+      {
+        "name": "❆冰晶弹❆",
+        "variant_file": "magic1a_give",
+        "item_model": "magics:magic_1a",
+        "cooldown_s": null,
+        "lore": [
+          "向前发射出一枚受重力影响的冰晶,对碰到的目标造成减速与伤害",
+          "魔力消耗:  30 MP",
+          "冷却时间:  5 s"
+        ],
+        "source": "magics/function/magic_give/1/magic1a_give.mcfunction"
+      },
+      {
+        "name": "❆凝剑❆",
+        "variant_file": "magic1b_give",
+        "item_model": "magics:magic_1b",
+        "cooldown_s": null,
+        "lore": [
+          "凝聚出一把能够短时间存在的冰晶剑",
+          "魔力消耗:  100 MP",
+          "*基础冷却:  180 s",
+          "持续时间:  10 s"
+        ],
+        "source": "magics/function/magic_give/1/magic1b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "zh_name": "医生",
+    "directory": "2",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic2_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/2/magic2_unlock_give.mcfunction"
+      },
+      {
+        "name": "✟感知✟",
+        "variant_file": "magic2a_give",
+        "item_model": "magics:magic_2a",
+        "cooldown_s": null,
+        "lore": [
+          "检查周围范围内除你以外的玩家魔女化状态",
+          "魔力消耗:  70 MP",
+          "冷却时间:  35 s"
+        ],
+        "source": "magics/function/magic_give/2/magic2a_give.mcfunction"
+      },
+      {
+        "name": "✟诊断✟",
+        "variant_file": "magic2b_give",
+        "item_model": "magics:magic_2b",
+        "cooldown_s": null,
+        "lore": [
+          "精准持续的看到周围玩家的魔女化程度",
+          "魔力消耗:  100 MP",
+          "*基础冷却:  210 s",
+          "持续时间:  3 s",
+          "被动",
+          "通常技能的覆盖范围翻倍，所需魔力减半，大幅度减少冷却",
+          "使用后减少本技能10 s冷却"
+        ],
+        "source": "magics/function/magic_give/2/magic2b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "zh_name": "幻觉",
+    "directory": "3",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic3_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 80 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/3/magic3_unlock_give.mcfunction"
+      },
+      {
+        "name": "👁幻视👁",
+        "variant_file": "magic3a_give",
+        "item_model": "magics:magic_3a",
+        "cooldown_s": null,
+        "lore": [
+          "使用后有x%机率(正比于压力值)获取一件稀有道具",
+          "魔力消耗:  10 MP",
+          "冷却时间:  40 s",
+          "被动",
+          "检定成功时压力值轻微上涨"
+        ],
+        "source": "magics/function/magic_give/3/magic3a_give.mcfunction"
+      },
+      {
+        "name": "👁解放技👁",
+        "variant_file": "magic3b_give",
+        "item_model": "magics:magic_3b",
+        "cooldown_s": null,
+        "lore": [
+          "使用后有获取一条来自过去的消息",
+          "该信息有x%(x正比于压力值)的机率来自当前对局",
+          "魔力消耗:  10 MP",
+          "冷却时间:  60 s",
+          "被动",
+          "检定成功时压力值轻微上涨"
+        ],
+        "source": "magics/function/magic_give/3/magic3b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "zh_name": "猫",
+    "directory": "4",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic4_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/4/magic4_unlock_give.mcfunction"
+      },
+      {
+        "name": "🐱哈气🐱",
+        "variant_file": "magic4a_give",
+        "item_model": "magics:magic_4a",
+        "cooldown_s": null,
+        "lore": [
+          "向前方哈气造成眩晕,提升自身速度",
+          "魔力消耗:  40 MP",
+          "冷却时间:  8 s",
+          "持续时间:  3 s",
+          "被动",
+          "哈气后获得永久夜视"
+        ],
+        "source": "magics/function/magic_give/4/magic4a_give.mcfunction"
+      },
+      {
+        "name": "🐱兽化🐱",
+        "variant_file": "magic4b_give",
+        "item_model": "magics:magic_4b",
+        "cooldown_s": null,
+        "lore": [
+          "变成猫咪",
+          "猫咪状态下无敌,体型大大减小,速度大大提升,完全失去近战能力",
+          "魔力消耗:  80 MP",
+          "冷却时间:  180 s",
+          "持续时间:  15~30 s",
+          "被动",
+          "通常技能的伤害翻倍",
+          "使用后减少本技能5 s冷却"
+        ],
+        "source": "magics/function/magic_give/4/magic4b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "zh_name": "魔女",
+    "directory": "5",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic5_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 70 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/5/magic5_unlock_give.mcfunction"
+      },
+      {
+        "name": "⚖咒语⚖",
+        "variant_file": "magic5a_give",
+        "item_model": "magics:magic_5a",
+        "cooldown_s": null,
+        "lore": [
+          "短暂失明缓慢饥饿,结束后获得40 MP",
+          "魔女化低于70额外获得5点魔女化值",
+          "第一次使用会给予一根咒杖",
+          "魔力消耗:  5 MP",
+          "冷却时间:  60 s",
+          "被动",
+          "如果未选择目标则赐福自己"
+        ],
+        "source": "magics/function/magic_give/5/magic5a_give.mcfunction"
+      },
+      {
+        "name": "⚖祝福之杖⚖",
+        "variant_file": "magic5a_give_bless",
+        "item_model": "magics:magic_5a_stick",
+        "cooldown_s": "3",
+        "lore": [
+          "攻击将会祝福目标",
+          "右键将会切换至诅咒",
+          "你只有一次机会"
+        ],
+        "source": "magics/function/magic_give/5/magic5a_give_bless.mcfunction"
+      },
+      {
+        "name": "⚖诅咒之杖⚖",
+        "variant_file": "magic5a_give_curse",
+        "item_model": "magics:magic_5a_stick",
+        "cooldown_s": "3",
+        "lore": [
+          "攻击将会诅咒目标",
+          "右键将会切换至祝福",
+          "你只有一次机会"
+        ],
+        "source": "magics/function/magic_give/5/magic5a_give_curse.mcfunction"
+      },
+      {
+        "name": "⚖仪式⚖",
+        "variant_file": "magic5b_give",
+        "item_model": "magics:magic_5b",
+        "cooldown_s": null,
+        "lore": [
+          "举行仪式",
+          "受到祝福之人会获得额外的生命",
+          "受到诅咒之人会成为鲜美的祭品",
+          "魔力消耗:  280 MP",
+          "冷却时间:  666 s",
+          "被动",
+          "你死亡时如果魔力足够,cd为零也会发动仪式"
+        ],
+        "source": "magics/function/magic_give/5/magic5b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "zh_name": "骑士",
+    "directory": "6",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic6_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/6/magic6_unlock_give.mcfunction"
+      },
+      {
+        "name": "♜骑士♜",
+        "variant_file": "magic6a_give",
+        "item_model": "magics:magic_6a",
+        "cooldown_s": null,
+        "lore": [
+          "获得可以切换的两种被动",
+          "受到/造成 的伤害始终 减少/增加 一点",
+          "魔力消耗:  30 MP"
+        ],
+        "source": "magics/function/magic_give/6/magic6a_give.mcfunction"
+      },
+      {
+        "name": "♜进击♜",
+        "variant_file": "magic6a_give_attack",
+        "item_model": "magics:magic_6a_attack",
+        "cooldown_s": null,
+        "lore": [
+          "切换被动，使你受到的伤害始终提高一点",
+          "魔力消耗:  10 MP",
+          "冷却时间:  30 s",
+          "被动",
+          "你造成的伤害始终提高一点"
+        ],
+        "source": "magics/function/magic_give/6/magic6a_give_attack.mcfunction"
+      },
+      {
+        "name": "♜守护♜",
+        "variant_file": "magic6a_give_defend",
+        "item_model": "magics:magic_6a_defend",
+        "cooldown_s": null,
+        "lore": [
+          "切换被动，使你造成的伤害始终提高一点",
+          "魔力消耗:  10 MP",
+          "冷却时间:  30 s",
+          "被动",
+          "你的伤害吸收最高为1点,但你始终拥有伤害吸收"
+        ],
+        "source": "magics/function/magic_give/6/magic6a_give_defend.mcfunction"
+      },
+      {
+        "name": "♜领地♜",
+        "variant_file": "magic6b_give",
+        "item_model": "magics:magic_6b",
+        "cooldown_s": null,
+        "lore": [
+          "召唤两种领地旗帜",
+          "范围内的其他魔女会持续虚弱和缓慢",
+          "守护形态下召唤获得高额抗性,进击形态下召唤获得高额力量",
+          "魔力消耗:  100 MP",
+          "冷却时间:  150 s",
+          "持续时间:  10~15 s",
+          "* 旗帜拥有高亮效果"
+        ],
+        "source": "magics/function/magic_give/6/magic6b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "zh_name": "火焰控制",
+    "directory": "7",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic7_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 65 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/7/magic7_unlock_give.mcfunction"
+      },
+      {
+        "name": "🔥火焰操控🔥",
+        "variant_file": "magic7a_give",
+        "item_model": "magics:magic_7a",
+        "cooldown_s": null,
+        "lore": [
+          "攻击改为造成火焰伤害",
+          "持续x秒(正比于压力值)",
+          "魔力消耗:  100 MP",
+          "冷却时间:  60 s",
+          "被动",
+          "焚毁周边掉落物及血迹"
+        ],
+        "source": "magics/function/magic_give/7/magic7a_give.mcfunction"
+      },
+      {
+        "name": "🔥解放技🔥",
+        "variant_file": "magic7b_give",
+        "item_model": "magics:magic_7b",
+        "cooldown_s": null,
+        "lore": [
+          "解锁后自动激活，使一技能造成伤害提升50%",
+          "且一技能被动效果将可以焚毁尸体",
+          "魔力消耗:  无",
+          "冷却时间:  无限"
+        ],
+        "source": "magics/function/magic_give/7/magic7b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "zh_name": "隐身",
+    "directory": "8",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic8_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 40 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/8/magic8_unlock_give.mcfunction"
+      },
+      {
+        "name": "▣微步▣",
+        "variant_file": "magic8a_give",
+        "item_model": "magics:magic_8a",
+        "cooldown_s": null,
+        "lore": [
+          "短暂的隐身并加速",
+          "魔力消耗:  5 MP",
+          "冷却时间:  3 s"
+        ],
+        "source": "magics/function/magic_give/8/magic8a_give.mcfunction"
+      },
+      {
+        "name": "▣出窍▣",
+        "variant_file": "magic8b_give",
+        "item_model": "magics:magic_8b",
+        "cooldown_s": null,
+        "lore": [
+          "原地留下一个假身,本体隐身并加速,再次使可以回到假身位置",
+          "魔力消耗:  80 MP",
+          "冷却时间:  180 s",
+          "持续时间:  5~10 s",
+          "被动",
+          "使用微步可以减少本技能的1 s冷却",
+          "* 假身的血量与你当前相同"
+        ],
+        "source": "magics/function/magic_give/8/magic8b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "zh_name": "转身",
+    "directory": "9",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic9_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/9/magic9_unlock_give.mcfunction"
+      },
+      {
+        "name": "◉转◉",
+        "variant_file": "magic9a_give",
+        "item_model": "magics:magic_9a",
+        "cooldown_s": null,
+        "lore": [
+          "对指向的目标造成短暂缓慢，使其朝向反转",
+          "魔力消耗:  30 MP",
+          "冷却时间:  8 s"
+        ],
+        "source": "magics/function/magic_give/9/magic9a_give.mcfunction"
+      },
+      {
+        "name": "◉换◉",
+        "variant_file": "magic9b_give",
+        "item_model": "magics:magic_9b",
+        "cooldown_s": null,
+        "lore": [
+          "与指向的30格内的目标进行位置互换",
+          "魔力消耗:  60 MP",
+          "冷却时间:  120 s"
+        ],
+        "source": "magics/function/magic_give/9/magic9b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "zh_name": "烟火",
+    "directory": "10",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic10_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/10/magic10_unlock_give.mcfunction"
+      },
+      {
+        "name": "◉照◉",
+        "variant_file": "magic10a_give",
+        "item_model": "magics:magic_10a",
+        "cooldown_s": null,
+        "lore": [
+          "向头顶释放烟花，获得30s发光效果，对周围人造成闪光效果",
+          "魔力消耗:  80 MP",
+          "冷却时间:  60 s"
+        ],
+        "source": "magics/function/magic_give/10/magic10a_give.mcfunction"
+      },
+      {
+        "name": "◉花◉",
+        "variant_file": "magic10b_give",
+        "item_model": "magics:magic_10b",
+        "cooldown_s": null,
+        "lore": [
+          "向前方释放四个烟花，穿过的角色获得10s发光，清除隐身",
+          "魔力消耗:  80 MP",
+          "冷却时间:  10 s"
+        ],
+        "source": "magics/function/magic_give/10/magic10b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "zh_name": "灰烬",
+    "directory": "11",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic11_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/11/magic11_unlock_give.mcfunction"
+      },
+      {
+        "name": "◉尘◉",
+        "variant_file": "magic11a_give",
+        "item_model": "magics:magic_11a",
+        "cooldown_s": null,
+        "lore": [
+          "召唤一团尘向前移动，2秒后传送过去",
+          "魔力消耗:  40 MP",
+          "冷却时间:  10 s"
+        ],
+        "source": "magics/function/magic_give/11/magic11a_give.mcfunction"
+      },
+      {
+        "name": "◉灵尘◉",
+        "variant_file": "magic11b_give",
+        "item_model": "magics:magic_11b",
+        "cooldown_s": null,
+        "lore": [
+          "召唤灵尘并骑乘，持续30秒",
+          "魔力消耗:  80 MP",
+          "冷却时间:  60 s"
+        ],
+        "source": "magics/function/magic_give/11/magic11b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "zh_name": "充电",
+    "directory": "12",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic12_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/12/magic12_unlock_give.mcfunction"
+      },
+      {
+        "name": "◉魔力法阵◉",
+        "variant_file": "magic12a_give",
+        "item_model": "magics:magic_12a",
+        "cooldown_s": null,
+        "lore": [
+          "创建魔力法阵，范围内玩家每秒回复4MP",
+          "持续时间:  10 s",
+          "魔力消耗:  60 MP",
+          "冷却时间:  20 s"
+        ],
+        "source": "magics/function/magic_give/12/magic12a_give.mcfunction"
+      },
+      {
+        "name": "◉魔力充能◉",
+        "variant_file": "magic12b_give",
+        "item_model": "magics:magic_12b",
+        "cooldown_s": null,
+        "lore": [
+          "给10格内最近的其他玩家充能+100MP并重置冷却 使其发光",
+          "魔力消耗:  80 MP",
+          "冷却时间:  120 s"
+        ],
+        "source": "magics/function/magic_give/12/magic12b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "zh_name": "力量",
+    "directory": "13",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic13_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 60 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/13/magic13_unlock_give.mcfunction"
+      },
+      {
+        "name": "⚡怪力⚡",
+        "variant_file": "magic13a_give",
+        "item_model": "magics:magic_13a",
+        "cooldown_s": null,
+        "lore": [
+          "在十秒内下一次攻击获得怪力",
+          "攻击力+4 击退+4",
+          "魔力消耗:  60 MP",
+          "冷却时间:  30 s"
+        ],
+        "source": "magics/function/magic_give/13/magic13a_give.mcfunction"
+      },
+      {
+        "name": "⚡绝对怪力⚡",
+        "variant_file": "magic13b_give",
+        "item_model": "magics:magic_13b",
+        "cooldown_s": null,
+        "lore": [
+          "释放绝对怪力，获得30秒力量II增益",
+          "魔力消耗:  90 MP",
+          "冷却时间:  120 s"
+        ],
+        "source": "magics/function/magic_give/13/magic13b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "zh_name": "重力控制",
+    "directory": "14",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic14_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 65 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/14/magic14_unlock_give.mcfunction"
+      },
+      {
+        "name": "G 重力操控 G",
+        "variant_file": "magic14a_give",
+        "item_model": "magics:magic_14a",
+        "cooldown_s": null,
+        "lore": [
+          "自身下次攻击将使目标漂浮x秒(正比于压力值)",
+          "按下shift使用此技能可令自身漂浮5*x秒",
+          "魔力消耗:  40 MP",
+          "冷却时间:  10 s"
+        ],
+        "source": "magics/function/magic_give/14/magic14a_give.mcfunction"
+      },
+      {
+        "name": "G 解放技 G",
+        "variant_file": "magic14b_give",
+        "item_model": "magics:magic_14b",
+        "cooldown_s": null,
+        "lore": [
+          "令前方3x8范围内玩家起飞,随后快速落下",
+          "造成不低于10点摔落伤害",
+          "魔力消耗:  80 MP",
+          "冷却时间:  120 s"
+        ],
+        "source": "magics/function/magic_give/14/magic14b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "zh_name": "诅咒",
+    "directory": "15",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic15_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/15/magic15_unlock_give.mcfunction"
+      },
+      {
+        "name": "💀诅咒印记💀",
+        "variant_file": "magic15a_give",
+        "item_model": "magics:magic_15a",
+        "cooldown_s": null,
+        "lore": [
+          "为最近四格内的其他玩家添加一层诅咒印记，魔女化程度越高越容易命中",
+          "魔力消耗:  40 MP",
+          "冷却时间:  6 s",
+          "范围:  4 格"
+        ],
+        "source": "magics/function/magic_give/15/magic15a_give.mcfunction"
+      },
+      {
+        "name": "💀诅咒引爆💀",
+        "variant_file": "magic15b_give",
+        "item_model": "magics:magic_15b",
+        "cooldown_s": null,
+        "lore": [
+          "指向目标玩家引爆其身上的诅咒印记",
+          "每层诅咒扣除4点生命",
+          "每层诅咒给予10秒失明",
+          "魔力消耗:  90 MP",
+          "冷却时间:  3 s",
+          "范围:  30 格"
+        ],
+        "source": "magics/function/magic_give/15/magic15b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "zh_name": "飞行",
+    "directory": "16",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic16_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/16/magic16_unlock_give.mcfunction"
+      },
+      {
+        "name": "☁浮空形态☁",
+        "variant_file": "magic16a_give",
+        "item_model": "magics:magic_16a",
+        "cooldown_s": null,
+        "lore": [
+          "切换浮空形态，在两种状态间来回切换",
+          "魔力消耗:  50 MP",
+          "冷却时间:  4 s",
+          "持续时间:  2 s 漂浮"
+        ],
+        "source": "magics/function/magic_give/16/magic16a_give.mcfunction"
+      },
+      {
+        "name": "☁浮空诅咒☁",
+        "variant_file": "magic16b_give",
+        "item_model": "magics:magic_16b",
+        "cooldown_s": null,
+        "lore": [
+          "指向目标玩家，使其进入浮空状态",
+          "持续时间:  10 s",
+          "魔力消耗:  50 MP",
+          "冷却时间:  8 s",
+          "范围:  30 格"
+        ],
+        "source": "magics/function/magic_give/16/magic16b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "zh_name": "药水",
+    "directory": "17",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic17_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/17/magic17_unlock_give.mcfunction"
+      },
+      {
+        "name": "🧪随机药水🧪",
+        "variant_file": "magic17a_give",
+        "item_model": "magics:magic_17a",
+        "cooldown_s": null,
+        "lore": [
+          "获得一瓶随机滞留药水",
+          "魔力消耗:  50 MP",
+          "冷却时间:  3 s"
+        ],
+        "source": "magics/function/magic_give/17/magic17a_give.mcfunction"
+      },
+      {
+        "name": "🧪高级药水🧪",
+        "variant_file": "magic17b_give",
+        "item_model": "magics:magic_17b",
+        "cooldown_s": null,
+        "lore": [
+          "获得一瓶随机滞留药水",
+          "可堆叠至64瓶",
+          "魔力消耗:  90 MP",
+          "冷却时间:  6 s"
+        ],
+        "source": "magics/function/magic_give/17/magic17b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "zh_name": "火花",
+    "directory": "18",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic18_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/18/magic18_unlock_give.mcfunction"
+      },
+      {
+        "name": "◉扫帚飞行◉",
+        "variant_file": "magic18a_give",
+        "item_model": "magics:magic_18a",
+        "cooldown_s": null,
+        "lore": [
+          "骑乘扫帚飞行，持续5秒",
+          "魔力消耗:  70 MP",
+          "冷却时间:  50 s"
+        ],
+        "source": "magics/function/magic_give/18/magic18a_give.mcfunction"
+      },
+      {
+        "name": "◉最终光炮◉",
+        "variant_file": "magic18b_give",
+        "item_model": "magics:magic_18b",
+        "cooldown_s": null,
+        "lore": [
+          "召唤法阵，1秒后发射威力巨大的穿透光炮",
+          "魔力消耗:  100 MP",
+          "冷却时间:  80 s"
+        ],
+        "source": "magics/function/magic_give/18/magic18b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "zh_name": "灯笼",
+    "directory": "19",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic19_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/19/magic19_unlock_give.mcfunction"
+      },
+      {
+        "name": "🏮查看存活🏮",
+        "variant_file": "magic19a_give",
+        "item_model": "magics:magic_19a",
+        "cooldown_s": null,
+        "lore": [
+          "查看当前存活玩家数量",
+          "魔力消耗:  20 MP",
+          "冷却时间:  15 s"
+        ],
+        "source": "magics/function/magic_give/19/magic19a_give.mcfunction"
+      },
+      {
+        "name": "🏮照亮🏮",
+        "variant_file": "magic19b_give",
+        "item_model": "magics:magic_19b",
+        "cooldown_s": null,
+        "lore": [
+          "召唤法阵，五秒后将范围5以内最近的尸体摧毁，获得不死图腾",
+          "魔力消耗:  80 MP",
+          "冷却时间:  150 s",
+          "范围:  5 格"
+        ],
+        "source": "magics/function/magic_give/19/magic19b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "zh_name": "幽灵",
+    "directory": "20",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic20_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/20/magic20_unlock_give.mcfunction"
+      },
+      {
+        "name": "👻幽灵形态👻",
+        "variant_file": "magic20a_give",
+        "item_model": "magics:magic_20a",
+        "cooldown_s": null,
+        "lore": [
+          "在正常形态和幽灵形态间切换",
+          "幽灵形态：获得隐身和零重力",
+          "魔力消耗:  80 MP",
+          "冷却时间:  3 s"
+        ],
+        "source": "magics/function/magic_give/20/magic20a_give.mcfunction"
+      },
+      {
+        "name": "💀死亡诅咒💀",
+        "variant_file": "magic20b_give",
+        "item_model": "magics:magic_20b",
+        "cooldown_s": null,
+        "lore": [
+          "指向敌人，将其生命值上限变为1",
+          "自己永久获得凋零效果",
+          "魔力消耗:  100 MP",
+          "冷却时间:  999 s"
+        ],
+        "source": "magics/function/magic_give/20/magic20b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "zh_name": "眼睛",
+    "directory": "21",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic21_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "压力值大于 60 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/21/magic21_unlock_give.mcfunction"
+      },
+      {
+        "name": "👁洞察之眼👁",
+        "variant_file": "magic21a_give",
+        "item_model": "magics:magic_21a",
+        "cooldown_s": null,
+        "lore": [
+          "面向最近的玩家，标记其为被洞察状态",
+          "魔力消耗:  15 MP",
+          "冷却时间:  2 s"
+        ],
+        "source": "magics/function/magic_give/21/magic21a_give.mcfunction"
+      },
+      {
+        "name": "👁诅咒之眼👁",
+        "variant_file": "magic21b_give",
+        "item_model": "magics:magic_21b",
+        "cooldown_s": null,
+        "lore": [
+          "对被洞察的玩家施加诅咒",
+          "生命值上限永久-5，获得失明、缓慢、虚弱 受诅咒五次将死亡",
+          "魔力消耗:  90 MP",
+          "冷却时间:  30 s"
+        ],
+        "source": "magics/function/magic_give/21/magic21b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "zh_name": "红色",
+    "directory": "22",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic22_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "魔女化值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/22/magic22_unlock_give.mcfunction"
+      },
+      {
+        "name": "◉因子球◉",
+        "variant_file": "magic22a_give",
+        "item_model": "magics:magic_22a",
+        "cooldown_s": null,
+        "lore": [
+          "在鼠标指向位置生成因子球",
+          "球附近的玩家每1.5秒减少1点魔女化值",
+          "魔力消耗:  70 MP",
+          "冷却时间:  8 s",
+          "持续时间:  9 s"
+        ],
+        "source": "magics/function/magic_give/22/magic22a_give.mcfunction"
+      },
+      {
+        "name": "🔴魔女诅咒🔴",
+        "variant_file": "magic22b_give",
+        "item_model": "magics:magic_22b",
+        "cooldown_s": null,
+        "lore": [
+          "对指向的玩家施加诅咒",
+          "根据目标魔女化程度造成失明、凋零、禁用技能",
+          "自身魔女化程度增加5点",
+          "魔力消耗:  100 MP",
+          "冷却时间:  50 s"
+        ],
+        "source": "magics/function/magic_give/22/magic22b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "zh_name": "到达",
+    "directory": "23",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic23_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "魔女化值大于 50 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/23/magic23_unlock_give.mcfunction"
+      },
+      {
+        "name": "📏触及📏",
+        "variant_file": "magic23a_give",
+        "item_model": "magics:magic_23a",
+        "cooldown_s": null,
+        "lore": [
+          "瞬间增加攻击距离和交互距离",
+          "魔力消耗:  50 MP",
+          "冷却时间:  10 s",
+          "持续时间:  5 s"
+        ],
+        "source": "magics/function/magic_give/23/magic23a_give.mcfunction"
+      },
+      {
+        "name": "🔮念动力🔮",
+        "variant_file": "magic23b_give",
+        "item_model": "magics:magic_23b",
+        "cooldown_s": null,
+        "lore": [
+          "持续8秒,攻击距离和方块交互距离变成50格",
+          "魔力消耗:  80 MP",
+          "冷却时间:  15 s",
+          "持续时间:  8 s"
+        ],
+        "source": "magics/function/magic_give/23/magic23b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "zh_name": "传送门",
+    "directory": "24",
+    "variants": [
+      {
+        "name": "未解锁",
+        "variant_file": "magic24_unlock_give",
+        "item_model": "magics:magicb_unlock",
+        "cooldown_s": "3",
+        "lore": [
+          "???",
+          "解锁条件:",
+          "魔女化值大于 60 后右键即可解锁"
+        ],
+        "source": "magics/function/magic_give/24/magic24_unlock_give.mcfunction"
+      },
+      {
+        "name": "🌀传送门🌀",
+        "variant_file": "magic24a_give",
+        "item_model": "magics:magic_24a",
+        "cooldown_s": null,
+        "lore": [
+          "在脚下释放传送门光点，下蹲在光点之间穿梭",
+          "魔力消耗:  70 MP",
+          "冷却时间:  3 s"
+        ],
+        "source": "magics/function/magic_give/24/magic24a_give.mcfunction"
+      },
+      {
+        "name": "🎯指向传送🎯",
+        "variant_file": "magic24b_give",
+        "item_model": "magics:magic_24b",
+        "cooldown_s": null,
+        "lore": [
+          "在指向位置释放传送门光点，下蹲在光点之间穿梭",
+          "魔力消耗:  85 MP",
+          "冷却时间:  3 s"
+        ],
+        "source": "magics/function/magic_give/24/magic24b_give.mcfunction"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "zh_name": "",
+    "directory": "101_majokiller",
+    "variants": []
+  }
+]

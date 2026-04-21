@@ -1,0 +1,242 @@
+[
+  {
+    "name": "返回监牢",
+    "type": "特殊任务",
+    "background": "已经快到晚上了...尽快回到牢房吧",
+    "objective": "返回对应的牢房中",
+    "reward": "无",
+    "punishment": "你将被关入惩戒室之中，以儆效尤",
+    "category": "back_prison",
+    "source": "back_prison/back_start.mcfunction"
+  },
+  {
+    "name": "集合",
+    "type": "特殊任务",
+    "background": "自称典狱长的猫头鹰似乎有事要说",
+    "objective": "前往一层会客厅",
+    "reward": "无",
+    "punishment": "你逃不掉的",
+    "category": "frist_day_task",
+    "source": "frist_day_task/gather.mcfunction"
+  },
+  {
+    "name": "有备无患",
+    "type": "集体任务",
+    "background": "在离开之前，多准备些药物吧",
+    "objective": "收集房间各处散落的药物",
+    "reward": "越狱进度大幅上升,获得随机药物",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "group/1_collect_drug",
+    "source": "group/1_collect_drug/group1_start.mcfunction"
+  },
+  {
+    "name": "大清洗",
+    "type": "集体任务",
+    "background": "“一个良好的环境是越狱成功的前提”",
+    "objective": "清扫室内各处污迹",
+    "reward": "越狱进度大幅上升",
+    "punishment": "你将不得不生活在一个脏乱差的环境中",
+    "category": "group/2_sweep_floor",
+    "source": "group/2_sweep_floor/group2_start.mcfunction"
+  },
+  {
+    "name": "欢隅逸趣",
+    "type": "探索任务",
+    "background": "放松一下吧",
+    "objective": "前往娱乐室并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/10_playroom",
+    "source": "private/explore/10_playroom/explore10_start.mcfunction"
+  },
+  {
+    "name": "午间小憩-3",
+    "type": "探索任务",
+    "background": "稍事休息",
+    "objective": "前往二楼大厅并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/11_lobby2f",
+    "source": "private/explore/11_lobby2f/explore11_start.mcfunction"
+  },
+  {
+    "name": "午间小憩-4",
+    "type": "探索任务",
+    "background": "稍事休息",
+    "objective": "前往一楼会客厅并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/12_liveroom1f",
+    "source": "private/explore/12_liveroom1f/explore12_start.mcfunction"
+  },
+  {
+    "name": "午间小憩-5",
+    "type": "探索任务",
+    "background": "稍事休息",
+    "objective": "前往二楼客厅并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/13_liveroom2f",
+    "source": "private/explore/13_liveroom2f/explore13_start.mcfunction"
+  },
+  {
+    "name": "临床规培(彩蛋)",
+    "type": "探索任务",
+    "background": "前往医务室坐牢(划掉)学习",
+    "objective": "前往医务室并停留40秒",
+    "reward": "压力值降低?",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/14_infirmary",
+    "source": "private/explore/14_infirmary/explore14_start.mcfunction"
+  },
+  {
+    "name": "午间小憩-6",
+    "type": "探索任务",
+    "background": "稍事休息",
+    "objective": "前往二楼客房并停留20秒",
+    "reward": "压力值降低?",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/15_guestroom",
+    "source": "private/explore/15_guestroom/explore15_start.mcfunction"
+  },
+  {
+    "name": "庭中漫步",
+    "type": "探索任务",
+    "background": "去中庭散散步吧",
+    "objective": "前往中庭并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/1_atrium",
+    "source": "private/explore/1_atrium/explore1_start.mcfunction"
+  },
+  {
+    "name": "午间小憩-1",
+    "type": "探索任务",
+    "background": "稍事休息",
+    "objective": "前往一层玄关大厅并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/2_lobby1f",
+    "source": "private/explore/2_lobby1f/explore2_start.mcfunction"
+  },
+  {
+    "name": "沐雨流光",
+    "type": "探索任务",
+    "background": "是时候洗个澡了",
+    "objective": "前往浴室并在淋浴喷头下停留10秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/3_showerroom",
+    "source": "private/explore/3_showerroom/explore3_start.mcfunction"
+  },
+  {
+    "name": "烈火熊熊",
+    "type": "探索任务",
+    "background": "焚化室里会有什么呢?",
+    "objective": "前往地下焚化室并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/4_burnroom",
+    "source": "private/explore/4_burnroom/explore4_start.mcfunction"
+  },
+  {
+    "name": "艺术鉴赏-1",
+    "type": "探索任务",
+    "background": "听说这里还有个画室?",
+    "objective": "前往诺亚画室并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/5_noahstudio",
+    "source": "private/explore/5_noahstudio/explore5_start.mcfunction"
+  },
+  {
+    "name": "阅读时光",
+    "type": "探索任务",
+    "background": "希望读书能安抚躁动的心灵",
+    "objective": "前往图书馆并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/6_library",
+    "source": "private/explore/6_library/explore6_start.mcfunction"
+  },
+  {
+    "name": "阴森之地",
+    "type": "探索任务",
+    "background": "克服恐惧的最好办法，就是面对它",
+    "objective": "前往惩戒室并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/7_punishmentroom",
+    "source": "private/explore/7_punishmentroom/explore7_start.mcfunction"
+  },
+  {
+    "name": "艺术鉴赏-2",
+    "type": "探索任务",
+    "background": "哇，好大的展览厅",
+    "objective": "前往展览厅并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/8_museum",
+    "source": "private/explore/8_museum/explore8_start.mcfunction"
+  },
+  {
+    "name": "午间小憩-2",
+    "type": "探索任务",
+    "background": "稍事休息",
+    "objective": "前往半地下接客室并停留20秒",
+    "reward": "压力值降低",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/explore/9_receptionroom",
+    "source": "private/explore/9_receptionroom/explore9_start.mcfunction"
+  },
+  {
+    "name": "书海循迹",
+    "type": "调查任务",
+    "background": "图书馆中兴许还有有用的资料",
+    "objective": "使用放大镜(右键长按)调查图书馆内的白色调查点",
+    "reward": "越狱进度小幅上升获得随机书本",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/survey/1_find_book",
+    "source": "private/survey/1_find_book/survey1_start.mcfunction"
+  },
+  {
+    "name": "药物收集",
+    "type": "调查任务",
+    "background": "清点一下医务室的药物吧",
+    "objective": "使用放大镜(右键长按)调查医务室内的白色调查点",
+    "reward": "越狱进度小幅上升，获得随机药物",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/survey/2_prison",
+    "source": "private/survey/2_prison/survey2_start.mcfunction"
+  },
+  {
+    "name": "安全保障",
+    "type": "调查任务",
+    "background": "如果有人从滑槽掉下去...后果不堪设想",
+    "objective": "使用放大镜(右键长按)调查浴室垃圾滑槽周边的白色调查点",
+    "reward": "越狱进度小幅上升",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/survey/3_fix_cover",
+    "source": "private/survey/3_fix_cover/survey3_start.mcfunction"
+  },
+  {
+    "name": "濯尘凝露",
+    "type": "调查任务",
+    "background": "整理一下浴室吧",
+    "objective": "使用放大镜(右键长按)调查浴室内的白色调查点",
+    "reward": "越狱进度小幅上升，获得随机杂物",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/survey/4_clear_showerroom",
+    "source": "private/survey/4_clear_showerroom/survey4_start.mcfunction"
+  },
+  {
+    "name": "‌焚烬鉴明",
+    "type": "调查任务",
+    "background": "‌焚化炉及其附属设备似乎老化严重...",
+    "objective": "使用放大镜(右键长按)调查焚烧室内的白色调查点",
+    "reward": "越狱进度小幅上升，获得随机杂物",
+    "punishment": "每一点偏差，都有可能导向失败的结局",
+    "category": "private/survey/5_check_furnace",
+    "source": "private/survey/5_check_furnace/survey5_start.mcfunction"
+  }
+]

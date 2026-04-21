@@ -1,0 +1,74 @@
+/* ===== 饰品专属样式 ===== */
+.acc-legend {
+  display: flex; gap: 8px; margin-bottom: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--rule);
+  background: var(--bg-card);
+}
+.acc-dot {
+  display: inline-block;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.acc-dot.lg { width: 16px; height: 16px; vertical-align: middle; margin-left: 8px; }
+
+.acc-portraits { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+
+.acc-combos-inline {
+  display: flex; flex-direction: column; gap: 8px;
+  /* 联动过多时内部滚动，不把卡片撑太高 */
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-width: thin;
+}
+.acc-combos-inline::-webkit-scrollbar { width: 6px; }
+.acc-combos-inline::-webkit-scrollbar-thumb {
+  background: rgb(var(--accent-rgb) / 0.25);
+  border-radius: 3px;
+}
+.acc-combos-inline::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--accent-rgb) / 0.5);
+}
+.combo-pill {
+  display: flex; align-items: center; gap: 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--rule);
+  background: var(--bg-card);
+}
+.combo-pill.tier-main   { border-left: 3px solid var(--accent); }
+.combo-pill.tier-easter { border-left: 3px solid var(--seal); }
+.combo-members { display: flex; gap: 4px; align-items: center; }
+.combo-members.lg { gap: 6px; margin-bottom: 10px; }
+.combo-dot {
+  width: 32px; height: 32px;
+  border: 2px solid var(--rule);
+  display: grid; place-items: center;
+  background: var(--bg-0);
+  border-radius: 50%;
+  padding: 2px;
+  flex-shrink: 0;
+}
+body[data-variant="paper"] .combo-dot { background: #e8d8ad; }
+.combo-dot img { width: 22px; height: 22px; image-rendering: pixelated; }
+.combo-dot.lg { width: 42px; height: 42px; }
+.combo-dot.lg img { width: 30px; height: 30px; }
+.combo-body { flex: 1; min-width: 0; }
+.combo-name { font-size: 15px; letter-spacing: 1.5px; color: var(--ink); margin-bottom: 2px; }
+.combo-effect { font-size: 12.5px; line-height: 1.7; font-family: var(--serif); }
+
+/* combos 总表 */
+.combos-wrap { margin-top: 8px; }
+.combo-tier-label {
+  font-size: 11px; letter-spacing: 4px;
+  color: var(--ink-faint);
+  margin: 18px 0 8px;
+}
+.combos-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+.combo-card { padding: 14px 16px; transition: all 0.2s; }
+.combo-card .combo-name { margin: 6px 0 8px; font-size: 16px; }
+.combo-card.hl { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
