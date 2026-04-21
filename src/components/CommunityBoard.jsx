@@ -18,7 +18,7 @@ const SPARKMC = {
 
 const SERVERS = [
   { name: "电信线路",     addr: "mc.tlspark.cn:27776",     note: "推荐电信用户" },
-  { name: "BGP 线路",      addr: "94w6equ5.dldun.cn:27777", note: "多网互联 · 移动/联通/海外优先" },
+  { name: "BGP 线路",      addr: "94w6equ5.dldun.cn:27777", note: "多网互联 · 移动/联通优先" },
 ];
 
 const ORIGINAL_SITE = {

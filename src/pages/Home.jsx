@@ -3,17 +3,16 @@ import { ITEMS_DATA } from "../data/items.js";
 import CommunityBoard from "../components/CommunityBoard.jsx";
 import LicenseModal from "../components/LicenseModal.jsx";
 
-const OPENING_SEEN_KEY = "manosaba.openingSeen";
-
+// phase 语义：
+//   -1  点击以继续（等待首次交互）
+//    0  黑场
+//    1  猫头鹰封印
+//    2  典狱长旁白（打字机）
+//    3  主菜单
 export default function HomePage({ navigate }) {
-  // 如果看过开场，直接跳到 phase 3
-  const [phase, setPhase] = useState(() => {
-    try {
-      if (localStorage.getItem(OPENING_SEEN_KEY) === "1") return 3;
-    } catch { /* noop */ }
-    return 0;
-  });
+  const [phase, setPhase] = useState(-1);
   const [lineIdx, setLineIdx] = useState(0);
+  const [charIdx, setCharIdx] = useState(0);
   const [skipped, setSkipped] = useState(false);
 
   const LINES = [
@@ -25,64 +24,134 @@ export default function HomePage({ navigate }) {
     "这并非游戏——这是『囚庭演定』。",
   ];
 
+  // 控制开场期间隐藏全站浮窗（音乐钮等）
   useEffect(() => {
-    if (phase >= 3) return;
+    if (phase < 3) document.body.classList.add("opening-active");
+    else document.body.classList.remove("opening-active");
+    return () => document.body.classList.remove("opening-active");
+  }, [phase]);
+
+  // phase 0 → 1 → 2 推进（仅 phase < 2 时，且已经点击过继续）
+  useEffect(() => {
+    if (phase < 0) return;
     if (skipped) { setPhase(3); return; }
-    // 黑场 → 猫头鹰封印（更长的静默沉淀）
-    const t1 = setTimeout(() => setPhase(1), 1500);
-    // 封印 → 旁白（猫头鹰停留更久，让用户看清）
-    const t2 = setTimeout(() => setPhase(2), 5200);
+    if (phase >= 2) return;
+
+    let t1, t2;
+    if (phase === 0) t1 = setTimeout(() => setPhase(1), 1200);
+    if (phase === 0 || phase === 1) {
+      const delay = phase === 0 ? 4400 : 3200;
+      t2 = setTimeout(() => setPhase(2), delay);
+    }
     return () => { clearTimeout(t1); clearTimeout(t2); };
   }, [skipped, phase]);
 
+  // 逐字显示
+  // 经估算：6 行 67 字，10 标点；60ms/字 + 200ms/标点 ≈ 5.4s 纯打字
+  //         加 6 次停顿 ~5.2s，加 phase 0+1 = 4.4s，结尾 1.4s ≈ 16-17s 总开场
+  useEffect(() => {
+    if (phase !== 2 || skipped) return;
+    if (lineIdx >= LINES.length) return;
+    const line = LINES[lineIdx];
+    if (charIdx >= line.length) return;
+    const ch = line[charIdx];
+    const delay = /[，。；！？——、『』「」]/.test(ch) ? 200 : 60;
+    const t = setTimeout(() => setCharIdx((i) => i + 1), delay);
+    return () => clearTimeout(t);
+  }, [phase, lineIdx, charIdx, skipped]);
+
+  // 一行写完 → 停顿 → 下一行
   useEffect(() => {
     if (phase !== 2 || skipped) return;
     if (lineIdx >= LINES.length) {
-      // 最后一句停留更久，再进菜单
-      const t = setTimeout(() => setPhase(3), 2400);
+      const t = setTimeout(() => setPhase(3), 1400);
       return () => clearTimeout(t);
     }
-    // 短句留短一点，长句留久一点（按字数 * 160 + 1400 的基数）
-    const currentLen = LINES[lineIdx]?.length || 0;
-    const hold = Math.min(3800, 1800 + currentLen * 140);
-    const t = setTimeout(() => setLineIdx((i) => i + 1), hold);
+    const line = LINES[lineIdx];
+    if (charIdx < line.length) return;
+    const hold = Math.min(1400, 500 + line.length * 40);
+    const t = setTimeout(() => {
+      setLineIdx((i) => i + 1);
+      setCharIdx(0);
+    }, hold);
     return () => clearTimeout(t);
-  }, [phase, lineIdx, skipped]);
+  }, [phase, lineIdx, charIdx, skipped]);
 
-  // 到达菜单时，记录"已看过"标记
-  useEffect(() => {
-    if (phase >= 3) {
-      try { localStorage.setItem(OPENING_SEEN_KEY, "1"); } catch { /* noop */ }
-    }
-  }, [phase]);
+  const beginOpening = () => {
+    if (phase === -1) setPhase(0);
+  };
 
   return (
-    <div className="home-stage">
-      {phase < 3 && (
+    <div className="home-stage" onClick={phase === -1 ? beginOpening : undefined}>
+      {/* 点击以继续：首屏门禁，浮窗全部隐藏 */}
+      {phase === -1 && (
+        <div className="opening-gate">
+          <div className="gate-frame">
+            <div className="gate-line"/>
+            <div className="gate-hint serif">点击以继续</div>
+            <div className="gate-sub mono">CLICK · ANYWHERE · TO · ENTER</div>
+            <div className="gate-line"/>
+          </div>
+        </div>
+      )}
+
+      {phase >= 0 && phase < 3 && (
         <button className="skip-btn" onClick={() => setSkipped(true)}>
           跳过旁白 <span className="mono">[ SKIP ]</span>
         </button>
       )}
 
       {phase >= 1 && phase < 3 && (
-        <div className="owl-seal" style={{ opacity: phase >= 1 ? 1 : 0 }}>
-          <div className="owl-ring"/>
-          <div className="owl-ring outer"/>
-          <img src="assets/characters/warden.png" className="pixel" alt="warden"/>
+        <div className="owl-seal" aria-hidden="true">
+          <svg className="os-crest" viewBox="0 0 240 240" width="220" height="220">
+            {/* 最外细圈 */}
+            <circle cx="120" cy="120" r="108" fill="none"
+                    stroke="rgb(var(--accent-rgb))" strokeWidth="0.8" opacity="0.35"/>
+            {/* 中圈虚线 */}
+            <circle cx="120" cy="120" r="92" fill="none"
+                    stroke="rgb(var(--accent-rgb))" strokeWidth="0.6" strokeDasharray="2 3" opacity="0.55"/>
+            {/* 内圈描边 */}
+            <circle cx="120" cy="120" r="64" fill="none"
+                    stroke="rgb(var(--accent-rgb))" strokeWidth="1.2"/>
+            {/* 四角法庭十字刻度 */}
+            {[0, 90, 180, 270].map((a) => (
+              <g key={a} transform={`rotate(${a} 120 120)`}>
+                <line x1="120" y1="8" x2="120" y2="22"
+                      stroke="rgb(var(--accent-rgb))" strokeWidth="1"/>
+                <line x1="120" y1="28" x2="120" y2="34"
+                      stroke="rgb(var(--accent-rgb))" strokeWidth="0.7" opacity="0.7"/>
+              </g>
+            ))}
+            {/* 中心四角星印 */}
+            <path
+              d="M120 76 L126 114 L160 120 L126 126 L120 164 L114 126 L80 120 L114 114 Z"
+              fill="rgb(var(--accent-rgb))"
+              opacity="0.92"
+            />
+            {/* 中心小圆点 */}
+            <circle cx="120" cy="120" r="3" fill="rgb(var(--accent-rgb))"/>
+          </svg>
+          <div className="os-glow"/>
         </div>
       )}
 
       {phase === 2 && (
         <div className="warden-lines">
-          {LINES.slice(0, lineIdx).map((l, i) => (
-            <p
-              key={i}
-              className={`warden-line ${i === lineIdx - 1 ? "current" : "past"}`}
-              style={{ animationDelay: `${i * 0.04}s` }}
-            >
-              {l}
-            </p>
-          ))}
+          {LINES.map((line, i) => {
+            if (i > lineIdx) return null;
+            const isCurrent = i === lineIdx;
+            const shown = isCurrent ? line.slice(0, charIdx) : line;
+            const isTyping = isCurrent && charIdx < line.length;
+            return (
+              <p
+                key={i}
+                className={`warden-line ${isCurrent ? "current" : "past"} ${isTyping ? "typing" : ""}`}
+              >
+                {shown}
+                {isCurrent && <span className="warden-caret"/>}
+              </p>
+            );
+          })}
         </div>
       )}
 
@@ -117,7 +186,7 @@ function HomeMenu({ navigate }) {
           <span className="ttl-char" style={{animationDelay: "160ms"}}>演</span>
           <span className="ttl-char" style={{animationDelay: "240ms"}}>定</span>
         </h1>
-        <p className="home-sub mono">MANOSABA · WIKI　——　非官方资料档案库</p>
+        <p className="home-sub mono">MANOSABA · WIKI　——　玩家整理 · 卷宗档案库</p>
       </header>
 
       <div className="home-menu-grid hv2">
