@@ -13,6 +13,24 @@ const LINES = [
   "这并非游戏——这是『囚庭演定』。",
 ];
 
+const OPENING_SEEN_KEY = "manosaba.opening-seen";
+
+function hasSeenOpening() {
+  try {
+    return window.localStorage.getItem(OPENING_SEEN_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function rememberOpening() {
+  try {
+    window.localStorage.setItem(OPENING_SEEN_KEY, "1");
+  } catch {
+    // 浏览器禁用本地存储时仍允许正常播放开场。
+  }
+}
+
 // phase 语义：
 //   -1  点击以继续（等待首次交互）
 //    0  黑场
@@ -20,7 +38,7 @@ const LINES = [
 //    2  典狱长旁白（打字机）
 //    3  主菜单
 export default function HomePage({ wikiData, navigate }: { wikiData: WikiData; navigate: Navigate }) {
-  const [phase, setPhase] = useState(-1);
+  const [phase, setPhase] = useState(() => hasSeenOpening() ? 3 : -1);
   const [lineIdx, setLineIdx] = useState(0);
   const [charIdx, setCharIdx] = useState(0);
   const [skipped, setSkipped] = useState(false);
@@ -83,7 +101,9 @@ export default function HomePage({ wikiData, navigate }: { wikiData: WikiData; n
   }, [phase, lineIdx, charIdx, skipped]);
 
   const beginOpening = () => {
-    if (phase === -1) setPhase(0);
+    if (phase !== -1) return;
+    rememberOpening();
+    setPhase(0);
   };
 
   return (
