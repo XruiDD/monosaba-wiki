@@ -435,6 +435,7 @@ kbd {
   border: 1px solid var(--accent);
   max-width: 680px; width: calc(100% - 48px);
   max-height: 85vh; overflow-y: auto;
+  overscroll-behavior: contain; scrollbar-gutter: stable;
   padding: 32px 36px;
   position: relative;
 }
@@ -790,4 +791,3 @@ kbd {
 }
 .audio-toggle .at-icon { font-size: 13px; line-height: 1; }
 .audio-toggle .at-text { font-size: 10px; letter-spacing: 1px; }
-

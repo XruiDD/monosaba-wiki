@@ -1,0 +1,2960 @@
+{
+  "schemaVersion": 3,
+  "source": "domain",
+  "recordCount": 24,
+  "records": [
+    {
+      "id": 1,
+      "name": "冰霜",
+      "generation": "modern",
+      "profile": {
+        "characterName": "秋山织雪",
+        "roleName": "雪女",
+        "unlockValue": 70
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "❆雪莲❆",
+          "lore": [
+            "通常术",
+            "12.0s ⌚20.0 🔮",
+            "魔法效果：",
+            "⊱  在指针位置种下一朵冰花，冰花生成时附近(5m)的玩家会被减速并增加 20 寒冷值",
+            "⊱  冰花享受固有被动效果，且可与本体被动叠加",
+            "冰花存在6s，融化后留下调查阶段可见的水痕",
+            "固有被动：",
+            "『高冷』",
+            "⊱  织雪周围(2m)的人会被不断叠加寒冷值(最高100，每秒叠加5层)",
+            "寒冷值越高，机动性影响越大",
+            "寒冷值大于50的目标身上会附着明显的冰雪粒子"
+          ],
+          "stats": {
+            "mpCost": 15,
+            "cooldownSeconds": 12,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magic:magic_1a",
+            "components": {
+              "custom_name": "[{text:\"❆\",color:white,bold:false,italic:false},{text:\"雪莲\",color:aqua,bold:true,italic:false},{text:\"❆\",color:white,bold:false,italic:false}]",
+              "lore": "[[{\"text\":\"通常术\",\"color\":\"gold\"}],[{\"text\":\"12.0s\",\"bold\":true,\"italic\":false,\"color\":\"white\"},{\"text\":\" ⌚\",\"italic\":false,\"bold\":false,\"color\":\"#ffd438\"},\"    \",{\"text\":\"20.0\",\"bold\":true,\"italic\":false,\"color\":\"white\"},{\"text\":\" 🔮\",\"italic\":false,\"bold\":false,\"color\":\"#d573ff\"},],[{\"text\":\"魔法效果：\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}],[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"在指针位置种下一朵冰花，冰花生成时附近(5m)的玩家会被减速并增加 20 寒冷值\",\"italic\":false,\"color\":\"#ffcce6\"}],\"\",[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"冰花享受固有被动效果，且可与本体被动叠加\",\"italic\":false,\"color\":\"white\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"冰花存在6s，融化后留下调查阶段可见的水痕\",\"italic\":false,\"color\":\"gray\"}],\"\",{\"text\":\"固有被动：\",\"bold\":true,\"italic\":false,\"color\":\"#ffa557\"},{\"text\":\"『高冷』\",\"bold\":true,\"italic\":false,\"color\":\"#90efff\"},[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"织雪周围(2m)的人会被不断叠加寒冷值(最高100，每秒叠加5层)\",\"italic\":false,\"color\":\"white\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"寒冷值越高，机动性影响越大\",\"italic\":false,\"color\":\"red\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"寒冷值大于50的目标身上会附着明显的冰雪粒子\",\"italic\":false,\"color\":\"yellow\"}],]",
+              "item_model": "\"magic:magic_1a\"",
+              "consumable": "{has_consume_particles:false,consume_seconds:0,sound:intentionally_empty,}",
+              "max_stack_size": "1",
+              "custom_data": "{\"noDrop\":1b}",
+              "item_name": "\"magic_a\""
+            }
+          },
+          "source": "data/magic/function/give/1/magic1a.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_1a.png",
+            "resolved": true,
+            "source": "resource:compatibility-item-model:magics:magic_1a",
+            "sha256": "53c14177aa537badaa903737bc6b914e106eef2e640eab694e82dfad81f62727",
+            "resourceDependencies": [
+              "assets/magics/items/magic_1a.json",
+              "assets/magics/models/item/magic_1a.json",
+              "assets/manosaba/models/item/unknown.json"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": true,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "item-model",
+              "target": "magics:magic_1a",
+              "reason": "数据包与资源包的 magic/magics 命名空间不一致"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "❆霜破❆",
+          "lore": [
+            "联携术",
+            "45.0s ⌚30.0 🔮",
+            "魔法效果：",
+            "⊱  以5m内的冰花为圆心半径5m，引爆(清空)其中所有人的寒气值造成一次无伤害的爆炸",
+            "⊱  引爆范围内的寒气值总量越多爆炸动量越大",
+            "对除了自己以外的人造成一定时间的眩晕",
+            "在爆炸的位置会留下调查阶段可见的爆破痕迹",
+            ">  丢出以 切换/解锁 解放术  <"
+          ],
+          "stats": {
+            "mpCost": 30,
+            "cooldownSeconds": 45,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magic:magic_1b",
+            "components": {
+              "custom_name": "[{text:\"❆\",color:white,bold:false,italic:false},{text:\"霜破\",color:aqua,bold:true,italic:false},{text:\"❆\",color:white,bold:false,italic:false}]",
+              "lore": "[[{\"text\":\"联携术\",\"color\":\"#c66aff\"}],[{\"text\":\"45.0s\",\"bold\":true,\"italic\":false,\"color\":\"white\"},{\"text\":\" ⌚\",\"italic\":false,\"bold\":false,\"color\":\"#ffd438\"},\"    \",{\"text\":\"30.0\",\"bold\":true,\"italic\":false,\"color\":\"white\"},{\"text\":\" 🔮\",\"italic\":false,\"bold\":false,\"color\":\"#d573ff\"},],[{\"text\":\"魔法效果：\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}],[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"以5m内的冰花为圆心半径5m，引爆(清空)其中所有人的寒气值造成一次无伤害的爆炸\",\"italic\":false,\"color\":\"#ffcce6\"}],\"\",[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"引爆范围内的寒气值总量越多爆炸动量越大\",\"italic\":false,\"color\":\"white\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"对除了自己以外的人造成一定时间的眩晕\",\"italic\":false,\"color\":\"red\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"在爆炸的位置会留下调查阶段可见的爆破痕迹\",\"italic\":false,\"color\":\"gray\"}],\"\",[\"\",{\"text\":\">  \",\"italic\":false,\"color\":\"yellow\",bold:true},{\"text\":\"丢出以 \",\"italic\":false,\"color\":\"gray\",bold:false},{\"text\":\"切换/解锁 \",\"italic\":false,\"color\":\"white\",bold:false},{\"text\":\"解放术\",\"italic\":false,\"color\":\"#dc2020\",bold:false},{\"text\":\"  <\",\"italic\":false,\"color\":\"yellow\",bold:true}],]",
+              "item_model": "\"magic:magic_1b\"",
+              "consumable": "{has_consume_particles:false,consume_seconds:0,sound:intentionally_empty,}",
+              "max_stack_size": "1",
+              "custom_data": "{\"noDrop\":1b}",
+              "item_name": "\"magic_b\""
+            }
+          },
+          "source": "data/magic/function/give/1/magic1b.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_1b.png",
+            "resolved": true,
+            "source": "resource:compatibility-item-model:magics:magic_1b",
+            "sha256": "9fbedc17a0da424f4a0d54369c29fd6ea4b5f03cdf8247ebaa89cffe23b79290",
+            "resourceDependencies": [
+              "assets/magics/items/magic_1b.json",
+              "assets/magics/models/item/magic_1b.json",
+              "assets/manosaba/models/item/unknown.json"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": true,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "item-model",
+              "target": "magics:magic_1b",
+              "reason": "数据包与资源包的 magic/magics 命名空间不一致"
+            }
+          }
+        },
+        {
+          "id": "c",
+          "kind": "解放术",
+          "name": "❆凝淞❆",
+          "lore": [
+            "解放术",
+            "120.0s ⌚50.0 🔮",
+            "魔法效果：",
+            "⊱  立刻对周围(7m)的所有人释放一次寒气冲击，增加目标 50 寒冷值",
+            "命中目标的寒冷值超出100则会进入冻结状态",
+            "⊱  存在目标被冻结时会获得一次性冰锤",
+            "冰锤攻击冻结目标能额外造成40%已损生命的附加伤害(不穿透护甲)",
+            ">  丢出以 切换 联携术  <"
+          ],
+          "stats": {
+            "mpCost": 50,
+            "cooldownSeconds": 120,
+            "duration": null,
+            "unlockCondition": "压力值大于 70 后，丢出联携术即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magic:magic_1c",
+            "components": {
+              "custom_name": "[{text:\"❆\",color:white,bold:false,italic:false},{text:\"凝淞\",color:aqua,bold:true,italic:false},{text:\"❆\",color:white,bold:false,italic:false}]",
+              "lore": "[[{\"text\":\"解放术\",\"color\":\"#dc2020\"}],[{\"text\":\"120.0s\",\"bold\":true,\"italic\":false,\"color\":\"white\"},{\"text\":\" ⌚\",\"italic\":false,\"bold\":false,\"color\":\"#ffd438\"},\"    \",{\"text\":\"50.0\",\"bold\":true,\"italic\":false,\"color\":\"white\"},{\"text\":\" 🔮\",\"italic\":false,\"bold\":false,\"color\":\"#d573ff\"},],[{\"text\":\"魔法效果：\",\"bold\":true,\"italic\":false,\"color\":\"aqua\"}],[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"立刻对周围(7m)的所有人释放一次寒气冲击，增加目标 50 寒冷值\",\"italic\":false,\"color\":\"#ffcce6\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"命中目标的寒冷值\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"超出100\",\"italic\":false,\"color\":\"red\"},{\"text\":\"则会进入\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"冻结状态\",\"italic\":false,\"color\":\"blue\"}],\"\",[\"\",{\"text\":\"⊱  \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"存在目标被冻结时会获得一次性冰锤\",\"italic\":false,\"color\":\"green\"}],[\"\",{\"text\":\"     \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"冰锤攻击冻结目标能额外造成\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"40%已损生命\",\"italic\":false,\"color\":\"red\"},{\"text\":\"的附加伤害(不穿透护甲)\",\"italic\":false,\"color\":\"gray\"}],\"\",[\"\",{\"text\":\">  \",\"italic\":false,\"color\":\"yellow\",bold:true},{\"text\":\"丢出以 \",\"italic\":false,\"color\":\"gray\",bold:false},{\"text\":\"切换 \",\"italic\":false,\"color\":\"white\",bold:false},{\"text\":\"联携术\",\"italic\":false,\"color\":\"#c66aff\",bold:false},{\"text\":\"  <\",\"italic\":false,\"color\":\"yellow\",bold:true}],]",
+              "item_model": "\"magic:magic_1c\"",
+              "consumable": "{has_consume_particles:false,consume_seconds:0,sound:intentionally_empty,}",
+              "max_stack_size": "1",
+              "custom_data": "{\"noDrop\":1b}",
+              "item_name": "\"magic_c\""
+            }
+          },
+          "source": "data/magic/function/give/1/magic1c.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_1c.png",
+            "resolved": true,
+            "source": "resource:compatibility-item-model:magics:magic_1c",
+            "sha256": "28c51c75395abbcb55ef372efd3783b2494f8a7d6ac7ded2513452ef80f02566",
+            "resourceDependencies": [
+              "assets/magics/items/magic_1c.json",
+              "assets/magics/models/item/magic_1c.json",
+              "assets/manosaba/models/item/unknown.json"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": true,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "item-model",
+              "target": "magics:magic_1c",
+              "reason": "数据包与资源包的 magic/magics 命名空间不一致"
+            }
+          },
+          "unlockSources": [
+            "data/magic/function/magic_properties.mcfunction",
+            "data/magic/function/give/1/magic1b.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magic/function/give/1/magic1a.mcfunction",
+        "data/magic/function/give/1/magic1b.mcfunction",
+        "data/magic/function/give/1/magic1c.mcfunction",
+        "data/magics/function/magic_give/1/magic1_unlock_give.mcfunction",
+        "data/magics/function/magic_give/1/magic1a_give.mcfunction",
+        "data/magics/function/magic_give/1/magic1b_give.mcfunction"
+      ],
+      "propertySource": "data/magic/function/magic_properties.mcfunction"
+    },
+    {
+      "id": 2,
+      "name": "医生",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "✟感知✟",
+          "lore": [
+            "检查周围范围内除你以外的玩家魔女化状态",
+            "魔力消耗:  70 MP",
+            "冷却时间:  35 s"
+          ],
+          "stats": {
+            "mpCost": 70.0,
+            "cooldownSeconds": 35.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_2a",
+            "components": {
+              "custom_name": "[{text:\"✟\",color:white,bold:false,italic:false},{text:\"感知\",color:\"#5efcb5\",bold:true,italic:false},{text:\"✟\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"检查周围范围内除你以外的玩家魔女化状态\",color:white,bold:false,italic:true},{text:\"魔力消耗:  70 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  35 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_2a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/2/magic2a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_2a.png",
+            "resolved": true,
+            "source": "resource:item-model",
+            "sha256": "6c13ed2a5c3dd7b201a66ffe11aec63058d135dee2d1357c420477cdc626ecb2",
+            "resourceDependencies": [
+              "assets/magics/items/magic_2a.json",
+              "assets/magics/models/item/magic_2a.json",
+              "assets/manosaba/models/item/unknown.json"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "✟诊断✟",
+          "lore": [
+            "精准持续的看到周围玩家的魔女化程度",
+            "魔力消耗:  100 MP",
+            "*基础冷却:  210 s",
+            "持续时间:  3 s",
+            "被动",
+            "通常技能的覆盖范围翻倍，所需魔力减半，大幅度减少冷却",
+            "使用后减少本技能10 s冷却"
+          ],
+          "stats": {
+            "mpCost": 100.0,
+            "cooldownSeconds": null,
+            "duration": "3 s",
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_2b",
+            "components": {
+              "custom_name": "[{text:\"✟\",color:white,bold:false,italic:false},{text:\"诊断\",color:\"#5efcb5\",bold:true,italic:false},{text:\"✟\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"精准持续的看到周围玩家的魔女化程度\",color:white,bold:false,italic:true},{text:\"魔力消耗:  100 MP\",color:aqua,bold:false,italic:false},{text:\"*基础冷却:  210 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  3 s\",color:green,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"通常技能的覆盖范围翻倍，所需魔力减半，大幅度减少冷却\",color:yellow,bold:false,italic:true},{text:\"使用后减少本技能10 s冷却\",color:yellow,bold:false,italic:true}]",
+              "item_model": "\"magics:magic_2b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/2/magic2b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_2b.png",
+            "resolved": true,
+            "source": "resource:item-model",
+            "sha256": "d4209abcce303af47ee85ce761b2814806d51d8419fb9c3c5a8e881eb5d3fa6c",
+            "resourceDependencies": [
+              "assets/magics/items/magic_2b.json",
+              "assets/magics/models/item/magic_2b.json",
+              "assets/manosaba/models/item/unknown.json"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/2_doctor/magic2b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/2/magic2_unlock_give.mcfunction",
+        "data/magics/function/magic_give/2/magic2a_give.mcfunction",
+        "data/magics/function/magic_give/2/magic2b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 3,
+      "name": "幻视",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "👁幻视👁",
+          "lore": [
+            "使用后有x%机率(正比于压力值)获取一件稀有道具",
+            "魔力消耗:  10 MP",
+            "冷却时间:  40 s",
+            "被动",
+            "检定成功时压力值轻微上涨"
+          ],
+          "stats": {
+            "mpCost": 10.0,
+            "cooldownSeconds": 40.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_3a",
+            "components": {
+              "custom_name": "[{text:\"👁\",color:white,bold:false,italic:false},{text:\"幻视\",color:\"#dc7f2d\",bold:true,italic:false},{text:\"👁\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"使用后有x%机率(正比于压力值)获取一件稀有道具\",color:white,bold:false,italic:true},{text:\"魔力消耗:  10 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  40 s\",color:gold,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"检定成功时压力值轻微上涨\",color:yellow,bold:false,italic:true},]",
+              "item_model": "\"magics:magic_3a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/3/magic3a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_3a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_3a.png",
+            "sha256": "d8ba4e7f6370eba2ea3801d86d3abe57b3f3f51a2cae3a02d498b78a4f8c2025",
+            "resourceDependencies": [
+              "assets/magics/items/magic_3a.json",
+              "assets/magics/models/item/magic_3a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_3a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_3a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "👁解放技👁",
+          "lore": [
+            "使用后有获取一条来自过去的消息",
+            "该信息有x%(x正比于压力值)的机率来自当前对局",
+            "魔力消耗:  10 MP",
+            "冷却时间:  60 s",
+            "被动",
+            "检定成功时压力值轻微上涨"
+          ],
+          "stats": {
+            "mpCost": 10.0,
+            "cooldownSeconds": 60.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 80 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_3b",
+            "components": {
+              "custom_name": "[{text:\"👁\",color:white,bold:false,italic:false},{text:\"解放技\",color:\"#dc7f2d\",bold:true,italic:false},{text:\"👁\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"使用后有获取一条来自过去的消息\",color:white,bold:false,italic:true},{text:\"该信息有x%(x正比于压力值)的机率来自当前对局\",color:white,bold:false,italic:true},{text:\"魔力消耗:  10 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  60 s\",color:gold,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"检定成功时压力值轻微上涨\",color:yellow,bold:false,italic:true},]",
+              "item_model": "\"magics:magic_3b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/3/magic3b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_3b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_3b.png",
+            "sha256": "10a72093df24353d729f7ad94d9aa19a1660547ad9a3a2cf8bc0e9b3a265700a",
+            "resourceDependencies": [
+              "assets/magics/items/magic_3b.json",
+              "assets/magics/models/item/magic_3b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_3b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_3b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/3_hallucinate/magic3b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/3/magic3_unlock_give.mcfunction",
+        "data/magics/function/magic_give/3/magic3a_give.mcfunction",
+        "data/magics/function/magic_give/3/magic3b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 4,
+      "name": "猫咪",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "🐱哈气🐱",
+          "lore": [
+            "向前方哈气造成眩晕,提升自身速度",
+            "魔力消耗:  40 MP",
+            "冷却时间:  8 s",
+            "持续时间:  3 s",
+            "被动",
+            "哈气后获得永久夜视"
+          ],
+          "stats": {
+            "mpCost": 40.0,
+            "cooldownSeconds": 8.0,
+            "duration": "3 s",
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_4a",
+            "components": {
+              "custom_name": "[{text:\"🐱\",color:white,bold:false,italic:false},{text:\"哈气\",color:\"#e6e365\",bold:true,italic:false},{text:\"🐱\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"向前方哈气造成眩晕,提升自身速度\",color:white,bold:false,italic:true},{text:\"魔力消耗:  40 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  8 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  3 s\",color:green,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"哈气后获得永久夜视\",color:yellow,bold:false,italic:true},]",
+              "item_model": "\"magics:magic_4a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/4/magic4a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_4a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_4a.png",
+            "sha256": "362a5112ffe8305ce2209dadde3bf4843fb8a8da7e74399ef28c795ab01e2bf7",
+            "resourceDependencies": [
+              "assets/magics/items/magic_4a.json",
+              "assets/magics/models/item/magic_4a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_4a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_4a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🐱兽化🐱",
+          "lore": [
+            "变成猫咪",
+            "猫咪状态下无敌,体型大大减小,速度大大提升,完全失去近战能力",
+            "魔力消耗:  80 MP",
+            "冷却时间:  180 s",
+            "持续时间:  15~30 s",
+            "被动",
+            "通常技能的伤害翻倍",
+            "使用后减少本技能5 s冷却"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 180.0,
+            "duration": "15~30 s",
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_4b",
+            "components": {
+              "custom_name": "[{text:\"🐱\",color:white,bold:false,italic:false},{text:\"兽化\",color:\"#e6e365\",bold:true,italic:false},{text:\"🐱\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"变成猫咪\",color:white,bold:false,italic:true},{text:\"猫咪状态下无敌,体型大大减小,速度大大提升,完全失去近战能力\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  180 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  15~30 s\",color:green,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"通常技能的伤害翻倍\",color:yellow,bold:false,italic:true},{text:\"使用后减少本技能5 s冷却\",color:yellow,bold:false,italic:true}]",
+              "item_model": "\"magics:magic_4b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/4/magic4b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_4b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_4b.png",
+            "sha256": "1de57974c5a6e43a0c962818be2d4b8d7bd5a36ddfd7c1e22a9752fece9b89e9",
+            "resourceDependencies": [
+              "assets/magics/items/magic_4b.json",
+              "assets/magics/models/item/magic_4b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_4b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_4b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/4_cat/magic4b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/4/magic4_unlock_give.mcfunction",
+        "data/magics/function/magic_give/4/magic4a_give.mcfunction",
+        "data/magics/function/magic_give/4/magic4b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 5,
+      "name": "折射",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "🪞折射🪞",
+          "lore": [
+            "最大生命值-4，进入镜中世界，持续10秒",
+            "持续时间期间，你会在地图对应位置产生其它玩家可见的粒子",
+            "持续时间耗尽后，你将会传送到原地图的对应位置",
+            "只有你可以进入镜中世界",
+            "在持续时间内试图离开镜中世界会直接死亡",
+            "魔力消耗:  80 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 120.0,
+            "duration": "期间，你会在地图对应位置产生其它玩家可见的粒子",
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_5a",
+            "components": {
+              "custom_name": "[{text:\"🪞\",color:white,bold:false,italic:false},{text:\"折射\",color:\"#6ea5b6\",bold:true,italic:false},{text:\"🪞\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"最大生命值-4，进入镜中世界，持续10秒\",color:white,bold:false,italic:true},{text:\"持续时间期间，你会在地图对应位置产生其它玩家可见的粒子\",color:white,bold:false,italic:true},{text:\"持续时间耗尽后，你将会传送到原地图的对应位置\",color:white,bold:false,italic:true},{text:\"只有你可以进入镜中世界\",color:white,bold:false,italic:true},{text:\"在持续时间内试图离开镜中世界会直接死亡\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false},{text:\"\"},]",
+              "item_model": "\"magics:magic_5a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/5/magic5a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_5a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_5a.json",
+              "assets/magics/models/item/magic_5a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🪞衍射🪞",
+          "lore": [
+            "被动",
+            "使用通常术时不再失去最大生命值，持续时间延长至20秒",
+            "镜中世界中会以粒子的形式显示地图内所有存活玩家的相对位置",
+            "离开镜中世界后，获得3秒力量I，隐身，速度I"
+          ],
+          "stats": {
+            "mpCost": null,
+            "cooldownSeconds": null,
+            "duration": "延长至20秒",
+            "unlockCondition": "压力值大于 70 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_5b",
+            "components": {
+              "custom_name": "[{text:\"🪞\",color:white,bold:false,italic:false},{text:\"衍射\",color:\"#5314ff\",bold:true,italic:false},{text:\"🪞\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"使用通常术时不再失去最大生命值，持续时间延长至20秒\",color:yellow,bold:false,italic:true},{text:\"镜中世界中会以粒子的形式显示地图内所有存活玩家的相对位置\",color:yellow,bold:false,italic:true},{text:\"离开镜中世界后，获得3秒力量I，隐身，速度I\",color:yellow,bold:false,italic:true},]",
+              "item_model": "\"magics:magic_5b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/5/magic5b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_5b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_5b.json",
+              "assets/magics/models/item/magic_5b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/5_reflect/magic5b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/5/magic5_unlock_give.mcfunction",
+        "data/magics/function/magic_give/5/magic5a_give.mcfunction",
+        "data/magics/function/magic_give/5/magic5b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 6,
+      "name": "聆听",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "👂聆听👂",
+          "lore": [
+            "以失明20秒为代价，持续聆听附近玩家的魔法种类",
+            "范围：8",
+            "魔力消耗:  30 MP",
+            "冷却时间:  30 s"
+          ],
+          "stats": {
+            "mpCost": 30.0,
+            "cooldownSeconds": 30.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_6a",
+            "components": {
+              "custom_name": "[{text:\"👂\",color:aqua,bold:false,italic:false},{text:\"聆听\",color:aqua,bold:true,italic:false},{text:\"👂\",color:aqua,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"以失明20秒为代价，持续聆听附近玩家的魔法种类\",color:white,bold:false,italic:true},{text:\"范围：8\",color:gold,bold:false,italic:false},{text:\"魔力消耗:  30 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  30 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_6a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/6/magic6a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_6a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_6a.json",
+              "assets/magics/models/item/magic_6a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "⚪凝视⚪",
+          "lore": [
+            "对附近角色施加1秒虚弱6，如果你知晓其魔法，增强为5秒",
+            "范围：8",
+            "魔力消耗:  60 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 60.0,
+            "cooldownSeconds": 120.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_6b",
+            "components": {
+              "custom_name": "[{text:\"⚪\",color:aqua,bold:false,italic:false},{text:\"凝视\",color:aqua,bold:true,italic:false},{text:\"⚪\",color:aqua,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"对附近角色施加1秒虚弱6，如果你知晓其魔法，增强为5秒\",color:white,bold:false,italic:true},{text:\"范围：8\",color:gold,bold:false,italic:false},{text:\"魔力消耗:  60 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_6b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/6/magic6b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_6b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_6b.json",
+              "assets/magics/models/item/magic_6b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/6_listen/magic6_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/6/magic6_unlock_give.mcfunction",
+        "data/magics/function/magic_give/6/magic6a_give.mcfunction",
+        "data/magics/function/magic_give/6/magic6b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 7,
+      "name": "火焰",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "🔥火焰操控🔥",
+          "lore": [
+            "攻击改为造成火焰伤害，持续x秒(正比于压力值)",
+            "激活时焚毁周边掉落物及血迹",
+            "魔力消耗:  100 MP",
+            "冷却时间:  60 s"
+          ],
+          "stats": {
+            "mpCost": 100.0,
+            "cooldownSeconds": 60.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_7a",
+            "components": {
+              "custom_name": "[{text:\"🔥\",color:white,bold:false,italic:false},{text:\"火焰操控\",color:\"#25cb00\",bold:true,italic:false},{text:\"🔥\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"攻击改为造成火焰伤害，持续x秒(正比于压力值)\",color:white,bold:false,italic:true},{text:\"激活时焚毁周边掉落物及血迹\",color:white,bold:false,italic:true},{text:\"魔力消耗:  100 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  60 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_7a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/7/magic7a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_7a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_7a.png",
+            "sha256": "5526a4a1105cb4b44482bea2ad84b47b8f4ca39fba9fcf21299b0b1be9689e4c",
+            "resourceDependencies": [
+              "assets/magics/items/magic_7a.json",
+              "assets/magics/models/item/magic_7a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_7a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_7a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🔥解放技🔥",
+          "lore": [
+            "解锁后自动激活，使一技能造成伤害提升50%",
+            "且一技能激活时将有机率焚毁尸体(若焚毁失败会则令尸体严重烧伤)",
+            "魔力消耗:  无",
+            "冷却时间:  无限"
+          ],
+          "stats": {
+            "mpCost": null,
+            "cooldownSeconds": null,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_7b",
+            "components": {
+              "custom_name": "[{text:\"🔥\",color:white,bold:false,italic:false},{text:\"解放技\",color:\"#25cb00\",bold:true,italic:false},{text:\"🔥\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"解锁后自动激活，使一技能造成伤害提升50%\",color:white,bold:false,italic:true},{text:\"且一技能激活时将有机率焚毁尸体(若焚毁失败会则令尸体严重烧伤)\",color:white,bold:false,italic:true},{text:\"魔力消耗:  无\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  无限\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_7b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/7/magic7b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_7b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_7b.png",
+            "sha256": "b4e700ce92ad49b48fdc726010ebe45e80135a7b711cf63c3437756871cc46b0",
+            "resourceDependencies": [
+              "assets/magics/items/magic_7b.json",
+              "assets/magics/models/item/magic_7b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_7b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_7b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/7_fire_control/magic7b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/7/magic7_unlock_give.mcfunction",
+        "data/magics/function/magic_give/7/magic7a_give.mcfunction",
+        "data/magics/function/magic_give/7/magic7b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 8,
+      "name": "隐身",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "▣微步▣",
+          "lore": [
+            "短暂隐身并加速",
+            "魔力消耗:  20 MP",
+            "冷却时间:  10 s",
+            "被动",
+            "如果你已经拥有隐身则改为使用后获得获得1 s速度IV"
+          ],
+          "stats": {
+            "mpCost": 20.0,
+            "cooldownSeconds": 10.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_8a",
+            "components": {
+              "custom_name": "[{text:\"▣\",color:white,bold:false,italic:false},{text:\"微步\",color:\"#cfcfcf\",bold:true,italic:false},{text:\"▣\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"短暂隐身并加速\",color:white,bold:false,italic:true},{text:\"魔力消耗:  20 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  10 s\",color:gold,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"如果你已经拥有隐身则改为使用后获得获得1 s速度IV\",color:yellow,bold:false,italic:true},]",
+              "item_model": "\"magics:magic_8a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/8/magic8a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_8a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_8a.json",
+              "assets/magics/models/item/magic_8a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "▣出窍▣",
+          "lore": [
+            "原地留下一个假身,本体隐身并加速,再次使可以回到假身位置",
+            "魔力消耗:  80 MP",
+            "冷却时间:  180 s",
+            "持续时间:  5~10 s",
+            "被动",
+            "使用微步可以减少本技能的1 s冷却",
+            "* 假身的血量与你当前相同"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 180.0,
+            "duration": "5~10 s",
+            "unlockCondition": "压力值大于 40 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_8b",
+            "components": {
+              "custom_name": "[{text:\"▣\",color:white,bold:false,italic:false},{text:\"出窍\",color:\"#cfcfcf\",bold:true,italic:false},{text:\"▣\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"原地留下一个假身,本体隐身并加速,再次使可以回到假身位置\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  180 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  5~10 s\",color:green,bold:false,italic:false},{text:\"\"},{text:\"被动\",color:\"dark_purple\",bold:true,italic:false},{text:\"使用微步可以减少本技能的1 s冷却\",color:yellow,bold:false,italic:true},{text:\"* 假身的血量与你当前相同\",color:white,bold:false,italic:true},]",
+              "item_model": "\"magics:magic_8b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/8/magic8b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_8b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_8b.json",
+              "assets/magics/models/item/magic_8b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/8_invisibility/magic8b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/8/magic8_unlock_give.mcfunction",
+        "data/magics/function/magic_give/8/magic8a_give.mcfunction",
+        "data/magics/function/magic_give/8/magic8b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 9,
+      "name": "转向",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "◉转◉",
+          "lore": [
+            "对指向的目标造成短暂缓慢，使其朝向反转",
+            "魔力消耗:  30 MP",
+            "冷却时间:  8 s"
+          ],
+          "stats": {
+            "mpCost": 30.0,
+            "cooldownSeconds": 8.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_9a",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"转\",color:aqua,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"对指向的目标造成短暂缓慢，使其朝向反转\",color:white,bold:false,italic:true},{text:\"魔力消耗:  30 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  8 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_9a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/9/magic9a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_9a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_9a.json",
+              "assets/magics/models/item/magic_9a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "◉换◉",
+          "lore": [
+            "与指向的30格内的目标进行位置互换",
+            "魔力消耗:  60 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 60.0,
+            "cooldownSeconds": 120.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_9b",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"换\",color:aqua,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"与指向的30格内的目标进行位置互换\",color:white,bold:false,italic:true},{text:\"魔力消耗:  60 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_9b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/9/magic9b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_9b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_9b.json",
+              "assets/magics/models/item/magic_9b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/9_turn/magic9b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/9/magic9_unlock_give.mcfunction",
+        "data/magics/function/magic_give/9/magic9a_give.mcfunction",
+        "data/magics/function/magic_give/9/magic9b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 10,
+      "name": "烟花",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "◉照◉",
+          "lore": [
+            "向头顶释放烟花，获得30s发光效果，对周围人造成闪光效果",
+            "魔力消耗:  80 MP",
+            "冷却时间:  60 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 60.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_10a",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"照\",color:yellow,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"向头顶释放烟花，获得30s发光效果，对周围人造成闪光效果\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  60 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_10a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/10/magic10a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_10a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_10a.json",
+              "assets/magics/models/item/magic_10a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "◉花◉",
+          "lore": [
+            "向前方释放四个烟花，穿过的角色获得10s发光，清除隐身",
+            "魔力消耗:  80 MP",
+            "冷却时间:  10 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 10.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_10b",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"花\",color:yellow,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"向前方释放四个烟花，穿过的角色获得10s发光，清除隐身\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  10 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_10b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/10/magic10b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_10b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_10b.json",
+              "assets/magics/models/item/magic_10b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/10_firework/magic10b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/10/magic10_unlock_give.mcfunction",
+        "data/magics/function/magic_give/10/magic10a_give.mcfunction",
+        "data/magics/function/magic_give/10/magic10b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 11,
+      "name": "灰尘",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "◉尘◉",
+          "lore": [
+            "召唤一团尘向前移动，3秒后传送到其位置。如果期间下蹲，尘会爆炸并对周围角色造成负面效果。",
+            "魔力消耗:  40 MP",
+            "冷却时间:  10 s"
+          ],
+          "stats": {
+            "mpCost": 40.0,
+            "cooldownSeconds": 10.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_11a",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"尘\",color:gray,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"召唤一团尘向前移动，3秒后传送到其位置。如果期间下蹲，尘会爆炸并对周围角色造成负面效果。\",color:white,bold:false,italic:true},{text:\"魔力消耗:  40 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  10 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_11a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/11/magic11a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_11a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_11a.json",
+              "assets/magics/models/item/magic_11a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "◉灵尘◉",
+          "lore": [
+            "召唤灵尘并骑乘，持续30秒",
+            "魔力消耗:  80 MP",
+            "冷却时间:  60 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 60.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_11b",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"灵尘\",color:dark_gray,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"召唤灵尘并骑乘，持续30秒\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  60 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_11b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/11/magic11b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_11b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_11b.json",
+              "assets/magics/models/item/magic_11b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/11_ash/magic11b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/11/magic11_unlock_give.mcfunction",
+        "data/magics/function/magic_give/11/magic11a_give.mcfunction",
+        "data/magics/function/magic_give/11/magic11b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 12,
+      "name": "魔阵",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "◉魔力法阵◉",
+          "lore": [
+            "创建魔力法阵，范围内玩家每秒回复4MP",
+            "持续时间:  10 s",
+            "魔力消耗:  60 MP",
+            "冷却时间:  20 s"
+          ],
+          "stats": {
+            "mpCost": 60.0,
+            "cooldownSeconds": 20.0,
+            "duration": "10 s",
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_12a",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"魔力法阵\",color:aqua,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"创建魔力法阵，范围内玩家每秒回复4MP\",color:white,bold:false,italic:true},{text:\"持续时间:  10 s\",color:yellow,bold:false,italic:false},{text:\"魔力消耗:  60 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  20 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_12a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/12/magic12a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_12a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_12a.json",
+              "assets/magics/models/item/magic_12a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "◉法阵反噬◉",
+          "lore": [
+            "秘密将在场的魔力法阵转换为反噬法阵，结束时周围角色根据其获得的魔力数量收到伤害和缓速惩罚。",
+            "魔力消耗:  80 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 120.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_12b",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:white,bold:false,italic:false},{text:\"法阵反噬\",color:yellow,bold:true,italic:false},{text:\"◉\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"秘密将在场的魔力法阵转换为反噬法阵，结束时周围角色根据其获得的魔力数量收到伤害和缓速惩罚。\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_12b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/12/magic12b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_12b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_12b.json",
+              "assets/magics/models/item/magic_12b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/12_charge/magic12_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/12/magic12_unlock_give.mcfunction",
+        "data/magics/function/magic_give/12/magic12a_give.mcfunction",
+        "data/magics/function/magic_give/12/magic12b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 13,
+      "name": "怪力",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "⚡怪力⚡",
+          "lore": [
+            "在十秒内下一次攻击获得怪力",
+            "攻击力+4 击退+4",
+            "魔力消耗:  60 MP",
+            "冷却时间:  30 s"
+          ],
+          "stats": {
+            "mpCost": 60.0,
+            "cooldownSeconds": 30.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_13a",
+            "components": {
+              "custom_name": "[{text:\"⚡\",color:yellow,bold:false,italic:false},{text:\"怪力\",color:gold,bold:true,italic:false},{text:\"⚡\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"在十秒内下一次攻击获得怪力\",color:white,bold:false,italic:true},{text:\"攻击力+4 击退+4\",color:gold,bold:false,italic:false},{text:\"魔力消耗:  60 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  30 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_13a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/13/magic13a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_13a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_13a.json",
+              "assets/magics/models/item/magic_13a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "⚡绝对怪力⚡",
+          "lore": [
+            "释放绝对怪力，获得30秒力量II增益",
+            "魔力消耗:  90 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 90.0,
+            "cooldownSeconds": 120.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_13b",
+            "components": {
+              "custom_name": "[{text:\"⚡\",color:red,bold:false,italic:false},{text:\"绝对怪力\",color:dark_red,bold:true,italic:false},{text:\"⚡\",color:red,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"释放绝对怪力，获得30秒力量II增益\",color:white,bold:false,italic:true},{text:\"魔力消耗:  90 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_13b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/13/magic13b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_13b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_13b.json",
+              "assets/magics/models/item/magic_13b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/13_power/magic13_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/13/magic13_unlock_give.mcfunction",
+        "data/magics/function/magic_give/13/magic13a_give.mcfunction",
+        "data/magics/function/magic_give/13/magic13b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 14,
+      "name": "重力",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "G 重力操控 G",
+          "lore": [
+            "自身下次攻击将使目标漂浮x秒(正比于压力值)",
+            "按下shift使用此技能可令自身漂浮5*x秒,漂浮期间松开shift键获得缓降",
+            "魔力消耗:  40 MP",
+            "冷却时间:  10 s"
+          ],
+          "stats": {
+            "mpCost": 40.0,
+            "cooldownSeconds": 10.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_14a",
+            "components": {
+              "custom_name": "[{text:\"G \",color:yellow,bold:false,italic:false},{text:\"重力操控\",color:gold,bold:true,italic:false},{text:\" G\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"自身下次攻击将使目标漂浮x秒(正比于压力值)\",color:white,bold:false,italic:true},{text:\"按下shift使用此技能可令自身漂浮5*x秒,漂浮期间松开shift键获得缓降\",color:white,bold:false,italic:true},{text:\"魔力消耗:  40 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  10 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_14a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/14/magic14a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_14a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_14a.json",
+              "assets/magics/models/item/magic_14a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "G 解放技 G",
+          "lore": [
+            "令前方3x8范围内玩家起飞,随后快速落下",
+            "造成不低于10点摔落伤害",
+            "魔力消耗:  80 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 120.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_14b",
+            "components": {
+              "custom_name": "[{text:\"G \",color:yellow,bold:false,italic:false},{text:\"解放技\",color:gold,bold:true,italic:false},{text:\" G\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"令前方3x8范围内玩家起飞,随后快速落下\",color:white,bold:false,italic:true},{text:\"造成不低于10点摔落伤害\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_14b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/14/magic14b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_14b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_14b.json",
+              "assets/magics/models/item/magic_14b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/14_gravity_control/magic14_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/14/magic14_unlock_give.mcfunction",
+        "data/magics/function/magic_give/14/magic14a_give.mcfunction",
+        "data/magics/function/magic_give/14/magic14b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 15,
+      "name": "诅咒",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "💀诅咒印记💀",
+          "lore": [
+            "为最近四格内的其他玩家添加一层诅咒印记，魔女化程度越高越容易命中",
+            "魔力消耗:  40 MP",
+            "冷却时间:  6 s",
+            "范围:  4 格"
+          ],
+          "stats": {
+            "mpCost": 40.0,
+            "cooldownSeconds": 6.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_15a",
+            "components": {
+              "custom_name": "[{text:\"💀\",color:white,bold:false,italic:false},{text:\"诅咒印记\",color:\"#8b008b\",bold:true,italic:false},{text:\"💀\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"为最近四格内的其他玩家添加一层诅咒印记，魔女化程度越高越容易命中\",color:white,bold:false,italic:true},{text:\"魔力消耗:  40 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  6 s\",color:gold,bold:false,italic:false},{text:\"范围:  4 格\",color:green,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_15a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/15/magic15a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_15a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_15a.json",
+              "assets/magics/models/item/magic_15a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "💀诅咒引爆💀",
+          "lore": [
+            "指向目标玩家引爆其身上的诅咒印记",
+            "每层诅咒扣除4点生命",
+            "每层诅咒给予10秒失明",
+            "魔力消耗:  90 MP",
+            "冷却时间:  3 s",
+            "范围:  30 格"
+          ],
+          "stats": {
+            "mpCost": 90.0,
+            "cooldownSeconds": 3.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_15b",
+            "components": {
+              "custom_name": "[{text:\"💀\",color:white,bold:false,italic:false},{text:\"诅咒引爆\",color:\"#ff0000\",bold:true,italic:false},{text:\"💀\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"指向目标玩家引爆其身上的诅咒印记\",color:white,bold:false,italic:true},{text:\"每层诅咒扣除4点生命\",color:red,bold:false,italic:false},{text:\"每层诅咒给予10秒失明\",color:red,bold:false,italic:false},{text:\"魔力消耗:  90 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  3 s\",color:gold,bold:false,italic:false},{text:\"范围:  30 格\",color:green,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_15b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/15/magic15b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_15b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_15b.json",
+              "assets/magics/models/item/magic_15b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/15_curse/magic15b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/15/magic15_unlock_give.mcfunction",
+        "data/magics/function/magic_give/15/magic15a_give.mcfunction",
+        "data/magics/function/magic_give/15/magic15b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 16,
+      "name": "浮空",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "☁浮空形态☁",
+          "lore": [
+            "切换浮空形态，在两种状态间来回切换",
+            "魔力消耗:  50 MP",
+            "冷却时间:  4 s",
+            "持续时间:  2 s 漂浮"
+          ],
+          "stats": {
+            "mpCost": 50.0,
+            "cooldownSeconds": 4.0,
+            "duration": "2 s 漂浮",
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_16a",
+            "components": {
+              "custom_name": "[{text:\"☁\",color:white,bold:false,italic:false},{text:\"浮空形态\",color:\"#87ceeb\",bold:true,italic:false},{text:\"☁\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"切换浮空形态，在两种状态间来回切换\",color:white,bold:false,italic:true},{text:\"魔力消耗:  50 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  4 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  2 s 漂浮\",color:green,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_16a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/16/magic16a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_16a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_16a.json",
+              "assets/magics/models/item/magic_16a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "☁浮空诅咒☁",
+          "lore": [
+            "指向目标玩家，使其进入浮空状态",
+            "持续时间:  10 s",
+            "魔力消耗:  50 MP",
+            "冷却时间:  8 s",
+            "范围:  30 格"
+          ],
+          "stats": {
+            "mpCost": 50.0,
+            "cooldownSeconds": 8.0,
+            "duration": "10 s",
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_16b",
+            "components": {
+              "custom_name": "[{text:\"☁\",color:white,bold:false,italic:false},{text:\"浮空诅咒\",color:\"#4169e1\",bold:true,italic:false},{text:\"☁\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"指向目标玩家，使其进入浮空状态\",color:white,bold:false,italic:true},{text:\"持续时间:  10 s\",color:green,bold:false,italic:false},{text:\"魔力消耗:  50 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  8 s\",color:gold,bold:false,italic:false},{text:\"范围:  30 格\",color:green,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_16b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/16/magic16b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_16b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_16b.json",
+              "assets/magics/models/item/magic_16b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/16_fly/magic16b_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/16/magic16_unlock_give.mcfunction",
+        "data/magics/function/magic_give/16/magic16a_give.mcfunction",
+        "data/magics/function/magic_give/16/magic16b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 17,
+      "name": "毒药",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "❣生命汲取❣",
+          "lore": [
+            "最近的玩家失去4点生命值并且获得负面效果。获得吸血鬼增益。",
+            "范围：4",
+            "魔力消耗:  50 MP",
+            "冷却时间:  30 s"
+          ],
+          "stats": {
+            "mpCost": 50.0,
+            "cooldownSeconds": 30.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_17a",
+            "components": {
+              "custom_name": "[{text:\"❣\",color:light_purple,bold:false,italic:false},{text:\"生命汲取\",color:light_purple,bold:true,italic:false},{text:\"❣\",color:light_purple,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"最近的玩家失去4点生命值并且获得负面效果。获得吸血鬼增益。\",color:white,bold:false,italic:true},{text:\"范围：4\",color:white,bold:false,italic:true},{text:\"魔力消耗:  50 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  30 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_17a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/17/magic17a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_17a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_17a.json",
+              "assets/magics/models/item/magic_17a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "⌘祭品⌘",
+          "lore": [
+            "进入吸血鬼形态，持续获得速度2，获得高额伤害吸收，代价是每秒扣除1最大生命值",
+            "再次使用取消形态",
+            "魔力消耗:  5 MP",
+            "冷却时间:  8 s"
+          ],
+          "stats": {
+            "mpCost": 5.0,
+            "cooldownSeconds": 8.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_17b",
+            "components": {
+              "custom_name": "[{text:\"⌘\",color:dark_purple,bold:false,italic:false},{text:\"祭品\",color:dark_purple,bold:true,italic:false},{text:\"⌘\",color:dark_purple,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"进入吸血鬼形态，持续获得速度2，获得高额伤害吸收，代价是每秒扣除1最大生命值\",color:white,bold:false,italic:true},{text:\"再次使用取消形态\",color:white,bold:false,italic:true},{text:\"魔力消耗:  5 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  8 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_17b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/17/magic17b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_17b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_17b.json",
+              "assets/magics/models/item/magic_17b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/17_vampire/magic17_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/17/magic17_unlock_give.mcfunction",
+        "data/magics/function/magic_give/17/magic17a_give.mcfunction",
+        "data/magics/function/magic_give/17/magic17b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 18,
+      "name": "光炮",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "◉扫帚飞行◉",
+          "lore": [
+            "骑乘扫帚飞行，持续5秒",
+            "魔力消耗:  70 MP",
+            "冷却时间:  50 s"
+          ],
+          "stats": {
+            "mpCost": 70.0,
+            "cooldownSeconds": 50.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_18a",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:yellow,bold:false,italic:false},{text:\"扫帚飞行\",color:gold,bold:true,italic:false},{text:\"◉\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"骑乘扫帚飞行，持续5秒\",color:white,bold:false,italic:true},{text:\"魔力消耗:  70 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  50 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_18a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/18/magic18a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_18a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_18a.png",
+            "sha256": "b5afa345f5a644cdaa29642cb159c50f71bb3f9faaeaa099589d266efb35e9c3",
+            "resourceDependencies": [
+              "assets/magics/items/magic_18a.json",
+              "assets/magics/models/item/magic_18a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_18a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_18a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "◉最终光炮◉",
+          "lore": [
+            "召唤法阵，1秒后发射威力巨大的穿透光炮",
+            "魔力消耗:  100 MP",
+            "冷却时间:  80 s"
+          ],
+          "stats": {
+            "mpCost": 100.0,
+            "cooldownSeconds": 80.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_18b",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:yellow,bold:false,italic:false},{text:\"最终光炮\",color:gold,bold:true,italic:false},{text:\"◉\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"召唤法阵，1秒后发射威力巨大的穿透光炮\",color:white,bold:false,italic:true},{text:\"魔力消耗:  100 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  80 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_18b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/18/magic18b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_18b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_18b.png",
+            "sha256": "8bf928b3488e370b740774b380c2e68eef4c63ea1326c81d6867b1a7915efe37",
+            "resourceDependencies": [
+              "assets/magics/items/magic_18b.json",
+              "assets/magics/models/item/magic_18b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_18b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_18b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/18_spark/magic18_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/18/magic18_unlock_give.mcfunction",
+        "data/magics/function/magic_give/18/magic18a_give.mcfunction",
+        "data/magics/function/magic_give/18/magic18b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 19,
+      "name": "通灵",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "🏮通灵🏮",
+          "lore": [
+            "查看当前存活玩家数量",
+            "魔力消耗:  20 MP",
+            "冷却时间:  15 s"
+          ],
+          "stats": {
+            "mpCost": 20.0,
+            "cooldownSeconds": 15.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_19a",
+            "components": {
+              "custom_name": "[{text:\"🏮\",color:yellow,bold:false,italic:false},{text:\"通灵\",color:gold,bold:true,italic:false},{text:\"🏮\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"查看当前存活玩家数量\",color:white,bold:false,italic:true},{text:\"魔力消耗:  20 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  15 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_19a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/19/magic19a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_19a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_19a.png",
+            "sha256": "22ea673b6044bbeeec7a7f95dca6d8bd18198421ac44df311ab1003cb97fe8fb",
+            "resourceDependencies": [
+              "assets/magics/items/magic_19a.json",
+              "assets/magics/models/item/magic_19a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_19a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_19a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🏮照亮🏮",
+          "lore": [
+            "召唤法阵，五秒后将范围5以内最近的尸体摧毁，获得不死图腾",
+            "魔力消耗:  80 MP",
+            "冷却时间:  150 s",
+            "范围:  5 格"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 150.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_19b",
+            "components": {
+              "custom_name": "[{text:\"🏮\",color:yellow,bold:false,italic:false},{text:\"照亮\",color:gold,bold:true,italic:false},{text:\"🏮\",color:yellow,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"召唤法阵，五秒后将范围5以内最近的尸体摧毁，获得不死图腾\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  150 s\",color:gold,bold:false,italic:false},{text:\"范围:  5 格\",color:green,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_19b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/19/magic19b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_19b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_19b.png",
+            "sha256": "12b4ac18f6b4b527446d1bf6f12f44aaf541c609a60159095d3d3fdf84bcc779",
+            "resourceDependencies": [
+              "assets/magics/items/magic_19b.json",
+              "assets/magics/models/item/magic_19b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_19b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_19b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/19_lantern/magic19_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/19/magic19_unlock_give.mcfunction",
+        "data/magics/function/magic_give/19/magic19a_give.mcfunction",
+        "data/magics/function/magic_give/19/magic19b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 20,
+      "name": "幽灵",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "👻幽灵形态👻",
+          "lore": [
+            "在正常形态和幽灵形态间切换",
+            "幽灵形态：获得隐身和零重力，维持12秒几乎是极限",
+            "魔力消耗:  50 MP",
+            "冷却时间:  3 s"
+          ],
+          "stats": {
+            "mpCost": 50.0,
+            "cooldownSeconds": 3.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_20a",
+            "components": {
+              "custom_name": "[{text:\"👻\",color:white,bold:false,italic:false},{text:\"幽灵形态\",color:\"#b0c4de\",bold:true,italic:false},{text:\"👻\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"在正常形态和幽灵形态间切换\",color:white,bold:false,italic:true},{text:\"幽灵形态：获得隐身和零重力，维持12秒几乎是极限\",color:white,bold:false,italic:true},{text:\"魔力消耗:  50 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  3 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_20a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/20/magic20a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_20a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_20a.png",
+            "sha256": "9a931f86f11f305da1ad21258f1aaf91f0313f27b66a3e9ba9e6942e10ef8ac2",
+            "resourceDependencies": [
+              "assets/magics/items/magic_20a.json",
+              "assets/magics/models/item/magic_20a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_20a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_20a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "💀死亡诅咒💀",
+          "lore": [
+            "指向敌人，将其生命值上限变为1",
+            "自己永久获得凋零效果",
+            "魔力消耗:  100 MP",
+            "冷却时间:  999 s"
+          ],
+          "stats": {
+            "mpCost": 100.0,
+            "cooldownSeconds": 999.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_20b",
+            "components": {
+              "custom_name": "[{text:\"💀\",color:gray,bold:false,italic:false},{text:\"死亡诅咒\",color:\"#8b0000\",bold:true,italic:false},{text:\"💀\",color:gray,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"指向敌人，将其生命值上限变为1\",color:white,bold:false,italic:true},{text:\"自己永久获得凋零效果\",color:white,bold:false,italic:true},{text:\"魔力消耗:  100 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  999 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_20b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/20/magic20b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_20b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_20b.png",
+            "sha256": "acf8a77d3597c6f203dab36b66e4c01d2682d3be4f4261c3097fe10b31616f32",
+            "resourceDependencies": [
+              "assets/magics/items/magic_20b.json",
+              "assets/magics/models/item/magic_20b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_20b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_20b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/20_ghost/magic20_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/20/magic20_unlock_give.mcfunction",
+        "data/magics/function/magic_give/20/magic20a_give.mcfunction",
+        "data/magics/function/magic_give/20/magic20b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 21,
+      "name": "洞察",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "👁洞察之眼👁",
+          "lore": [
+            "面向最近的玩家，标记其为被洞察状态",
+            "魔力消耗:  15 MP",
+            "冷却时间:  2 s"
+          ],
+          "stats": {
+            "mpCost": 15.0,
+            "cooldownSeconds": 2.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_21a",
+            "components": {
+              "custom_name": "[{text:\"👁\",color:\"#4169e1\",bold:false,italic:false},{text:\"洞察之眼\",color:\"#4169e1\",bold:true,italic:false},{text:\"👁\",color:\"#4169e1\",bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"面向最近的玩家，标记其为被洞察状态\",color:white,bold:false,italic:true},{text:\"魔力消耗:  15 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  2 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_21a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/21/magic21a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_21a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_21a.json",
+              "assets/magics/models/item/magic_21a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "👁诅咒之眼👁",
+          "lore": [
+            "对被洞察的玩家施加诅咒",
+            "生命值上限永久-5，获得失明、缓慢、虚弱 受诅咒五次将死亡",
+            "魔力消耗:  90 MP",
+            "冷却时间:  120 s"
+          ],
+          "stats": {
+            "mpCost": 90.0,
+            "cooldownSeconds": 120.0,
+            "duration": null,
+            "unlockCondition": "压力值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_21b",
+            "components": {
+              "custom_name": "[{text:\"👁\",color:\"#8b0000\",bold:false,italic:false},{text:\"诅咒之眼\",color:\"#8b0000\",bold:true,italic:false},{text:\"👁\",color:\"#8b0000\",bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"对被洞察的玩家施加诅咒\",color:white,bold:false,italic:true},{text:\"生命值上限永久-5，获得失明、缓慢、虚弱 受诅咒五次将死亡\",color:white,bold:false,italic:true},{text:\"魔力消耗:  90 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  120 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_21b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/21/magic21b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_21b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_21b.json",
+              "assets/magics/models/item/magic_21b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/21_eye/magic21_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/21/magic21_unlock_give.mcfunction",
+        "data/magics/function/magic_give/21/magic21a_give.mcfunction",
+        "data/magics/function/magic_give/21/magic21b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 22,
+      "name": "因子",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "◉因子球◉",
+          "lore": [
+            "在鼠标指向位置生成因子球",
+            "球附近的玩家每1.5秒减少1点魔女化值",
+            "魔力消耗:  70 MP",
+            "冷却时间:  8 s",
+            "持续时间:  9 s"
+          ],
+          "stats": {
+            "mpCost": 70.0,
+            "cooldownSeconds": 8.0,
+            "duration": "9 s",
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_22a",
+            "components": {
+              "custom_name": "[{text:\"◉\",color:\"#fff0f0\",bold:false,italic:false},{text:\"因子球\",color:\"#ffffff\",bold:true,italic:false},{text:\"◉\",color:\"#fff0f0\",bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"在鼠标指向位置生成因子球\",color:white,bold:false,italic:true},{text:\"球附近的玩家每1.5秒减少1点魔女化值\",color:white,bold:false,italic:true},{text:\"魔力消耗:  70 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  8 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  9 s\",color:green,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_22a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/22/magic22a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_22a.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_22a.png",
+            "sha256": "a66311483abaaafadf18187fb5e26ccc7d461bc68400048ed159db196c35fd18",
+            "resourceDependencies": [
+              "assets/magics/items/magic_22a.json",
+              "assets/magics/models/item/magic_22a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_22a.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_22a.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🔴魔女诅咒🔴",
+          "lore": [
+            "对指向的玩家施加诅咒",
+            "根据目标魔女化程度造成失明、凋零、禁用技能",
+            "自身魔女化程度增加5点",
+            "魔力消耗:  100 MP",
+            "冷却时间:  50 s"
+          ],
+          "stats": {
+            "mpCost": 100.0,
+            "cooldownSeconds": 50.0,
+            "duration": null,
+            "unlockCondition": "魔女化值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_22b",
+            "components": {
+              "custom_name": "[{text:\"🔴\",color:\"#8b0000\",bold:false,italic:false},{text:\"魔女诅咒\",color:\"#8b0000\",bold:true,italic:false},{text:\"🔴\",color:\"#8b0000\",bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"对指向的玩家施加诅咒\",color:white,bold:false,italic:true},{text:\"根据目标魔女化程度造成失明、凋零、禁用技能\",color:white,bold:false,italic:true},{text:\"自身魔女化程度增加5点\",color:white,bold:false,italic:true},{text:\"魔力消耗:  100 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  50 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_22b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/22/magic22b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_22b.png",
+            "resolved": true,
+            "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_22b.png",
+            "sha256": "ae353c2d935d2ba2b6178d2d24b3ac20f14f20dec8b01fbe56c6f0026ad40971",
+            "resourceDependencies": [
+              "assets/magics/items/magic_22b.json",
+              "assets/magics/models/item/magic_22b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/magics/magics_old_textures/magic_22b.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": false,
+            "displayPlaceholder": false,
+            "compatibilityFallback": {
+              "type": "archived-texture",
+              "target": "assets/magics/magics_old_textures/magic_22b.png",
+              "reason": "当前模型引用的贴图缺失，资源包归档目录中存在同名旧贴图"
+            }
+          },
+          "unlockSources": [
+            "data/magics/function/use/22_red/magic22_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/22/magic22_unlock_give.mcfunction",
+        "data/magics/function/magic_give/22/magic22a_give.mcfunction",
+        "data/magics/function/magic_give/22/magic22b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 23,
+      "name": "念动",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "📏触及📏",
+          "lore": [
+            "瞬间增加攻击距离和交互距离",
+            "魔力消耗:  50 MP",
+            "冷却时间:  10 s",
+            "持续时间:  5 s"
+          ],
+          "stats": {
+            "mpCost": 50.0,
+            "cooldownSeconds": 10.0,
+            "duration": "5 s",
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_23a",
+            "components": {
+              "custom_name": "[{text:\"📏\",color:white,bold:false,italic:false},{text:\"触及\",color:\"#66ccff\",bold:true,italic:false},{text:\"📏\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"瞬间增加攻击距离和交互距离\",color:white,bold:false,italic:true},{text:\"魔力消耗:  50 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  10 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  5 s\",color:green,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_23a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/23/magic23a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_23a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_23a.json",
+              "assets/magics/models/item/magic_23a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🔮念动力🔮",
+          "lore": [
+            "持续8秒,攻击距离和方块交互距离变成50格",
+            "魔力消耗:  80 MP",
+            "冷却时间:  15 s",
+            "持续时间:  8 s"
+          ],
+          "stats": {
+            "mpCost": 80.0,
+            "cooldownSeconds": 15.0,
+            "duration": "8 s",
+            "unlockCondition": "魔女化值大于 60 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_23b",
+            "components": {
+              "custom_name": "[{text:\"🔮\",color:white,bold:false,italic:false},{text:\"念动力\",color:\"#ff6699\",bold:true,italic:false},{text:\"🔮\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"持续8秒,攻击距离和方块交互距离变成50格\",color:white,bold:false,italic:true},{text:\"魔力消耗:  80 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  15 s\",color:gold,bold:false,italic:false},{text:\"持续时间:  8 s\",color:green,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_23b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/23/magic23b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_23b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_23b.json",
+              "assets/magics/models/item/magic_23b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/23_reach/magic23_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/23/magic23_unlock_give.mcfunction",
+        "data/magics/function/magic_give/23/magic23a_give.mcfunction",
+        "data/magics/function/magic_give/23/magic23b_give.mcfunction"
+      ],
+      "propertySource": null
+    },
+    {
+      "id": 24,
+      "name": "传送门",
+      "generation": "legacy",
+      "profile": {
+        "characterName": null,
+        "roleName": null,
+        "unlockValue": null
+      },
+      "variants": [
+        {
+          "id": "a",
+          "kind": "通常术",
+          "name": "🌀传送门🌀",
+          "lore": [
+            "在脚下释放传送门光点，下蹲在光点之间穿梭",
+            "魔力消耗:  70 MP",
+            "冷却时间:  3 s"
+          ],
+          "stats": {
+            "mpCost": 70.0,
+            "cooldownSeconds": 3.0,
+            "duration": null,
+            "unlockCondition": null
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_24a",
+            "components": {
+              "custom_name": "[{text:\"🌀\",color:white,bold:false,italic:false},{text:\"传送门\",color:\"#ff9900\",bold:true,italic:false},{text:\"🌀\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"在脚下释放传送门光点，下蹲在光点之间穿梭\",color:white,bold:false,italic:true},{text:\"魔力消耗:  70 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  3 s\",color:gold,bold:false,italic:false}]",
+              "item_model": "\"magics:magic_24a\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/24/magic24a_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_24a.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_24a.json",
+              "assets/magics/models/item/magic_24a.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          }
+        },
+        {
+          "id": "b",
+          "kind": "联携术",
+          "name": "🎯指向传送🎯",
+          "lore": [
+            "在指向位置释放传送门光点，下蹲在光点之间穿梭",
+            "魔力消耗:  85 MP",
+            "冷却时间:  3 s"
+          ],
+          "stats": {
+            "mpCost": 85.0,
+            "cooldownSeconds": 3.0,
+            "duration": null,
+            "unlockCondition": "魔女化值大于 50 后右键即可解锁"
+          },
+          "minecraft": {
+            "baseItem": "minecraft:coal",
+            "itemModel": "magics:magic_24b",
+            "components": {
+              "custom_name": "[{text:\"🎯\",color:white,bold:false,italic:false},{text:\"指向传送\",color:\"#0099ff\",bold:true,italic:false},{text:\"🎯\",color:white,bold:false,italic:false}]",
+              "lore": "[{text:\"\"},{text:\"在指向位置释放传送门光点，下蹲在光点之间穿梭\",color:white,bold:false,italic:true},{text:\"魔力消耗:  85 MP\",color:aqua,bold:false,italic:false},{text:\"冷却时间:  3 s\",color:gold,bold:false,italic:false},]",
+              "item_model": "\"magics:magic_24b\"",
+              "consumable": "{consume_seconds:0,animation:bow,has_consume_particles:false,sound:intentionally_empty}",
+              "custom_data": "{\"noDrop\":1b}"
+            }
+          },
+          "source": "data/magics/function/magic_give/24/magic24b_give.mcfunction",
+          "image": {
+            "path": "assets/magics/magic_24b.png",
+            "resolved": true,
+            "source": "resource:placeholder:manosaba:item/missingno",
+            "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+            "resourceDependencies": [
+              "assets/magics/items/magic_24b.json",
+              "assets/magics/models/item/magic_24b.json",
+              "assets/manosaba/models/item/unknown.json",
+              "assets/manosaba/textures/item/missingno.png"
+            ],
+            "renderer": "block-model-renderer@2.17.0",
+            "minecraftVersion": "1.21.10",
+            "missingDefinition": false,
+            "sourceDefinitionMissing": false,
+            "unresolvedResource": true,
+            "displayPlaceholder": true,
+            "compatibilityFallback": null
+          },
+          "unlockSources": [
+            "data/magics/function/use/24_portal/magic24_unlock.mcfunction"
+          ]
+        }
+      ],
+      "sources": [
+        "data/magics/function/magic_give/24/magic24_unlock_give.mcfunction",
+        "data/magics/function/magic_give/24/magic24a_give.mcfunction",
+        "data/magics/function/magic_give/24/magic24b_give.mcfunction"
+      ],
+      "propertySource": null
+    }
+  ]
+}

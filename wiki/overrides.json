@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "byId": {},
+    "byModel": {},
+    "byName": {
+      "点亮的灯笼": { "hidden": true },
+      "占位符": { "hidden": true },
+      "一截绳子": { "category": "material", "subcategory": "材料" },
+      "磁吸感应炸弹": { "category": "weapon", "subcategory": null, "categoryTag": "远程" },
+      "地雷": { "categoryTag": "远程" },
+      "冈格尼尔(家用版)": { "categoryTag": "远程" },
+      "快速谐振步枪": { "categoryTag": "远程" },
+      "轻便长枪": { "categoryTag": "近战" },
+      "「审 判」": { "manualTags": ["无法获取"] },
+      "「臻冰」": { "manualTags": ["无法获取"] }
+    }
+  },
+  "recipes": {
+    "byId": {
+      "props:13/arrow": {
+        "ingredientItems": {
+          "input": "arrow",
+          "material": "drug_13"
+        },
+        "resultItemId": "arrow"
+      },
+      "props:simple_spear/simple_spear": {
+        "ingredientItems": {
+          "A": "stick",
+          "B": "scabbard",
+          "C": "foil",
+          "D": "arrow",
+          "E": "hairband"
+        }
+      },
+      "props_mtiao:master": {
+        "ingredientItems": {
+          "minecraft:blue_dye": "beethoven",
+          "minecraft:red_dye": "picasso"
+        }
+      },
+      "props_mtiao:steel": {
+        "ingredientItems": {
+          "minecraft:magma_cream": "splash_potion__bottled_fire",
+          "minecraft:clay_ball": "clay_ball",
+          "minecraft:prismarine_shard": "splash_potion__bottled_ice",
+          "minecraft:iron_bars": "iron_bars"
+        }
+      },
+      "props_skadi:simple_explosive": {
+        "ingredientItems": {
+          "minecraft:yellow_glazed_terracotta": "matchbox",
+          "minecraft:green_glazed_terracotta": "red_phosphorus"
+        }
+      },
+      "props_skadi:simple_molotov": {
+        "ingredientItems": {
+          "minecraft:red_glazed_terracotta": "match",
+          "minecraft:black_glazed_terracotta": "potion__ethanol",
+          "minecraft:string": "sewing_kit"
+        }
+      },
+      "props_songbing:eastern_master": {
+        "ingredientItems": {
+          "minecraft:feather": "three",
+          "minecraft:book": "art",
+          "minecraft:paper": "nine"
+        }
+      },
+      "props_tiroaw:broken_umbrella_1": {
+        "ingredientItems": {
+          "input": "broken_umbrella__purple1",
+          "material": "stick"
+        },
+        "stageLabel": "第一步：更换伞骨"
+      },
+      "props_tiroaw:broken_umbrella_2": {
+        "ingredientItems": {
+          "input": "broken_umbrella__purple1",
+          "material": "sewing_kit"
+        },
+        "stageLabel": "第二步：修补伞面"
+      },
+      "props_tiroaw:broom": {
+        "ingredientItems": {
+          "minecraft:stick": "stick",
+          "minecraft:wheat": "wheat"
+        }
+      },
+      "props_tiroaw:decorated_umbrella": {
+        "ingredientItems": {
+          "input": "umbrella",
+          "material": "bare_dandelion"
+        },
+        "resultItemId": "decorated_umbrella",
+        "stageLabel": "特殊升级：系上蒲公英茎秆"
+      },
+      "props_tiroaw:grilled_orange": {
+        "ingredientItems": {
+          "ingredient": "pear"
+        }
+      },
+      "props_tiroaw:immolate_dagger": {
+        "ingredientItems": {
+          "input": "dagger__orange4",
+          "material": "dandelion_water"
+        }
+      },
+      "props_tiroaw:medical_kit": {
+        "ingredientItems": {
+          "minecraft:white_shulker_box": "bandage",
+          "minecraft:string": "sewing_kit",
+          "minecraft:honey_bottle": "honey_bottle"
+        }
+      },
+      "props_tiroaw:scarecrow": {
+        "ingredientItems": {
+          "minecraft:bone": "broom"
+        }
+      },
+      "props_tiroaw:standing": {
+        "ingredientItems": {
+          "minecraft:copper_chain": "scarecrow",
+          "minecraft:string": "sewing_kit"
+        }
+      },
+      "props_tiroaw:tourniquet": {
+        "ingredientItems": {
+          "minecraft:white_shulker_box": "bandage",
+          "minecraft:cactus_flower": "lead"
+        }
+      },
+      "props_tiroaw:tp_anchor": {
+        "ingredientItems": {
+          "input": "empty_anchor",
+          "material": "glowstone"
+        }
+      }
+    }
+  },
+  "magics": {
+    "byId": {}
+  },
+  "tasks": {
+    "byId": {}
+  },
+  "talents": {
+    "byId": {}
+  },
+  "damage": {
+    "byId": {
+      "bleed_damage": { "name": "出血", "label": "BLEED", "color": "#c93c38" },
+      "blunt_damage": { "name": "钝伤", "label": "BLUNT", "color": "#a0845a" },
+      "burn_damage": { "name": "灼伤", "label": "BURN", "color": "#e8894b" },
+      "drown_damage": { "name": "溺水", "label": "DROWN", "color": "#5a8fa8" },
+      "explode_damage": { "name": "震荡", "label": "EXPLODE", "color": "#e8c14b" },
+      "fall_damage": { "name": "坠伤", "label": "FALL", "color": "#8a7550" },
+      "freeze_damage": { "name": "冻伤", "label": "FREEZE", "color": "#6fb3d4" },
+      "inwall_damage": { "name": "窒息", "label": "SUFFOCATE", "color": "#5a5a5a" },
+      "shock_damage": { "name": "触电", "label": "SHOCK", "color": "#e8e04b" },
+      "player_damage": { "name": "近战", "label": "MELEE", "color": "#c2a55a" },
+      "projectile_damage": { "name": "投射", "label": "RANGED", "color": "#a8a8a8" },
+      "total_test": { "name": "综合检测", "label": "TOTAL", "color": "#555555" }
+    }
+  },
+  "effects": {
+    "byId": {
+      "minecraft:absorption": { "name": "伤害吸收" },
+      "minecraft:blindness": { "name": "失明" },
+      "minecraft:fire_resistance": { "name": "防火" },
+      "minecraft:health_boost": { "name": "生命提升" },
+      "minecraft:invisibility": { "name": "隐身" },
+      "minecraft:jump_boost": { "name": "跳跃提升" },
+      "minecraft:nausea": { "name": "反胃" },
+      "minecraft:poison": { "name": "中毒" },
+      "minecraft:regeneration": { "name": "生命恢复" },
+      "minecraft:resistance": { "name": "抗性提升" },
+      "minecraft:saturation": { "name": "饱和" },
+      "minecraft:slow_falling": { "name": "缓降" },
+      "minecraft:slowness": { "name": "缓慢" },
+      "minecraft:speed": { "name": "速度" },
+      "minecraft:strength": { "name": "力量" },
+      "minecraft:weakness": { "name": "虚弱" }
+    }
+  }
+}

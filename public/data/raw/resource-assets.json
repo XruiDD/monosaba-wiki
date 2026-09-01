@@ -1,0 +1,3243 @@
+{
+  "schemaVersion": 3,
+  "source": "resource",
+  "recordCount": 468,
+  "records": [
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/357magnum.png",
+      "sha256": "262e6683bb79b6e12613761e801b72c06104e50cdf3939a6e5a564e6f761085c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/activated_scroll.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/anchor.png",
+      "sha256": "ad6c0ef0c94da642bf3f8ddd595b1c08f4039f56b0527979227722b310107d27",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/arrow.png",
+      "sha256": "c91424ba0e828ecca80580fd4e3f704c7d0f8002757eb4ac145bbfce97c93e7d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/art.png",
+      "sha256": "dbf3a18fae091e774cbabe4d75ee8b0285e4fe555a49ce8ca09d2eb85764f3ee",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/bandage.png",
+      "sha256": "94ca3ad9fe3135f777551e6542b5ca7770611d1011f5275574c002d6fa49c1a7",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/bare_dandelion.png",
+      "sha256": "c08eaebd2975531438edf8125cd2e373b4911ab6811dc751e2747dc184fb29a7",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/beethoven.png",
+      "sha256": "d77ea7e41412bdedd7d135589507305a412630d48db4296921503187f0a1422e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/blood_crystallization.png",
+      "sha256": "ac513abdcf8fa31da2aeee45c3cf1788111322507760a32fba5f6177bbe9c6e3",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/blue_dye__blue_dye.png",
+      "sha256": "154b633b3ddd9d189de35adc8c8688452b28f59c4b3bdfa450754d48d8546c8e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/blue_dye__prussian_blue.png",
+      "sha256": "154b633b3ddd9d189de35adc8c8688452b28f59c4b3bdfa450754d48d8546c8e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/blue_dye__sus_prussian_blue.png",
+      "sha256": "154b633b3ddd9d189de35adc8c8688452b28f59c4b3bdfa450754d48d8546c8e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/blue_ice.png",
+      "sha256": "9c5e8a324b2c49ca516d5b721e28f0dea185124c051ddccaeb67daeefee6a44d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/branch.png",
+      "sha256": "bcdb3dfa86cbf468bdb5a81de7c16d8703f66f5b5f3026290b269fb1d1738587",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/brick.png",
+      "sha256": "4b06bbb93d378f30932fceafd716789c8e10f44ef9ea7370efe32c56ac1453e0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/broken_umbrella__cursed_umbrella.png",
+      "sha256": "4d27f32c36fa65f53590b0c1fa34717e7a724e02afdac70afc9b41b4df2aac9a",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/broken_umbrella__purple1.png",
+      "sha256": "b31c9b839714875241234004d84e366bd5fee5befe2f6b3737e869dc5c403c62",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/broom.png",
+      "sha256": "5156d6ff71636ae44c8a3dee407df649b0210a4af19231b2b89474639bda4330",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/brown_candle.png",
+      "sha256": "ecdf83909d8e11e9954921308ca11f55754be9c6d883acd62081ef9d10b18a3f",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/burn_stick.png",
+      "sha256": "791f1af0a0c6922734152b18e4a8b07ecb51c08368633e64523c7eb4c2a83a53",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/candle.png",
+      "sha256": "4c414f8c8c864a2fd83f08c4b129cd9f8ee31da104d9873174fc52d1fa5f1c3f",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/candlestand.png",
+      "sha256": "6e30e82e6231f93e81594b3415571418af1f616cd90ef75bb22101e0e477b874",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/ceremonial_sword.png",
+      "sha256": "bbfb77213febb01522dd99af9f4fe68501d1604621266a3b62de951ab87e51e3",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/chisel.png",
+      "sha256": "d8c16ce38c0974921ff86801e1ba0258e309044fed19fb712a0839ffdf3cf9bb",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/clay_ball.png",
+      "sha256": "d8990c51a99938a9aa1d559dfc63907e9431a87cd7f59f25bfbcfaccb9630637",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/compass__compass.png",
+      "sha256": "66c61f42a4d028f43ae6fde70b5e48dc103ad673a44f3e5dc2c078f9d67e5b6d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/compass__orange2.png",
+      "sha256": "66c61f42a4d028f43ae6fde70b5e48dc103ad673a44f3e5dc2c078f9d67e5b6d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/conch.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/crossbow.png",
+      "sha256": "ddf8d33fa0b26dcb9849107f81dae74b9b871eacd900223a8a9cfdea17b97fd5",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/crystalball.png",
+      "sha256": "ef3e1e77d75c0ca165cb90823c0fab559df88be762b448ffad7b25096bfb3289",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/cue.png",
+      "sha256": "3d3639df54431e2bfc91aea0875ed286f7638719d811a7edaf147b4ef2b5df50",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/dagger__immolate_dagger.png",
+      "sha256": "1d096adde709e2c1b699dc78edb49ca428933a05729a9b73aab52211e37826a0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/dagger__orange4.png",
+      "sha256": "1d096adde709e2c1b699dc78edb49ca428933a05729a9b73aab52211e37826a0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/dandelion_seed.png",
+      "sha256": "8493bbbf193609d6b69c077a29c8f4ab6f7cd274a81eb6f1a7f41f9970072601",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/dandelion_water.png",
+      "sha256": "0769c336cf1c3d1bc2a685a09a477c26b6e4b3fac2c27bbfa5d4ea2d20f81945",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/deathbook.png",
+      "sha256": "fe998bf8c13a3863a5bdd00362e6b97bcffb02849c1de08f3dc4f67838a58af7",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/decorated_umbrella.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/defensive_matrix.png",
+      "sha256": "b4fbb527d499e6dc93feaef3690187ad373c13faaeaffa7df22d2fe74c659659",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/destructive_ai.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/detector.png",
+      "sha256": "bf4b412fc6cd602ead1394f4dacaffbe3b39aa5411ac3a793fd9c14f7a9b3d9a",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/doll.png",
+      "sha256": "42bd7a6cedb55a55b4b19e10534706b20743c26bfdec096a02f0114bb1cd62d6",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/drug_13.png",
+      "sha256": "56a823ceea6af1478dac99295133cd361d421831496f4af8f368c4a865bd94e7",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/dynamic_auxiliary_device.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/eastern_master_off.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/eastern_master_on.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:compatibility-texture:manosaba:item/echo",
+      "target": "assets/items/echo.png",
+      "sha256": "a5e826cfc5cd44f7ccbef545382003fc11c21609fe81bb9a34fcc967670681f8",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/echo_shard.png",
+      "sha256": "5cc6f5db79c104d1c5bf1d3301ad9124394a0c8a06681fdf6820f55f287d08b0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/electric_baton__electric_baton_off.png",
+      "sha256": "6d115155affb3211794d3c9e610f16ebb9e4d33f7c18bb862b2680cf7e94a780",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/electric_baton__electric_baton_on.png",
+      "sha256": "6d115155affb3211794d3c9e610f16ebb9e4d33f7c18bb862b2680cf7e94a780",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/empty_anchor.png",
+      "sha256": "6c9fbeea919a80caba7d0a65a62459012c608b06c6a40cd1a0b4eb05579467d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/empty_matchbox.png",
+      "sha256": "502dff99b6789875d2a308ba6baa917346391833a24467c7bd9b120e52680164",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/end_crystal.png",
+      "sha256": "97bb812dcd749a55582f0201863424d799cfdfb507b16f1a34b7df9469c7e3d8",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/ender_eye.png",
+      "sha256": "117663aa2e180aafda2428ce7101137006edcca92ff0b506e3429bc659ee3bfc",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/exile_button.png",
+      "sha256": "e3cd2961059cf45107b776af4485a0aebcaa8a7ec21457fd2f406bdafe613c80",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/eye_of_prison_warden.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/fear_dart.png",
+      "sha256": "f965913c773a58ff2652c52482ed9f45797b232bea38147dcf63882205079ae5",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/feather.png",
+      "sha256": "36ea0aba810e060b912949c466a279232f8946482492d9e3e3147a69a9fbe99e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/fireaxe.png",
+      "sha256": "4f09d28da8d417da85a28d5899ea9a4aca59750395339b4ff69b6c97149646f2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/flint.png",
+      "sha256": "8b1c36cb1aca5767b5d418eace15278020233703cbec4c8ba8cf9f5a25735b4b",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/flowerpot.png",
+      "sha256": "d9a853349d401197c5f6ea925ca092ffb3c8b8c08fec3c1288ad8eddf4a9bb8e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/foil.png",
+      "sha256": "60546e3388c09592865c85934097dd9a0a3b0a6c63699c33d602870e5bf8627d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/full_dandelion.png",
+      "sha256": "71dcfe032bb16f68781f658e8864bbe7325fb83e22b99dfe4e7fb0345a8c4f21",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/ghast_tear.png",
+      "sha256": "5b0baee0c71ccdc5c11da1939a334d0dbf97c1a3ffbbaf901a43f6222e1835e6",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/glowstone.png",
+      "sha256": "e1ee9de5598cbdf7eade6b6b7d80ae2da2a94a3275c6841f197c6343839b5f1a",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/gray_dye.png",
+      "sha256": "9a4f9fb404b301c4827192000da888f7723e441240958cb7666d952db65efded",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/grilled_pear.png",
+      "sha256": "f45894a46ba5eef90b1869ceccadc4146bd840ec03eecf6724a0335563ff6adc",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/gungnir.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/hairband.png",
+      "sha256": "30f1069ec28741b6375c756b656534d90a8c5fe9b222d7ffc8b4048023a83c2c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/heavy_core__electric_grenade.png",
+      "sha256": "caa774b4e149134257e6356565ff18179ecef36d39fa05e5073635d1dcd63a2e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/heavy_core__electric_grenade_warm.png",
+      "sha256": "caa774b4e149134257e6356565ff18179ecef36d39fa05e5073635d1dcd63a2e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/highlighter.png",
+      "sha256": "251d137944c432f8484fe3ba0845d5183fe5b0967366a616fd01ba1d67f94bdf",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/honey_bottle.png",
+      "sha256": "1f80cda744781ce3a682ea924f4a92625e17f1ab1f9eed629a2758f320e51f54",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/infinite_book.png",
+      "sha256": "061794811ff9d7fdafcae44bc0eb19a488bd1d0fa80f9dbb9105a4e50e9fd64b",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/iron_bars.png",
+      "sha256": "fceb164eb7b5525139f6990378a42ce30a3b5acc810018227745c40449a0d371",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/katana.png",
+      "sha256": "109da496dfbf949b0087ebfa15fbb0062fe7091d568c9aec9aa851bd09c25021",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:compatibility-item-model:manosaba:killer_trakcer",
+      "target": "assets/items/killer_tracker.png",
+      "sha256": "1f55bb46dfcd7b94e4ec2394232196d5cb1b82ea24bb52a34e443bd52287c2f6",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/landmine.png",
+      "sha256": "63f789ae0372747ba8fe5a286f7d15267e08d22219c84d0889f5480f142f4544",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/lead.png",
+      "sha256": "ff1bc90b70d7fd5b7cd118bf1f17e5a7e61ea43eebaab1e89eea9677e0ac2e70",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/light_gray_dye.png",
+      "sha256": "feedd96c9f717089a227062cbce83aea28c2239c99445edc3cff41599fdacc3c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/lightdust.png",
+      "sha256": "13ff9438e53e92fe0c8db32c503318269f57dd07347266a8711bcfcda6cb5651",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/lingering_potion.png",
+      "sha256": "c8247815969905faa03ee824d8d6167866bfda952eb90739adc1aabfcfaf560e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/luminol.png",
+      "sha256": "1efd3c036070948598bdc1b5de1f46bbf3e0af60e1f7bbba18477e874c18500d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/magent_bomb.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/master.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/match.png",
+      "sha256": "14f9f1d10143f80fbbf789cc0a6e2b2209599038457f0c32593d72da67e11b64",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/matchbox.png",
+      "sha256": "209dc6332b5d5225ca951169a2cfe6c3919a691a89dd3c457f3505390c78b845",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/medical_kit.png",
+      "sha256": "1a0bb6a8d0c9ce9452bc50def06852d491c7757086f727b91a6fb6567c779510",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/mem.png",
+      "sha256": "e12e72619d91c646b48de464deb908c8ae8e8c1d56c1f6af3a216d39299e5da4",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/mirror.png",
+      "sha256": "c2fa5ae5f7a3c8855931526fc6d39fe886d3bdc4cf1122c805fe58c3a024abf2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/netherite_hoe.png",
+      "sha256": "898696f2a3e9303141558dea7e0d35482a63af014c452de5a3633e204caede8c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/nightmare_pendant.png",
+      "sha256": "27f9b048e7112bf9a904a83937404f097efd6ec003acf9b047cfef752b8da6f0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/nine.png",
+      "sha256": "d10cb49213b68182c692eccdc476fe76faa0442695ce60062b75d032f0dd4bf2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/nnk_rifle.png",
+      "sha256": "d0d93bcfcca0df3d0884b03b90f40f5fac0da602dfa28c1c56526579bb56fed7",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/painkiller.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:compatibility-item-model:manosaba:paintwheel",
+      "target": "assets/items/palette.png",
+      "sha256": "4f49cc6049ae5b1498b56150bf3396125b3fc2e7d9bc38952272909bc218243c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:compatibility-item-model:manosaba:shield",
+      "target": "assets/items/parry.png",
+      "sha256": "e534358087e27b37f61302a262f92e08acaec706d9f3d6c2d7aec05249ca39fc",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/pear.png",
+      "sha256": "ec57d5707584d7f5deaf7a80e39b7f08c1e10164dbfa4f3e20246c779c729253",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/pendant.png",
+      "sha256": "956af114c250b1e89fed27a7cc57b3cfe0c642938268679cc2cc0f3687c75b11",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/picasso.png",
+      "sha256": "c3e984784035b3d5257db7d22035da27dbd6b04a09a8dadccd01adadaddfc184",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/pike.png",
+      "sha256": "d7d5b3bf998ed69bb9168578bb238a171771e00003e4ddfbd1b65505fdcec998",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:profile",
+      "target": "assets/items/player_head.png",
+      "sha256": "6c5c868f15b585b7f2159ef02ae3ec70986b50d44e5ad3446d012b1399bb151d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/potion__ethanol.png",
+      "sha256": "07af3c41dd2fcc51c79a9ef73d367d5fa87380700f88d138446ac3b9a258bc4a",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/potion__fire.png",
+      "sha256": "5c648956ffd2f074e371d118f4a2bc98f57f47f23c5a93546e4af39ccc11bd89",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/prison_warden.png",
+      "sha256": "a61a68d87393691d8a4655a4bf695386170da4bfed79e7773731b6fb4cc3e78c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/purple_dye.png",
+      "sha256": "82917b055f04f27814a4e58c571f33df51f9863d586eae1820bf06479ec6b98f",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/rapier.png",
+      "sha256": "8c2d8b3cb4b055f421b7c8f9c090a3c6310e1d64ceb899ce9abd6293f347846d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/red_dye.png",
+      "sha256": "c1e3f7ef8802035e8786756aa9f85dbee0423075f67ceff0941d56ae1f347332",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/red_phosphorus.png",
+      "sha256": "dbc35a6a8b864fbf28fd2747fb652ba948cbab7033561dd0ca71be177e0a1212",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/repair_agent.png",
+      "sha256": "0b1ffb1b78935af88525f3935636e38d4bd517b7a4f116a491b44c4eaa38c7a4",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/resonance_laser.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/revolver.png",
+      "sha256": "330b15fe709f8cfe760f0d2e701ea43e40d064b0bbd63cba4c9b2ca8c0b04d4f",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/ring.png",
+      "sha256": "226006b4bee672c99e5f66b33c34046cc297cc4784b666fb013905c7c7ec3a9b",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/scabbard.png",
+      "sha256": "4a3b0f5e70fe6bdff4a5b1debff9e46973f29cc6775c6438ffc6f9cbfa165156",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/scarecrow.png",
+      "sha256": "4ac9cddbfe6e57526c089e70f7eee36b35e7307ff65ac45bbc9c3b60d235583e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/screwdriver.png",
+      "sha256": "25ecc3c1c0c1eea144675936cc509f85266c917d9fa565d953509993d60d7637",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/scroll.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/sculpture.png",
+      "sha256": "b4956f490a4dcd5806a115e84b6d0a06577709e61fab4c25dee0c2de0546b586",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/sewing_kit.png",
+      "sha256": "9745cb7aa07234b68fec54f600a8bce9947201f80652cd6641b2c70e0ad96f77",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/simple_explosive.png",
+      "sha256": "cbbfeb55a692e2adf1612ccfdfbe519f79127bbe8df258d3d6d85f77bbd1ded3",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/simple_molotov.png",
+      "sha256": "3bb8053f3bdaa38fbcc234430b7524c2cdaae7f23c10d146838e951dacbdd49d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/simple_short_spear.png",
+      "sha256": "5e57b7c9c931e0e7bcd35fb07805bcb4d487340fafdb69032ce908e6b25150e6",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/soap.png",
+      "sha256": "e6af1b0fb4a3ecad6433183db921b2363ecafb238003e033a2ac64557748dbc0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/soul_lantern.png",
+      "sha256": "013a1243af13ec6cd70b1561d7fc9fa5c551bed229df7158c259236dac668d68",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/sparklingwater.png",
+      "sha256": "9897c161ec05cd95993deca01f864183088790223687fbbaa029df6ddf708473",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:compatibility-texture:manosaba:item/sparse_dandelion",
+      "target": "assets/items/sparse_dandelion.png",
+      "sha256": "e1bb54ac9d94f567e1f999f7649d50792c07ac4027ecab895c0ec559608b7751",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/spear.png",
+      "sha256": "27a7a0834c90ceb8d81c663108bf23b3a06161d8fca9c4f680dce81ed5f6241d",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/splash_potion__bottled_fire.png",
+      "sha256": "588c38b60ba06b352c059018a64df7a5e8b6484cb428d28ce2ddd5cf0606ebb3",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/splash_potion__bottled_ice.png",
+      "sha256": "545a2249fb1669d1daed4e7e866fc6d2f64d5c584b1f918c14b25fc4ded8f9ce",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/splash_potion__ink.png",
+      "sha256": "266a7c28844aa3081ef03b276e9f1cc4055373b3c41c0b9d27ce2a3355efc2b9",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/standing.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/steel.png",
+      "sha256": "99cc9fb390c16d068d3963c6d4b5da183c834b36aa9cca0777e23f45c18b4820",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/stick.png",
+      "sha256": "07a170e06ffdccf837d443d977cadefc389375a50aad9910c7bfcb92c52c2d09",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/stone.png",
+      "sha256": "b2735338ae7d6ea78cc25c05cc7dbb02d72d9e5803b34cf10e6a0486e97f6ccf",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/stun_gun.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/items/sucker.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_blue__adrenaline.png",
+      "sha256": "919b64760ffab0fd781a7e3a15fd527814c5c091c7a15ae17334f441b73cadea",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_blue__adrenaline_pro.png",
+      "sha256": "919b64760ffab0fd781a7e3a15fd527814c5c091c7a15ae17334f441b73cadea",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_green.png",
+      "sha256": "7d8ce9766d4e4d2b4675a7a6812b067436611341e80e1677dc02843492691c22",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_majo.png",
+      "sha256": "880a60c0a875949f77f82eee3a9c263c086dd3887a93e52f94b42c9d680f80cd",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_orange.png",
+      "sha256": "37c275f1313d6fc4d617265f1e1cedcdcc5944d04d82fcb27942e62334331424",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_purple.png",
+      "sha256": "36c71d25add2f443212349ab5d5a28a7e02f8d1839cd0317a47f38c5f123b1c3",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_red.png",
+      "sha256": "efe4d2f81e67410f128b1881a0a003e0ed60d9a748354dfba3de4d4ae1418ca2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/syringe_yellow.png",
+      "sha256": "845d1f553d5ec42ddb3dcc740ab810b7c28d23e42ba1bf6e37cd68424d4949d8",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/tarot_0.png",
+      "sha256": "04677fa1ad4ddb44ba3f192681a7840594f8163cc663825104eec5898aae4fa1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/three.png",
+      "sha256": "420cb7de1b479b3635ef5fa0d2e9e19c6eb5842e1eb3a3e5cfefc52013a77a36",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/tourniquet.png",
+      "sha256": "83a7a0ea3ec738ede923322623b9e298e8e3c85a35be7e12bdef638b7709976c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__1.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__1__776ce180.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__2.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__2__85a88a4d.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__infirmay.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__nova_studio.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__stair_storage_room.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/trial_key__storag_room.png",
+      "sha256": "c6cfa88ce040c36a34d49149d21d158f6cea0b8deb16211bbb6abf87a65cf0d1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:compatibility-texture:manosaba:item/rope",
+      "target": "assets/items/twine.png",
+      "sha256": "e304b8d5534bdde242cdaeff277fd3b11ef987ee8aa330f1bd1d4643da7e65e2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/twitch.png",
+      "sha256": "b0e056c8c54436df0eae19ae67ce1c44d11361fdf459a4fb6e07c137ed5a67a5",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/umbrella.png",
+      "sha256": "b31c9b839714875241234004d84e366bd5fee5befe2f6b3737e869dc5c403c62",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/vampire_tooth.png",
+      "sha256": "50be7a73a24ae8bce9b64f4a08dcd96950364a73094ad4b77774eb09bf93db1b",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/wheat.png",
+      "sha256": "1501b0eacef91673068ebc0bd94f4213794d3d108327a66512640be15d4d460b",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/wooden_prison_warden.png",
+      "sha256": "f3caf86f14e14518d6759889771e5cac069a8b696adc17ee3c201cf14772214c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/wooden_sword.png",
+      "sha256": "9aa83e32c28964fa6fd87c842f0b33c0db74378f6dcc65346d4a826da8c6ca4e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/writable_book.png",
+      "sha256": "53ca98a099f2c8b9ea4d2be533187cc429f026e1368bd652e8f037d95b1534a1",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/yellow_candle.png",
+      "sha256": "2ceceb67f71bfa4c75a1c6212d9846f0c3117ce1bb3b61256d1e963b77a55011",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "minecraft-1.21.10:item-model",
+      "target": "assets/items/yellow_dye.png",
+      "sha256": "66122901f82e507fe18a1a3e99dac87a7cab1da1d6a32a0d626a2bcd95ae4215",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "item-icon",
+      "source": "resource:item-model",
+      "target": "assets/items/yourworth.png",
+      "sha256": "360955b0a4294443991c7eef9200f09f7bee5d4bb5b6dadc89a8e1d1a0b160ff",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_10a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_10b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_11a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_11b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_12a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_12b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_13a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_13b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_14a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_14b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_15a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_15b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_16a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_16b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_17a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_17b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_18a.png",
+      "target": "assets/magics/magic_18a.png",
+      "sha256": "b5afa345f5a644cdaa29642cb159c50f71bb3f9faaeaa099589d266efb35e9c3",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_18b.png",
+      "target": "assets/magics/magic_18b.png",
+      "sha256": "8bf928b3488e370b740774b380c2e68eef4c63ea1326c81d6867b1a7915efe37",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_19a.png",
+      "target": "assets/magics/magic_19a.png",
+      "sha256": "22ea673b6044bbeeec7a7f95dca6d8bd18198421ac44df311ab1003cb97fe8fb",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_19b.png",
+      "target": "assets/magics/magic_19b.png",
+      "sha256": "12b4ac18f6b4b527446d1bf6f12f44aaf541c609a60159095d3d3fdf84bcc779",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-item-model:magics:magic_1a",
+      "target": "assets/magics/magic_1a.png",
+      "sha256": "53c14177aa537badaa903737bc6b914e106eef2e640eab694e82dfad81f62727",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-item-model:magics:magic_1b",
+      "target": "assets/magics/magic_1b.png",
+      "sha256": "9fbedc17a0da424f4a0d54369c29fd6ea4b5f03cdf8247ebaa89cffe23b79290",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-item-model:magics:magic_1c",
+      "target": "assets/magics/magic_1c.png",
+      "sha256": "28c51c75395abbcb55ef372efd3783b2494f8a7d6ac7ded2513452ef80f02566",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_20a.png",
+      "target": "assets/magics/magic_20a.png",
+      "sha256": "9a931f86f11f305da1ad21258f1aaf91f0313f27b66a3e9ba9e6942e10ef8ac2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_20b.png",
+      "target": "assets/magics/magic_20b.png",
+      "sha256": "acf8a77d3597c6f203dab36b66e4c01d2682d3be4f4261c3097fe10b31616f32",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_21a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_21b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_22a.png",
+      "target": "assets/magics/magic_22a.png",
+      "sha256": "a66311483abaaafadf18187fb5e26ccc7d461bc68400048ed159db196c35fd18",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_22b.png",
+      "target": "assets/magics/magic_22b.png",
+      "sha256": "ae353c2d935d2ba2b6178d2d24b3ac20f14f20dec8b01fbe56c6f0026ad40971",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_23a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_23b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_24a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_24b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:item-model",
+      "target": "assets/magics/magic_2a.png",
+      "sha256": "6c13ed2a5c3dd7b201a66ffe11aec63058d135dee2d1357c420477cdc626ecb2",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:item-model",
+      "target": "assets/magics/magic_2b.png",
+      "sha256": "d4209abcce303af47ee85ce761b2814806d51d8419fb9c3c5a8e881eb5d3fa6c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_3a.png",
+      "target": "assets/magics/magic_3a.png",
+      "sha256": "d8ba4e7f6370eba2ea3801d86d3abe57b3f3f51a2cae3a02d498b78a4f8c2025",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_3b.png",
+      "target": "assets/magics/magic_3b.png",
+      "sha256": "10a72093df24353d729f7ad94d9aa19a1660547ad9a3a2cf8bc0e9b3a265700a",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_4a.png",
+      "target": "assets/magics/magic_4a.png",
+      "sha256": "362a5112ffe8305ce2209dadde3bf4843fb8a8da7e74399ef28c795ab01e2bf7",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_4b.png",
+      "target": "assets/magics/magic_4b.png",
+      "sha256": "1de57974c5a6e43a0c962818be2d4b8d7bd5a36ddfd7c1e22a9752fece9b89e9",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_5a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_5b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_6a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_6b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_7a.png",
+      "target": "assets/magics/magic_7a.png",
+      "sha256": "5526a4a1105cb4b44482bea2ad84b47b8f4ca39fba9fcf21299b0b1be9689e4c",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:compatibility-archived-texture:assets/magics/magics_old_textures/magic_7b.png",
+      "target": "assets/magics/magic_7b.png",
+      "sha256": "b4e700ce92ad49b48fdc726010ebe45e80135a7b711cf63c3437756871cc46b0",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_8a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_8b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_9a.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "magic-icon",
+      "source": "resource:placeholder:manosaba:item/missingno",
+      "target": "assets/magics/magic_9b.png",
+      "sha256": "a89c9d9f8b0f51ed8ea6a1c1a62ebe706fe14baba1ad84abe0ed2851e4c5944e",
+      "renderer": "block-model-renderer@2.17.0",
+      "minecraftVersion": "1.21.10"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/bell.ogg",
+      "target": "assets/sounds/bell.ogg",
+      "sha256": "2896984bfd10fbf737fbd89a0ae31b2ac45a4da6d80e52cd0d5b30106fbc6bee"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/bloom_piano.ogg",
+      "target": "assets/sounds/bloom_piano.ogg",
+      "sha256": "c9a92e97f45d8590fe36e0c9888dbe9f9da29b678fac07d0ad3a5701a32fb9e9"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/bodyhit.ogg",
+      "target": "assets/sounds/bodyhit.ogg",
+      "sha256": "faf715c325c564d7b14848393b07434b7a01e9c2bc8add72829f75b5815a9791"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/corpse.ogg",
+      "target": "assets/sounds/corpse.ogg",
+      "sha256": "dfe261de55c444852b68099c2f1ded285c04ec9ad9763ff476dd26b1e80b116e"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/execution.ogg",
+      "target": "assets/sounds/execution.ogg",
+      "sha256": "5a4b48aba1fd82543db4f81aaa2d700c3d270014e491a9153f6e0b60246ed8df"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/gloomy_piano.ogg",
+      "target": "assets/sounds/gloomy_piano.ogg",
+      "sha256": "7653d531e080abe89272023109b5cd9f64bcbf856711115053296c16e52ce41f"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/judge_quest.ogg",
+      "target": "assets/sounds/judge_quest.ogg",
+      "sha256": "e62157421dc832ce8857d3a0057f5613e754743faffb77ac7ec805fa9888d8b5"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/morning.ogg",
+      "target": "assets/sounds/morning.ogg",
+      "sha256": "57e969dd15e26118b2a70ac0f38b9645835472b44831e8baa29b43d226d27360"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/opening.ogg",
+      "target": "assets/sounds/opening.ogg",
+      "sha256": "f8ca84d26c06b351afd0353f6ea315f19f5572b42858c15e74772da521528541"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/owl.ogg",
+      "target": "assets/sounds/owl.ogg",
+      "sha256": "b9656644f17636107a6507dc205291edfb9b95fa8aff056da05df1d8abac1f6e"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/piano.ogg",
+      "target": "assets/sounds/piano.ogg",
+      "sha256": "12838fe9b94d097875c6bb44a807d5a8025403e15f99b6aedd62a8172ce51b44"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/survey.ogg",
+      "target": "assets/sounds/survey.ogg",
+      "sha256": "a545526e7cab7127204943421e4bb47267d7d829673ea6db768a28e4acee8722"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/tribunal.ogg",
+      "target": "assets/sounds/tribunal.ogg",
+      "sha256": "58ea230f6039cd635ab3704574426b47f25462b4c23c0905879a6af30704ff7a"
+    },
+    {
+      "kind": "sound",
+      "source": "assets/manosaba/sounds/warden.ogg",
+      "target": "assets/sounds/warden.ogg",
+      "sha256": "3699badfbb8e70ea371032e1d65ef51679b037bca77b36f17478d39dec1b8bc7"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/magic_1a.png",
+      "target": "assets/source/magics/item/magic_1a.png",
+      "sha256": "c0fc48552fb225a3765509bf7db981b83a52c9d1d4c3527bc8fce347a2caf22b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/magic_1b.png",
+      "target": "assets/source/magics/item/magic_1b.png",
+      "sha256": "485d68fd27fd18adcf6adb2a32a8308388db9e7a414e1cd6e715d9f33a3ea378"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/magic_1c.png",
+      "target": "assets/source/magics/item/magic_1c.png",
+      "sha256": "ffd48935f72ccf4206a0237db08c5600e7dcb9c30a044c411b5198d766f23dbf"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/magic_2a.png",
+      "target": "assets/source/magics/item/magic_2a.png",
+      "sha256": "d90bc224689813c4380c9507e56f60fe35f8ac517ab257275bd0c135ea4fbbc7"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/magic_2b.png",
+      "target": "assets/source/magics/item/magic_2b.png",
+      "sha256": "ce8d03a847d8a1e62f31af4821556513e1997ce1e617d60d00cc480962029be2"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/magic_2c.png",
+      "target": "assets/source/magics/item/magic_2c.png",
+      "sha256": "c6608555ac20e3a1e8a473feea165a9a2fd627bcb82b9cdb57889b6b3fad357b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/magics/textures/item/missingno.png",
+      "target": "assets/source/magics/item/missingno.png",
+      "sha256": "9306f73e2b3a0573f119c0220f305e21dc74c7b8ff4aca1f8e7fee78d3501f07"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/357magnum.png",
+      "target": "assets/source/manosaba/item/357magnum.png",
+      "sha256": "f9fddcacc0fd45a7cc33ff5dd8ad95ccdf1dea30d9f97c32d21e310dc75cef92"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/agree.png",
+      "target": "assets/source/manosaba/item/agree.png",
+      "sha256": "cceb26dacfa08eae9e6ea0167d27cf2167c132947f42749754a1a8d1307be87e"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/alert.png",
+      "target": "assets/source/manosaba/item/alert.png",
+      "sha256": "df0f49d506f5705955fb9ed76298a9ab9e1e20c979b2c6ee79bd257d77b05043"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/anchor.png",
+      "target": "assets/source/manosaba/item/anchor.png",
+      "sha256": "5a24b2136e673f1660f831ba69de875cc8b10ad473f503d0a88bd7ce59dd267e"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/art.png",
+      "target": "assets/source/manosaba/item/art.png",
+      "sha256": "48dca7a43e8f551933f20a811b56e084f3df4f50d8872325657cd92cf860d796"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/awwhate.png",
+      "target": "assets/source/manosaba/item/awwhate.png",
+      "sha256": "c157c7564ccdc89455250300d64da2408e75d67a5b5ebb7ee3f46534300562fb"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/bandage.png",
+      "target": "assets/source/manosaba/item/bandage.png",
+      "sha256": "a203a09764624567c77b08d1898f8de7cf4b36ba3efeb4953392b98fb1480721"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/bare_dandelion.png",
+      "target": "assets/source/manosaba/item/bare_dandelion.png",
+      "sha256": "786448b8e6d24096cddf8d73a1e7b9fd4df9c47040b9265a862dc8b2dea89931"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/baseball_bat.png",
+      "target": "assets/source/manosaba/item/baseball_bat.png",
+      "sha256": "399b308f3221cceb7a74faf6a07c46d4490ee010f9b3abd09e261b74a4369cbc"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/beethoven.png",
+      "target": "assets/source/manosaba/item/beethoven.png",
+      "sha256": "f105e5ffca9ee886f1d65d980c2315f51ec09b4ad904488835a7363013c1e5fc"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/bench.png",
+      "target": "assets/source/manosaba/item/bench.png",
+      "sha256": "632e887f7df7b068ba705020df1ea044414cac786ee0736af0e521c91b7cff1d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/blackboard.png",
+      "target": "assets/source/manosaba/item/blackboard.png",
+      "sha256": "99239b8599734b96629a231cb80056e5c0b08fa81d3b6374d92e6c9d609d310d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/blazerip.png",
+      "target": "assets/source/manosaba/item/blazerip.png",
+      "sha256": "ef685859ec0c3d842fcb12653171f96398cefdefd90d563b4af7e0e3954878d6"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/blockknife.png",
+      "target": "assets/source/manosaba/item/blockknife.png",
+      "sha256": "ffc43b32f6b98d39ea6395bb760e3f479631d2fb06c3cb27c652aac33268e553"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/blood_crystallization.png",
+      "target": "assets/source/manosaba/item/blood_crystallization.png",
+      "sha256": "e94e518ebea458a56a2965a1c64d0fc945d597b82eb9161670fe5fd7e2cc4bf8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/bloody_brick.png",
+      "target": "assets/source/manosaba/item/bloody_brick.png",
+      "sha256": "492bfe2f1035752b161ffa69723322322c6a554358afff5b263572e4d8123787"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/bottled_fire_clue.png",
+      "target": "assets/source/manosaba/item/bottled_fire_clue.png",
+      "sha256": "648f667aa7822fe753063df3dee8c86b6ea1409afe66d455fdd31eb0add478f1"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/bottled_ice_clue.png",
+      "target": "assets/source/manosaba/item/bottled_ice_clue.png",
+      "sha256": "255b8afff2974ac363d72f656e7045fe8f93099365cb011949c9223c6fa0a2f9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/branch.png",
+      "target": "assets/source/manosaba/item/branch.png",
+      "sha256": "9ce24cadfe710981047c19d650c87ce0dae0095ac3f44328294b2c9b5bd96a0b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/brick.png",
+      "target": "assets/source/manosaba/item/brick.png",
+      "sha256": "153cef6a3ee91acd1ad2b694ff27b0c86a1f02c1341423668bee7e24f76928ed"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_branch.png",
+      "target": "assets/source/manosaba/item/broken_branch.png",
+      "sha256": "e9221bf83701a127cbb8b1f64e8b439040190d89218cc198cf4b65e805bb5570"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_burn_stick.png",
+      "target": "assets/source/manosaba/item/broken_burn_stick.png",
+      "sha256": "821cee0056ee8290b0f3c6a1f29272aeeb805bf858d82848735dd2e7222d38d7"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_candlestand.png",
+      "target": "assets/source/manosaba/item/broken_candlestand.png",
+      "sha256": "cf471c72c226af93eeb25c9e9d4cc7ec5a272b626cf08463b6bd03213f99ef24"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_chisel.png",
+      "target": "assets/source/manosaba/item/broken_chisel.png",
+      "sha256": "5e0e92169d48892d5f8d9a9a2f1ae27254e0f2c0c2bad8410c2e228c20220b9c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_cue.png",
+      "target": "assets/source/manosaba/item/broken_cue.png",
+      "sha256": "184d64b42992eda29110d16bda2d2f07000ee424648ff9b5237e5c13389a7854"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_dagger.png",
+      "target": "assets/source/manosaba/item/broken_dagger.png",
+      "sha256": "cbd8d4b3cc7298ef2ba0c865912af5e0563a72323bad8a8e1b5d84c8b632d8a0"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_fireaxe.png",
+      "target": "assets/source/manosaba/item/broken_fireaxe.png",
+      "sha256": "dbd614110d4988fd4e784d89c958421e4dd741b9469029568b8d1df6c23e39c1"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_flowerpot.png",
+      "target": "assets/source/manosaba/item/broken_flowerpot.png",
+      "sha256": "35015457f5c98be5a6bc28b35708dcea8ecaaaecfe9bddb46d03a495272d9c79"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_foil.png",
+      "target": "assets/source/manosaba/item/broken_foil.png",
+      "sha256": "751573e0b00bf50b3d5c7026b3e073f389cbcfc6d84e840656b9dda276c49f27"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_highlighter.png",
+      "target": "assets/source/manosaba/item/broken_highlighter.png",
+      "sha256": "02ca62593384afb25898e85caef1c2fc96d31e1f398b4ad16c52a4f4157621d2"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_simple_short_spear.png",
+      "target": "assets/source/manosaba/item/broken_simple_short_spear.png",
+      "sha256": "3d623dbd2b0bad80c563ef36a1ef21416a39de35ef48a4cb02455f14d9266790"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_umbrella.png",
+      "target": "assets/source/manosaba/item/broken_umbrella.png",
+      "sha256": "36823cc30239e86098e004ec32cf8a5a8efeff5ecf0ee4569066ee42c5bd3bbe"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broken_wooden_sword.png",
+      "target": "assets/source/manosaba/item/broken_wooden_sword.png",
+      "sha256": "09d63137341445a5d72ebe53a61e36746eb9f704ed1d3a0cbe29af99a19e63c8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/broom.png",
+      "target": "assets/source/manosaba/item/broom.png",
+      "sha256": "46cf49000caa824e218ce8f396ca81e7a4f4a2fce9d23708fa0055b702fb3e48"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/burn_stick.png",
+      "target": "assets/source/manosaba/item/burn_stick.png",
+      "sha256": "938275a80bcd388cc378e0d1d8cd55c5a99baee484e8cc35c5d7071bad52566a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/button_clue.png",
+      "target": "assets/source/manosaba/item/button_clue.png",
+      "sha256": "1aca54157ade862ff84bc895d8d41c9d798ee6106d6b68d3eedc2b38551c050c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/candlestand.png",
+      "target": "assets/source/manosaba/item/candlestand.png",
+      "sha256": "d1dc5c4bf469563952b24390174629b98cd3db7f5ffadd7a9d06551c7ee6994f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/careful.png",
+      "target": "assets/source/manosaba/item/careful.png",
+      "sha256": "f611ede61da8bfa75b1ef383a5d87a5ab790dbdc48aeddda675109589cc2579b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/ceremonial_sword.png",
+      "target": "assets/source/manosaba/item/ceremonial_sword.png",
+      "sha256": "5d01ab3e204cfab6ade5be065bb467fae3d31b5e785ace4dc5b8f1cb661a66c2"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/chair_1.png",
+      "target": "assets/source/manosaba/item/chair_1.png",
+      "sha256": "3d528190f8c27eaa971e56f971e4163390732f4c167c62709c762761bc0b6117"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/chenlin_hat.png",
+      "target": "assets/source/manosaba/item/chenlin_hat.png",
+      "sha256": "c233ec23bf308eb57158c36b7e74d911c6dfc5966cd81df71f46ccf3fb204d19"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/chisel.png",
+      "target": "assets/source/manosaba/item/chisel.png",
+      "sha256": "27e3897d06111a3ec1101a742a21ced568490204a24cc4db726d570cbae3f777"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/clear_blackboard.png",
+      "target": "assets/source/manosaba/item/clear_blackboard.png",
+      "sha256": "1c2b2f12f282d54538c0c7d5e33316f4c015d4d33de0d9ad74480632f2c04593"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/collector.png",
+      "target": "assets/source/manosaba/item/collector.png",
+      "sha256": "4135273ba3930242cb8b31801b5008654c81eed00e3f885926b34d72960ae543"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/copper_dagger.png",
+      "target": "assets/source/manosaba/item/copper_dagger.png",
+      "sha256": "087946d7e7c02a861e54a3821a5eeb6d14a04b486d284a5e238cdf81777f9799"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/crystalball.png",
+      "target": "assets/source/manosaba/item/crystalball.png",
+      "sha256": "a9430f2e86e174a39054aba1acf7cc130fa256cf2cfd2b9b55356ba8d8bca6e3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/cue.png",
+      "target": "assets/source/manosaba/item/cue.png",
+      "sha256": "625855d024af53c9166e38c8ea6bc8f69ede071c3fd57705608c56fe957fc1c6"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/curtain.png",
+      "target": "assets/source/manosaba/item/curtain.png",
+      "sha256": "45f08a7826578eba0d43437ee28585f5164f9c338478e48e0c266025c1d8c0f0"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/dagger.png",
+      "target": "assets/source/manosaba/item/dagger.png",
+      "sha256": "762c8d7ba996b64239ca2fb3987b93f4015e1d2cbf2c4b5fed4f8a3f825d3965"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/dagger_in_gui.png",
+      "target": "assets/source/manosaba/item/dagger_in_gui.png",
+      "sha256": "8a84027bb1b236e3f52f583a097049947892f6a69e5891548abb3d8864476f37"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/dagger_old.png",
+      "target": "assets/source/manosaba/item/dagger_old.png",
+      "sha256": "85b01cc3bf9d532bc33184121ead3aaccfe81ca19c0020a0a3c5112b3c31ec1f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/dandelion_seed.png",
+      "target": "assets/source/manosaba/item/dandelion_seed.png",
+      "sha256": "8f3ef6d179b0555366523283dacde20a5777766ffcccc5079c589ccb5c5cd3f2"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/dandelion_water.png",
+      "target": "assets/source/manosaba/item/dandelion_water.png",
+      "sha256": "2261831c6352d2f33090fc36d7f338e8cc2611bad1c2ee132273a9d7ba1857c1"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/darkened_yourworth.png",
+      "target": "assets/source/manosaba/item/darkened_yourworth.png",
+      "sha256": "c1ab6de76a46d99c60ab24191841b9808800e3125e2a2465f1e2f12925dbcae4"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/dart_clue.png",
+      "target": "assets/source/manosaba/item/dart_clue.png",
+      "sha256": "668bedf077900ad63b099488b123a63909733edbc8d87b8e8f9dc4deb1a5f1a4"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/deathbook.png",
+      "target": "assets/source/manosaba/item/deathbook.png",
+      "sha256": "d2e971afcb1bac7035787c935ff5afef7c541821d7c57962edd905cbbd985184"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/defensive_matrix.png",
+      "target": "assets/source/manosaba/item/defensive_matrix.png",
+      "sha256": "80d352f693528ba20e70a6ec3849b73d602c24ec64ff38afb351c9334f114c03"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/detector.png",
+      "target": "assets/source/manosaba/item/detector.png",
+      "sha256": "fad2d3bd8754bb0cd9bb4d858e48d891386f303d10022a48da6d1b8b67842bbe"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/doll.png",
+      "target": "assets/source/manosaba/item/doll.png",
+      "sha256": "3ae81ce48ae31f9ce52e6854ee7e9233f655fda92f5f2adf20566ae536a85b61"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/drug_13.png",
+      "target": "assets/source/manosaba/item/drug_13.png",
+      "sha256": "680388a01f238d47327a873e6f1016bec24acf3a5603bdbfc71a9afa61a7852d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/echo.png",
+      "target": "assets/source/manosaba/item/echo.png",
+      "sha256": "550a5ee21fa0d052251e55c851c5859d83b6b73ee65542481dbd05f7f1b708cb"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/electric_baton.png",
+      "target": "assets/source/manosaba/item/electric_baton.png",
+      "sha256": "3b925a86eccecd5a1b3e05fed2cf539d0b12d9fde5dc5e6268c6c7824af4860a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/electric_guitar.png",
+      "target": "assets/source/manosaba/item/electric_guitar.png",
+      "sha256": "e01815cfb7dc9bca6bb113f44a55206143cc768c439fdc88c8dc1ee6ab8eaf27"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/empty_anchor.png",
+      "target": "assets/source/manosaba/item/empty_anchor.png",
+      "sha256": "325f4a9bcbc515a1e86032c0a8c0cf6c21e863ca44b6f6aea9bedf29b3f8283e"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/empty_matchbox.png",
+      "target": "assets/source/manosaba/item/empty_matchbox.png",
+      "sha256": "c84cc5927b7bcad9dd6ce7f29d24e4ac51aa359c888ec9277bfb29051fb6175d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/entropy.png",
+      "target": "assets/source/manosaba/item/entropy.png",
+      "sha256": "cdfb408ccdd72fd3212ee2dec4d9552baee7846bf7ce0aa45eef357e58881b71"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/eternal_night.png",
+      "target": "assets/source/manosaba/item/eternal_night.png",
+      "sha256": "06ac955f9c2ae27ebeb25a50e97a55017250cade80b8d87a35eb34c19512b4d6"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/execute_botton.png",
+      "target": "assets/source/manosaba/item/execute_botton.png",
+      "sha256": "e1103636da5dd322b9b0dfeb674e80950aea85a927381bc83c6c06a6bd2c9265"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/exile_button.png",
+      "target": "assets/source/manosaba/item/exile_button.png",
+      "sha256": "1470a70b23d9c3d21dd9150b7b2dbab5a8b8b69a6a7f490651fe8b1495280b43"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/fear_dart.png",
+      "target": "assets/source/manosaba/item/fear_dart.png",
+      "sha256": "7e3c7f7aa1be3f145a9fed747437ca14721878c778dd701d4791630e15f611c9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/fence.png",
+      "target": "assets/source/manosaba/item/fence.png",
+      "sha256": "b1a69250c76ccadea4585a6d58f6f40679594e01d1db7b20f425e9dbe3be2bc7"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/fireaxe.png",
+      "target": "assets/source/manosaba/item/fireaxe.png",
+      "sha256": "dd2f1a62e6266de4c36402151241db3e4bb334ef218cb256978657999d265abd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/flowerpot.png",
+      "target": "assets/source/manosaba/item/flowerpot.png",
+      "sha256": "c8eb439104fdd80cc7fb8bc0b62d75417846311fa47e5b5231c680fe9a4982f4"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/foil.png",
+      "target": "assets/source/manosaba/item/foil.png",
+      "sha256": "dc3bdeb52427904b4dbab4120839bfc61bb96db9cf77a0eab7c775c958bfda0f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/frameondesk.png",
+      "target": "assets/source/manosaba/item/frameondesk.png",
+      "sha256": "e2837867e02ae50ce10785285afe1b3b0f9df89763524bcf885453746bc9b63d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/full_charged_anchor.png",
+      "target": "assets/source/manosaba/item/full_charged_anchor.png",
+      "sha256": "5a24b2136e673f1660f831ba69de875cc8b10ad473f503d0a88bd7ce59dd267e"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/full_dandelion.png",
+      "target": "assets/source/manosaba/item/full_dandelion.png",
+      "sha256": "9fd7d0708d2e9367f4bcb2f703a2c1917653a0f44a74c444d1d844b35635d1c3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/grilled_pear.png",
+      "target": "assets/source/manosaba/item/grilled_pear.png",
+      "sha256": "71e024683b5504b70f7123e070635d1f6cb4ecd5dd6cbf8faf2eb3198b70eba3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/gun.png",
+      "target": "assets/source/manosaba/item/gun.png",
+      "sha256": "d90acc9098c848cf89e1722bea2b02f29979acefc927e7084018a7bc125e8afa"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/guun.png",
+      "target": "assets/source/manosaba/item/guun.png",
+      "sha256": "d90acc9098c848cf89e1722bea2b02f29979acefc927e7084018a7bc125e8afa"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/hairband.png",
+      "target": "assets/source/manosaba/item/hairband.png",
+      "sha256": "63da5de0eb3aa51e8c17dde808bbec4a9cc07a9c33a83528b6959c39952486b3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/handscaff.png",
+      "target": "assets/source/manosaba/item/handscaff.png",
+      "sha256": "c4ba6402db58403c44ffad61a8aa5ee735881037175aaa6dc75733e1f07c2bf3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/highlighter.png",
+      "target": "assets/source/manosaba/item/highlighter.png",
+      "sha256": "6978c0f5211dda1dc8571341001a940e5b06676a9d8294be74cb65a03556fa5c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/infinite_book.png",
+      "target": "assets/source/manosaba/item/infinite_book.png",
+      "sha256": "c6bf4b106eaa2b50063867af3727f7d4d5bf99966117196d0ca6a1d9bfd312da"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/interrupt.png",
+      "target": "assets/source/manosaba/item/interrupt.png",
+      "sha256": "0afa69c426b7b9add98700b88fbac43c37f528db80e4f740df7a68d27ea5536a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/iron.png",
+      "target": "assets/source/manosaba/item/iron.png",
+      "sha256": "2bc4b2dee2fd7ff8327773f565ece11db1389f561103ba971dcb31fedb12ef69"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/ironchair.png",
+      "target": "assets/source/manosaba/item/ironchair.png",
+      "sha256": "f9cded221bc68676de62d72402051af7f9aadb8b17ee6bade05a80ede5541c0b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/irondesk.png",
+      "target": "assets/source/manosaba/item/irondesk.png",
+      "sha256": "9014d5c9609703931ea4a201f5d523a3fd5748a233c3f3d9618d3a0bd26acc8b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/jailer_sickle.png",
+      "target": "assets/source/manosaba/item/jailer_sickle.png",
+      "sha256": "854e31e7a90bfd60f288f24f813ab5e936332b222069e022148d8c12902c6311"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/jim_hat.png",
+      "target": "assets/source/manosaba/item/jim_hat.png",
+      "sha256": "61c99ff7fb10a76239aecf931b310924441afc17671c0c3cf438e3917e7bd52d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/jingua_hat.png",
+      "target": "assets/source/manosaba/item/jingua_hat.png",
+      "sha256": "3e6545c72e94843d4f3c3a0aa446d375a708b034389b57cdad3e1d2d41519100"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/katana.png",
+      "target": "assets/source/manosaba/item/katana.png",
+      "sha256": "9bcaa6d7307593ce18e1838b5b2555f62144cb8345bc867249e280553966a15d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/killer_trakcer.png",
+      "target": "assets/source/manosaba/item/killer_trakcer.png",
+      "sha256": "47bad5e1b6fc4af2f4b9015428a7e8d1283edb69d19d5c49cf8f11449f57b8fd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/kitchen_knife.png",
+      "target": "assets/source/manosaba/item/kitchen_knife.png",
+      "sha256": "ca352b1685e7631fb6dc267e6f8915cbc427799a9e0172d693921a5c59819c79"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/landmine.png",
+      "target": "assets/source/manosaba/item/landmine.png",
+      "sha256": "f611e33f0a3b633735674c1db8e1db03e11590d745d8710bf01cf6d3a3533228"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/laser_1.png",
+      "target": "assets/source/manosaba/item/laser_1.png",
+      "sha256": "8e13c87273683b2e05a57878bce08dc01f75693d029a9f5d7ad6eec8e8973532"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/laser_2.png",
+      "target": "assets/source/manosaba/item/laser_2.png",
+      "sha256": "8bed246b7439f98df14e1515b369ca24ce6f7bc08e55ef8f1d499e00900372d8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/lightdust.png",
+      "target": "assets/source/manosaba/item/lightdust.png",
+      "sha256": "f39e5abaf5bd3b968b9b9c36a94d3ce33f5f3e5da2b10a5ff60deb593b120b03"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/locator.png",
+      "target": "assets/source/manosaba/item/locator.png",
+      "sha256": "02a2ffd501a053bf4381a000dc75e3c1bea05054fda36b2ecd3ba523c21f3f0c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/luminol.png",
+      "target": "assets/source/manosaba/item/luminol.png",
+      "sha256": "6b8571d3fcef59bbd0f075f67757a42bc8d31404a99c678901a5f19a6c0236ce"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/lyingbook.png",
+      "target": "assets/source/manosaba/item/lyingbook.png",
+      "sha256": "dd6a0778a32af4c0bf4b9feb27f3f0a196c144497772c6a60a5f19078b3840ee"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/lyza.png",
+      "target": "assets/source/manosaba/item/lyza.png",
+      "sha256": "a87ad1ff7f7354a5b10479c80ce2aede4fa526cedd1b3d1b96adb08251f3b100"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/lyza_hat.png",
+      "target": "assets/source/manosaba/item/lyza_hat.png",
+      "sha256": "a87ad1ff7f7354a5b10479c80ce2aede4fa526cedd1b3d1b96adb08251f3b100"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/magnify.png",
+      "target": "assets/source/manosaba/item/magnify.png",
+      "sha256": "ebd998ec1e405a51b04155be5471bddf38b510bf516d406ed51a0ff41aaba2bb"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/magnify_in_hand.png",
+      "target": "assets/source/manosaba/item/magnify_in_hand.png",
+      "sha256": "581825a8ba694d7c400b54e9ab4ba7781a6e4ce819aed9d4b0324510c4b132f8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/master.png",
+      "target": "assets/source/manosaba/item/master.png",
+      "sha256": "9306f73e2b3a0573f119c0220f305e21dc74c7b8ff4aca1f8e7fee78d3501f07"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/match.png",
+      "target": "assets/source/manosaba/item/match.png",
+      "sha256": "22d03280efe75b7a6d7b7a7d816799315b296f0276fba621f84a8ca4b9d39749"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/matchbox.png",
+      "target": "assets/source/manosaba/item/matchbox.png",
+      "sha256": "d83c4c8f7642fe259a51f05df91bbb723f6d85134eb26ec7332533b381793e96"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/medical_kit.png",
+      "target": "assets/source/manosaba/item/medical_kit.png",
+      "sha256": "82c6a06455aa7710e1710d50b3270087128693a4e544a0ca83bae9b2bc8d8b11"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/mem.png",
+      "target": "assets/source/manosaba/item/mem.png",
+      "sha256": "635d0e98d2733ff4debfab47df6bd327adae643e577c22b311f4a35263389784"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/mirror.png",
+      "target": "assets/source/manosaba/item/mirror.png",
+      "sha256": "98b79be441b5575bd477399162c3a73b62d33e01ab93e66d0a35e4daf026aa30"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/missingno.png",
+      "target": "assets/source/manosaba/item/missingno.png",
+      "sha256": "9306f73e2b3a0573f119c0220f305e21dc74c7b8ff4aca1f8e7fee78d3501f07"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/mu_cat_ear.png",
+      "target": "assets/source/manosaba/item/mu_cat_ear.png",
+      "sha256": "daf29afbff319c299fb92fcc1ac04258edc01cd898dd3b2dc503a544437b1874"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/narcolepsy.png",
+      "target": "assets/source/manosaba/item/narcolepsy.png",
+      "sha256": "76111c02f1fdcc93cbd47bf45a8ec671e368530f690e08c28cf5209f25c94489"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/needle.png",
+      "target": "assets/source/manosaba/item/needle.png",
+      "sha256": "90a17bbe1e195ce64b47d8a81b958db7b560b96e429dcc2ebabe8f11c64d6ff2"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/nightmare_pendant.png",
+      "target": "assets/source/manosaba/item/nightmare_pendant.png",
+      "sha256": "35262dd97e5e3c8e9e94828abe90fe5e52780f8b87dac75e27e6ae918fc8955b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/nine.png",
+      "target": "assets/source/manosaba/item/nine.png",
+      "sha256": "f10526ddbecf8cd1827bdc511eb916915a08bbc6e3cf0dbf5fd58876d4921e7a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/noteblock.png",
+      "target": "assets/source/manosaba/item/noteblock.png",
+      "sha256": "b76e75567e9ed9a6a9bfe9950ee21932528c894dd27286be507b6ff7a8f9810d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/openedbook.png",
+      "target": "assets/source/manosaba/item/openedbook.png",
+      "sha256": "da148f91e020d5358ea5f11e82f4f97d94854dbb800500e716b0f78670054963"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/painter.png",
+      "target": "assets/source/manosaba/item/painter.png",
+      "sha256": "85816d33d25d42c72aa8d9085cbe6a28263636f646811ac0f0824ecfba95b66f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/paintwheel.png",
+      "target": "assets/source/manosaba/item/paintwheel.png",
+      "sha256": "b5e7a32cf7657ea5353ac9dc4bd4237e16613ebde5274a9faf6aa5eaaab71061"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/parchment.png",
+      "target": "assets/source/manosaba/item/parchment.png",
+      "sha256": "7a6f2cf0aeef61cc28748c08d2462995eb2eea67abb4afc9ca887099c01f7fe5"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/pear.png",
+      "target": "assets/source/manosaba/item/pear.png",
+      "sha256": "f35cfcdb9de397f8e33213879984f4abe618f6c23a6dabb1fcb2e28fcd1d589f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/pendant.png",
+      "target": "assets/source/manosaba/item/pendant.png",
+      "sha256": "0675a76186be0f9b0de25a7338f1a1a6dc3eee994ac1c92da689062e28a7af43"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/pharmacy.png",
+      "target": "assets/source/manosaba/item/pharmacy.png",
+      "sha256": "fdc1426d86ebb71916ec0c542b4504785706b9f3f736659a5d330b13955e96e9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/phoenix_hat.png",
+      "target": "assets/source/manosaba/item/phoenix_hat.png",
+      "sha256": "6f6ddb65855081edbc9cab529d408abb34c6f67bfd92f67ed5f20131ae83bf79"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/picasso.png",
+      "target": "assets/source/manosaba/item/picasso.png",
+      "sha256": "842ad4a93ba4ff846566f1b12a3bc1c721ee81d659b74e6757ae99beb0b633a8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/pike.png",
+      "target": "assets/source/manosaba/item/pike.png",
+      "sha256": "f1190c863cbb4293f593477e5ddc09fdd68b196315d5ed344ae5aae0768cc109"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/prison_warden.png",
+      "target": "assets/source/manosaba/item/prison_warden.png",
+      "sha256": "549695b1193630420d173647428d9130cb337ac029d6223f8d85cc65989f7d72"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/profile.png",
+      "target": "assets/source/manosaba/item/profile.png",
+      "sha256": "c4eb3851a90f07817076c171c6ede1d345eaaca2a52a94e959d4ef33b5b7be42"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/pupgpu33hat.png",
+      "target": "assets/source/manosaba/item/pupgpu33hat.png",
+      "sha256": "b94321173e0c70dca779e07adb2d725ef2704a72262e66c2ccdd3cfb089418b3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/rapier.png",
+      "target": "assets/source/manosaba/item/rapier.png",
+      "sha256": "59e0c58205374b947a53fe13e436b9dc4b61fd325aac55eeb19790d76fcdccf8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/red_phosphorus.png",
+      "target": "assets/source/manosaba/item/red_phosphorus.png",
+      "sha256": "eb42de0c7bc3fb79281de63a318ac2ddd5855d6400f82ca1ebe74b5fa55a4d47"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/repair_agent.png",
+      "target": "assets/source/manosaba/item/repair_agent.png",
+      "sha256": "b7bb6b92f19ac4495cdcc928d9d451a472acb29b98c85928e471807464ffaf35"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/revolver.png",
+      "target": "assets/source/manosaba/item/revolver.png",
+      "sha256": "450d1bfe3ad8eabe148d32ee72e2197a45d16b025e5e28eb673e51ba02c5e1eb"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/revolver_in_hand.png",
+      "target": "assets/source/manosaba/item/revolver_in_hand.png",
+      "sha256": "dddbfde45499498ec0b6dec87e94989c9c93c2dfb129910eab527f58e04dd159"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/revolver_right.png",
+      "target": "assets/source/manosaba/item/revolver_right.png",
+      "sha256": "7cef6e43e580f2f41d5a9a0995745397c3607d96ab9e743ca2b78b24408aa9fd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/ring.png",
+      "target": "assets/source/manosaba/item/ring.png",
+      "sha256": "34faf90510d03adf379851ceffd72fb8ecb8003f372da60d138193d0ff3a2071"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/rope.png",
+      "target": "assets/source/manosaba/item/rope.png",
+      "sha256": "620b53fb414c7031696a9610a521a6c2d1bf14bb8e2ef151be65ef482b231b67"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/rotating_scope.png",
+      "target": "assets/source/manosaba/item/rotating_scope.png",
+      "sha256": "1399be5039e3ffefd16d89cc9eb713e5daad820297c7e93479f255657d9ead27"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/rotten_apple.png",
+      "target": "assets/source/manosaba/item/rotten_apple.png",
+      "sha256": "b5257bb494d52f100affe262d9441583eac2f164f12f572ef514b995bda29d27"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/scabbard.png",
+      "target": "assets/source/manosaba/item/scabbard.png",
+      "sha256": "8facfdf25e8a0a7d72c7abf9d97dadea9c6ab62abba6c1ee38981d11aab4a581"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/scarecrow.png",
+      "target": "assets/source/manosaba/item/scarecrow.png",
+      "sha256": "ab5cba6a8311a9d5a4b6fbdc740ff15624f8a0b5fae138e59a48d6048c919021"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/schoolchair.png",
+      "target": "assets/source/manosaba/item/schoolchair.png",
+      "sha256": "efae903d698d96c8dd94436e4825dda4d95495c0b31e5bc5f2c0133e6f5105de"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/schooldesk.png",
+      "target": "assets/source/manosaba/item/schooldesk.png",
+      "sha256": "5df3da1898c37bea6f4ac76d47c531d1ca4722098c5e2881022117eca439128b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/screwdriver.png",
+      "target": "assets/source/manosaba/item/screwdriver.png",
+      "sha256": "8e8097f3e10adbc7c15b88442f83171c07598515b849d2b7cf9538bbe15d5819"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sculpture.png",
+      "target": "assets/source/manosaba/item/sculpture.png",
+      "sha256": "cf378380a3febf16f0e2bc616c820949588512202960feca72aadbdcf2d32dc3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sculpture_2.png",
+      "target": "assets/source/manosaba/item/sculpture_2.png",
+      "sha256": "d57c848edfdb35a346b4f4ab60613c48771824f5ff9e5e0929dd02fa48af9660"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sculpture_3.png",
+      "target": "assets/source/manosaba/item/sculpture_3.png",
+      "sha256": "3f34ba193df40a74f390fe932b5efcea021b04e1927e2385841e18643244d309"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/search_blue.png",
+      "target": "assets/source/manosaba/item/search_blue.png",
+      "sha256": "2e4f408700913b6f8aaf5ad99268e0e5b79929d8e08dea29209f6cfcf3533783"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/search_gold.png",
+      "target": "assets/source/manosaba/item/search_gold.png",
+      "sha256": "8dcacbb534978849956e670519ba433775bc4ba3dbf4a5d863624d6a697ca9cd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/search_green.png",
+      "target": "assets/source/manosaba/item/search_green.png",
+      "sha256": "07ab94db4a1fc78740d9eaa2cfe8d054c2e125ca4615c25255a8612bb5bf519b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/search_purple.png",
+      "target": "assets/source/manosaba/item/search_purple.png",
+      "sha256": "681219585261b606a42370e9642effb27a5c2b62e449f2a2df693ece80e45cf9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/search_red.png",
+      "target": "assets/source/manosaba/item/search_red.png",
+      "sha256": "3293b16f9e38b8e2ec34cb834e50cd4c2f36da6de1c03c2f7c5207145f928fc6"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/search_white.png",
+      "target": "assets/source/manosaba/item/search_white.png",
+      "sha256": "6d38cde0ea2687110fddf4ccfc5ba7d53aff44cfbb178f6a3070c17fbb1d0ce4"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sewing_kit.png",
+      "target": "assets/source/manosaba/item/sewing_kit.png",
+      "sha256": "dfce5162e662c9b06b3d8491837d220c7a230e654de5fe4f0aba2123cbb9c0d1"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/shadow_daggers.png",
+      "target": "assets/source/manosaba/item/shadow_daggers.png",
+      "sha256": "f836da8639fe5604281b76f9c046a3f571d5a543afc16c9ab92d26019f4e0c4d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/shield.png",
+      "target": "assets/source/manosaba/item/shield.png",
+      "sha256": "120b9ed58f766396babfdda226d20f82c6bb8d0c73030fcc63a7f9c72a940326"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/shovel.png",
+      "target": "assets/source/manosaba/item/shovel.png",
+      "sha256": "051636fb35fa815569c9f39d85ccbe7be885e70c4784d87f01732e249fd339fd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/simple_explosive.png",
+      "target": "assets/source/manosaba/item/simple_explosive.png",
+      "sha256": "b8132368e153099bf06823497358f6876dcc37b1ab71e6b76806e32540a4139a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/simple_molotov.png",
+      "target": "assets/source/manosaba/item/simple_molotov.png",
+      "sha256": "9a64d947bdf8f272d043d75dffd196c758260e2f7f711bb8ffaa749db4da8f8d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/simple_short_spear.png",
+      "target": "assets/source/manosaba/item/simple_short_spear.png",
+      "sha256": "46457ab615aa41cd82bcc1de0af64516cc9acc1ed8c14c9897f6f25dd42e1c10"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/soap.png",
+      "target": "assets/source/manosaba/item/soap.png",
+      "sha256": "74d5c13a3f0399aaada6145d4934fe4c4579730841f255d9fcc9bb9b14281fa3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sparklingwater.png",
+      "target": "assets/source/manosaba/item/sparklingwater.png",
+      "sha256": "f7874d30174cd29823fbb8b99e8c2e60a3a4995d27676401710236d809a2ee6f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sparse_dandelion.png",
+      "target": "assets/source/manosaba/item/sparse_dandelion.png",
+      "sha256": "b01c1dcd869f237a8b8d4f268fcfa08006e771574aaae3e1b4bab5f9b950c263"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/speak.png",
+      "target": "assets/source/manosaba/item/speak.png",
+      "sha256": "26e1ed8d143071112b7c9ecc0e63563db53af1c0495fec66b85ebce3faf0c57d"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/spear.png",
+      "target": "assets/source/manosaba/item/spear.png",
+      "sha256": "7b459028edd3e42c71b840210807b3a77c8b8805d4ec472f54cfe5609a407ced"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/speech.png",
+      "target": "assets/source/manosaba/item/speech.png",
+      "sha256": "d335d70c1b4b7026fe33eeb52374ab54b5f69aa0fe84038d13425b0673f696fd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/speed.png",
+      "target": "assets/source/manosaba/item/speed.png",
+      "sha256": "570e6d71b41b57f39fb541b33f1ad9ee90346f6a574997f9ca386fc98c21cafe"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/sprakehat.png",
+      "target": "assets/source/manosaba/item/sprakehat.png",
+      "sha256": "6e8e712f89aa4eae0ac09582313c90e94a3bf0dc12eed4b0c4edaf26f04dd91b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/staff.png",
+      "target": "assets/source/manosaba/item/staff.png",
+      "sha256": "e914ed4a9111bbef9c1192ceec945e4772af04b986426dc572d6fd36922bd6db"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/steel.png",
+      "target": "assets/source/manosaba/item/steel.png",
+      "sha256": "28cca32a0dfc868f5335b69e972ecbbdd65e4e7fec02110007efec7d1edeb464"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/steel_clue.png",
+      "target": "assets/source/manosaba/item/steel_clue.png",
+      "sha256": "d717502fc8f9da622df52a343239812b72de4e8e17f11deccd2c07acd0e3e734"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/steel_clue1.png",
+      "target": "assets/source/manosaba/item/steel_clue1.png",
+      "sha256": "cabb12237c282bab333d138aa860336b4c5f4ffafd04c93345ce90dd3048da0c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe.png",
+      "target": "assets/source/manosaba/item/syringe.png",
+      "sha256": "101e1baf4e2887a43536f3798fdd5112248eb5a831ee6516545997f910e7ebfe"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_blue.png",
+      "target": "assets/source/manosaba/item/syringe_blue.png",
+      "sha256": "bef65a3956d01867175fdd7cab6a3f101dbc0ff9258cdf0f284ba641c1d6ffe9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_green.png",
+      "target": "assets/source/manosaba/item/syringe_green.png",
+      "sha256": "1f1c9684ba878d755668f7d578d92b92e223011ca63cd207e9295f1773ba40d1"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_majo.png",
+      "target": "assets/source/manosaba/item/syringe_majo.png",
+      "sha256": "de25b926ea17da3bba87c6b95c73bebd64c7fc4557e32783cff456c105094d2b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_orange.png",
+      "target": "assets/source/manosaba/item/syringe_orange.png",
+      "sha256": "7be919e8474abee164036761304a6b46014097a1ff089530099f13160b845edc"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_purple.png",
+      "target": "assets/source/manosaba/item/syringe_purple.png",
+      "sha256": "11fdcd7b471ce93f20e0bc81d2149080ae15b88d2ffe9eab6a23442ece2134d6"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_red.png",
+      "target": "assets/source/manosaba/item/syringe_red.png",
+      "sha256": "535db07feeec53383096e30cf10f16ca3c8cef3457f2be8a0d15e2e39c102e25"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/syringe_yellow.png",
+      "target": "assets/source/manosaba/item/syringe_yellow.png",
+      "sha256": "c13dd230366a607d1a6e0f130f8a8f31124a5e9bf3ce0bd576c0a325e46da362"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot.png",
+      "target": "assets/source/manosaba/item/tarot.png",
+      "sha256": "a2d4f7f29963124b02afbe13e3205f229bd4ea3adc0b593275153f8837071ed1"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_2.png",
+      "target": "assets/source/manosaba/item/tarot_2.png",
+      "sha256": "1504b9b648e1728b1257563097c1f0522f78b59055809dcbdd37fa37718c16bb"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_3.png",
+      "target": "assets/source/manosaba/item/tarot_3.png",
+      "sha256": "a83d537474a3a1ac3d832046cf1bfa394b773bb72820d5a908438650474b6e53"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_4.png",
+      "target": "assets/source/manosaba/item/tarot_4.png",
+      "sha256": "fcc46c9bed15c1f386b603df826368ae8b8be4a4fb5607fe5623efabb217e408"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_5.png",
+      "target": "assets/source/manosaba/item/tarot_5.png",
+      "sha256": "f46ff6917fb0d1b36d4091ab727406ca05a6032050aeacc3cdc919098c7e43fa"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_6.png",
+      "target": "assets/source/manosaba/item/tarot_6.png",
+      "sha256": "6e18126994a119380d49a8d8f7942b3448e44991b66bfa4439298487722b6268"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_7.png",
+      "target": "assets/source/manosaba/item/tarot_7.png",
+      "sha256": "e9063e9f3db566e99234874d95c1c70c2e741fb830408bc1824c5d41cbad29ea"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tarot_8.png",
+      "target": "assets/source/manosaba/item/tarot_8.png",
+      "sha256": "5f826b0e54abb947069e6908d39045130ea4efad2cd939694e37199f81a8f108"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/television.png",
+      "target": "assets/source/manosaba/item/television.png",
+      "sha256": "b55d44f89ae36940f21944fab39c5920ba5e395ca6a60f65576a806ad380e6fe"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/testify.png",
+      "target": "assets/source/manosaba/item/testify.png",
+      "sha256": "22e2bd1944bbea938ddf6f07ebae950a60b765bb40c4dd3d7b610ca9d7b1b26f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/texture.png",
+      "target": "assets/source/manosaba/item/texture.png",
+      "sha256": "d90acc9098c848cf89e1722bea2b02f29979acefc927e7084018a7bc125e8afa"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/three.png",
+      "target": "assets/source/manosaba/item/three.png",
+      "sha256": "8cccdeb23a5f65c51bd50523a8358d14ce0124c33fc8adba89301eb5914a8120"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tiroawhat.png",
+      "target": "assets/source/manosaba/item/tiroawhat.png",
+      "sha256": "1b1d302a08b928a34592fcdbdfc0578aeeada19e6866862170e14406ee22779a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/tourniquet.png",
+      "target": "assets/source/manosaba/item/tourniquet.png",
+      "sha256": "efed82ea3782a9a26326ba491008c5edee2d16a9b924e12918da7b096a3dd80a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/twitch.png",
+      "target": "assets/source/manosaba/item/twitch.png",
+      "sha256": "d7ec14642f160b9e79ed3813b1298312a292d2539691abfa3b3eeb99bceda080"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/umbrella.png",
+      "target": "assets/source/manosaba/item/umbrella.png",
+      "sha256": "59a3846d506eaafc061f973516ffe0dc6da10d4ecb4023328a203d8aea8f7255"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/unknown.png",
+      "target": "assets/source/manosaba/item/unknown.png",
+      "sha256": "4b73a332abf76eb2aa12901406480114590be0045ceea2751d81ed897b72a72b"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/unknown_in_gui.png",
+      "target": "assets/source/manosaba/item/unknown_in_gui.png",
+      "sha256": "76ab722238647328a4425c9949c427da21a1c102c4fba257c9044d4bbace56a8"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/unobtrusive.png",
+      "target": "assets/source/manosaba/item/unobtrusive.png",
+      "sha256": "5310be541189f356ea26d5b0abd8de23ebbeddc93c27269b8b2f9f0373fb06a0"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/used_highlighter.png",
+      "target": "assets/source/manosaba/item/used_highlighter.png",
+      "sha256": "3ff2829bceaa3fd433c5575ec69509750f0acd662c51b4fc70a052a971f01fcf"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/vampire.png",
+      "target": "assets/source/manosaba/item/vampire.png",
+      "sha256": "820fd5bcb6e5ce47203b0c5a6afda3fdc692d04f3f0c93383158a47d86d9019f"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/vampire_tooth.png",
+      "target": "assets/source/manosaba/item/vampire_tooth.png",
+      "sha256": "bc30a7e482d4e62869050833e69ada69dbe10f8576d280639b5a157caea121c3"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/wooden_prison_warden.png",
+      "target": "assets/source/manosaba/item/wooden_prison_warden.png",
+      "sha256": "3d3b3bb7128b3fdeeb2151495333602e3f37411e451137b826b034d1080ffddd"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/wooden_sword.png",
+      "target": "assets/source/manosaba/item/wooden_sword.png",
+      "sha256": "d9f7158831316cbd6e61792f331f1452ad74dc0ec8d59ea8dc91736d7426cb37"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/woodenhorse.png",
+      "target": "assets/source/manosaba/item/woodenhorse.png",
+      "sha256": "5e899c70d3d0652c7ae046334f1f2460fac0efab60cdd6203dda7ddb81b36fe9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/yamato.png",
+      "target": "assets/source/manosaba/item/yamato.png",
+      "sha256": "1c0ace43623d7b32eea3bd1f4377080a32de8cc992f297286a591e0a0043e8f7"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/yamato2.png",
+      "target": "assets/source/manosaba/item/yamato2.png",
+      "sha256": "e9a5a0e249e10e108590f84bbe1d3f296fd07244223d66943e904daf49bdfe7c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/manosaba/textures/item/yourworth.png",
+      "target": "assets/source/manosaba/item/yourworth.png",
+      "sha256": "eac720b6183b0f7fe74ac471ec60363cec04b9c67e949fe58c3c30eb2b621542"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/minigame/textures/item/accumulate.png",
+      "target": "assets/source/minigame/item/accumulate.png",
+      "sha256": "1a55690a2a9d11a0a6637176ec0fb7e5881441f2a88006136e075a501f1153bf"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/minigame/textures/item/attack.png",
+      "target": "assets/source/minigame/item/attack.png",
+      "sha256": "a3a2a4354ca16ce7c49984b5e1dec4a9c5101bce1695b848d86920fa67a2a369"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/minigame/textures/item/defend.png",
+      "target": "assets/source/minigame/item/defend.png",
+      "sha256": "bdcf9c7259f9f1508c715f9000ee34a20aa79fbbfe7f1798e282af61346a2c8c"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/anan.png",
+      "target": "assets/source/plugin/item/anan.png",
+      "sha256": "b86d3da091ade357835b104906baad09a8bc089a4a35766eaf2b3d22d68200db"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/arisa.png",
+      "target": "assets/source/plugin/item/arisa.png",
+      "sha256": "ae1c12a3093577fd4230299266caeb0d5e51fd5ff117e61bbd1b1790cf24eead"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/ema.png",
+      "target": "assets/source/plugin/item/ema.png",
+      "sha256": "d3aa121137c4f1fda72c7502971d6857e7cfeb9b523e6adb7cd384f6ab8d86db"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/hanna.png",
+      "target": "assets/source/plugin/item/hanna.png",
+      "sha256": "56f1ee844322f9471bbee3cd7b84522c96c1c4fd8f22084ee854e67814a4ad05"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/hiro.png",
+      "target": "assets/source/plugin/item/hiro.png",
+      "sha256": "aa6979b3ec66ffb62721188264b761e7c5d94a54c001b6b7fe30b67362240611"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/koko.png",
+      "target": "assets/source/plugin/item/koko.png",
+      "sha256": "072da84c4c28281b7dd4bc4f4a8d0755dc5a747e96ff0a96e41795cb20900752"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/kurobe.png",
+      "target": "assets/source/plugin/item/kurobe.png",
+      "sha256": "c10394a6b172f51f5d4a5105ec9c6c6ce8dfe27d3dd42027314836698439ae97"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/maago.png",
+      "target": "assets/source/plugin/item/maago.png",
+      "sha256": "3385be21d74c1b90e157d79c1562c054489747f0d79bc46c8714c184c8323e66"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/meruru.png",
+      "target": "assets/source/plugin/item/meruru.png",
+      "sha256": "a545c01dcf98b112f01df19937d6d92b6795310fd48f35bb5526c51ebd6f4de5"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/miria.png",
+      "target": "assets/source/plugin/item/miria.png",
+      "sha256": "f4c312e90e0551362cc544797f1673237236ac5e4d3efb9dd6f4f2e838c609b6"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/nanoka.png",
+      "target": "assets/source/plugin/item/nanoka.png",
+      "sha256": "cd54a2582052d7080182e9c6f65423fb845328bc0386fda3e513f7eb5d6e3800"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/noa.png",
+      "target": "assets/source/plugin/item/noa.png",
+      "sha256": "babe4d4a181d953d7fe683a03ebfcf9dadfce4f661a4e2ba55d7dc23bec95009"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/reia.png",
+      "target": "assets/source/plugin/item/reia.png",
+      "sha256": "ed5ab36e843e0ead415f0c63b36221128b9a85835295dcfc48d386755afc5d4e"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/sherii.png",
+      "target": "assets/source/plugin/item/sherii.png",
+      "sha256": "f4db8bcbc84017a63b9877fd5e6957637aa583d5acbbab3fe024d996ef4f6de9"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/warden.png",
+      "target": "assets/source/plugin/item/warden.png",
+      "sha256": "18b8d3e94033d3b3cedaa4c83e6d538ce42481f42a484b6cd5c79547a9330ec5"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/plugin/textures/item/yuki.png",
+      "target": "assets/source/plugin/item/yuki.png",
+      "sha256": "535474164afd9e79ff0ff0195b473b7291764d9d2d11aee2df989cadc97bd065"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/slot/textures/item/corpse_search.png",
+      "target": "assets/source/slot/item/corpse_search.png",
+      "sha256": "e639a6094ecef353dde04a49524d28e2a0d3c31f1d205f160f6f098dcc8e433a"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/slot/textures/item/voice_1.png",
+      "target": "assets/source/slot/item/voice_1.png",
+      "sha256": "b1ca655d055ade377668cdc4bf1ca83bc820dc4ae7304b91fa6589744da26838"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/slot/textures/item/voice_2.png",
+      "target": "assets/source/slot/item/voice_2.png",
+      "sha256": "99b0cf55caa90744afc5ab97c7cef8266a8c0dba357c031d0ba72c4975182996"
+    },
+    {
+      "kind": "source-item-texture",
+      "source": "assets/slot/textures/item/voice_3.png",
+      "target": "assets/source/slot/item/voice_3.png",
+      "sha256": "74c00f9976a0f2f61a218e4a9c2fffb359364907da22140ca6f240c45d355e2f"
+    }
+  ]
+}

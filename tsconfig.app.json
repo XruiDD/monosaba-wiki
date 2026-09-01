@@ -14,8 +14,8 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
-    "allowJs": true,
-    "checkJs": false,
+    "allowJs": false,
+    "strict": true,
 
     /* Linting */
     "noUnusedLocals": true,

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 3,
+  "pipeline": [
+    "raw",
+    "domain",
+    "overrides"
+  ],
+  "counts": {
+    "items": 165,
+    "recipes": 19,
+    "magics": 24,
+    "tasks": 25,
+    "talents": 21,
+    "damage": 12,
+    "effects": 24,
+    "tutorials": 1
+  },
+  "sources": {
+    "datapack": {
+      "path": "../datapacks/manosaba",
+      "packMetaSha256": "7198153d1a3b075caa18ae257ba373420c118c8ffbfdd8585121ba3b18b22100"
+    },
+    "resource": {
+      "path": "../resource",
+      "packMetaSha256": "969574c330552e3e366570924bda519733676c2224951939cc565cc3d71797bd"
+    },
+    "overrides": {
+      "path": "wiki/overrides.json",
+      "sha256": "0d612afc3794c7bbdd6c546dbe8ef6a51477207718b9ec5f2c00797e57ee2278"
+    }
+  },
+  "datasets": {
+    "items": "data/domain/items.json",
+    "recipes": "data/domain/recipes.json",
+    "magics": "data/domain/magics.json",
+    "tasks": "data/domain/tasks.json",
+    "talents": "data/domain/talents.json",
+    "damage": "data/domain/damage.json",
+    "effects": "data/domain/effects.json",
+    "tutorials": "data/domain/tutorials.json"
+  },
+  "rawDatasets": {
+    "items": "data/raw/items.json",
+    "recipes": "data/raw/recipes.json",
+    "magics": "data/raw/magics.json",
+    "tasks": "data/raw/tasks.json",
+    "talents": "data/raw/talents.json",
+    "damage": "data/raw/damage.json",
+    "effects": "data/raw/effects.json",
+    "tutorials": "data/raw/tutorials.json"
+  },
+  "diagnostics": {
+    "unresolvedAssets": [
+      "item-icon:雨伞 (manosaba:decorated_umbrella)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:强效止痛药 (manosaba:painkiller)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:东方宗师(关) (manosaba:eastern_master_off)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:东方宗师(开) (manosaba:eastern_master_on)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:假人 (manosaba:standing)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:动能辅助装置 (manosaba:dynamic_auxiliary_device)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:展开的绘卷 (manosaba:activated_scroll)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:海螺 (manosaba:conch)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:绘卷 (manosaba:scroll)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:吸盘 (manosaba:sucker)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:典狱长之眼 (manosaba:eye_of_prison_warden)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:冈格尼尔(家用版) (manosaba:gungnir)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:审判之铳 (manosaba:stun_gun)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:快速谐振步枪 (manosaba:resonance_laser)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:毁灭性AI (manosaba:destructive_ai)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "item-icon:磁吸感应炸弹 (minecraft:magent_bomb)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:🪞折射🪞 (magics:magic_5a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:🪞衍射🪞 (magics:magic_5b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:👂聆听👂 (magics:magic_6a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:⚪凝视⚪ (magics:magic_6b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:▣微步▣ (magics:magic_8a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:▣出窍▣ (magics:magic_8b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉转◉ (magics:magic_9a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉换◉ (magics:magic_9b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉照◉ (magics:magic_10a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉花◉ (magics:magic_10b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉尘◉ (magics:magic_11a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉灵尘◉ (magics:magic_11b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉魔力法阵◉ (magics:magic_12a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:◉法阵反噬◉ (magics:magic_12b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:⚡怪力⚡ (magics:magic_13a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:⚡绝对怪力⚡ (magics:magic_13b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:G 重力操控 G (magics:magic_14a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:G 解放技 G (magics:magic_14b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:💀诅咒印记💀 (magics:magic_15a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:💀诅咒引爆💀 (magics:magic_15b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:☁浮空形态☁ (magics:magic_16a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:☁浮空诅咒☁ (magics:magic_16b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:❣生命汲取❣ (magics:magic_17a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:⌘祭品⌘ (magics:magic_17b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:👁洞察之眼👁 (magics:magic_21a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:👁诅咒之眼👁 (magics:magic_21b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:📏触及📏 (magics:magic_23a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:🔮念动力🔮 (magics:magic_23b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:🌀传送门🌀 (magics:magic_24a)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图",
+      "magic-icon:🎯指向传送🎯 (magics:magic_24b)：Minecraft 1.21.10 资源栈中缺少可用物品定义或贴图，且没有可无歧义匹配的兼容资源，已使用资源包“材质没画”占位图"
+    ]
+  }
+}

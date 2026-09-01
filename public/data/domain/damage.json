@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 3,
+  "source": "domain",
+  "recordCount": 12,
+  "records": [
+    {
+      "id": "bleed_damage",
+      "name": "出血",
+      "label": "BLEED",
+      "color": "#c93c38",
+      "messages": [
+        "异常状态:",
+        "『出血』",
+        "已停止！",
+        "『休克 I 级』",
+        "你感到轻微头晕，四肢活动不利",
+        "『休克 II 级』",
+        "你感到头晕，四肢麻木",
+        "『休克 III 级』",
+        "你感到意识昏沉，四肢麻木，视线模糊",
+        "『浅表出血 I』",
+        "浅表性出血，缓慢损失生命值，容易自愈",
+        "『浅表出血 II』",
+        "浅表性出血，缓慢损失生命值，较容易自愈",
+        "『静脉出血』",
+        "中小静脉破损所致出血，较快损失生命值，难以自愈",
+        "『大出血』",
+        "大血管破裂所致的出血，缓慢损失生命值，几乎不可能自愈",
+        "『休克』",
+        "已结束！"
+      ],
+      "scoreboardObjectives": [
+        "Gaming",
+        "bleedMotionX",
+        "bleedMotionZ",
+        "bleed_damage",
+        "bleed_degree",
+        "bleed_stat",
+        "hemorrhagic_degree",
+        "playerdmg_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "damage",
+        "effect",
+        "execute",
+        "function",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/bleed_damage/bleed_clear.mcfunction",
+        "data/damage/function/damages/bleed_damage/bleed_main.mcfunction",
+        "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction",
+        "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction",
+        "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction",
+        "data/damage/function/damages/bleed_damage/bleed_test.mcfunction",
+        "data/damage/function/damages/bleed_damage/bleeding.mcfunction",
+        "data/damage/function/damages/bleed_damage/hemorrhagic_cure.mcfunction",
+        "data/damage/function/damages/bleed_damage/hemorrhagic_degree.mcfunction",
+        "data/damage/function/damages/bleed_damage/hemorrhagic_progress.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "blunt_damage",
+      "name": "钝伤",
+      "label": "BLUNT",
+      "color": "#a0845a",
+      "messages": [
+        "异常状态:",
+        "『钝伤 I』",
+        "头部受到钝性冲击，轻微眩晕",
+        "『钝伤 II』",
+        "头部受到钝性冲击，眩晕，意识恍惚",
+        "『钝伤 III』",
+        "头部受到钝性冲击，短暂失去意识"
+      ],
+      "scoreboardObjectives": [
+        "blunt_degree",
+        "blunt_minus",
+        "blunt_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "attribute",
+        "data",
+        "effect",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/blunt_damage/blunt_assign.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_clear.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_cycle.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_seeground.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_severe_clear.mcfunction",
+        "data/damage/function/damages/blunt_damage/blunt_test.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "burn_damage",
+      "name": "灼伤",
+      "label": "BURN",
+      "color": "#e8894b",
+      "messages": [
+        "异常状态:",
+        "『灼伤』",
+        "已痊愈！",
+        "『灼伤 I 级』",
+        "在该异常状态被治愈前受伤将会受到额外的",
+        "1点",
+        "追加伤害",
+        "『灼伤 II 级』",
+        "1.5点",
+        "『灼伤 III 级』",
+        "2点"
+      ],
+      "scoreboardObjectives": [
+        "burn_damage",
+        "burn_degree",
+        "burn_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "damage",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/burn_damage/burn_clear.mcfunction",
+        "data/damage/function/damages/burn_damage/burn_degree.mcfunction",
+        "data/damage/function/damages/burn_damage/burn_mild.mcfunction",
+        "data/damage/function/damages/burn_damage/burn_moderate.mcfunction",
+        "data/damage/function/damages/burn_damage/burn_severe.mcfunction",
+        "data/damage/function/damages/burn_damage/burn_start.mcfunction",
+        "data/damage/function/damages/burn_damage/burn_test.mcfunction",
+        "data/damage/function/damages/burn_damage/burndmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "drown_damage",
+      "name": "溺水",
+      "label": "DROWN",
+      "color": "#5a8fa8",
+      "messages": [
+        "异常状态:",
+        "『溺水 I 级』",
+        "该异常状态将使你感到四肢轻微无力",
+        "『溺水 II 级』",
+        "该异常状态将使你感到四肢无力，视线黯淡",
+        "『溺水 III 级』",
+        "该异常状态将使你感到四肢无力，意识昏沉"
+      ],
+      "scoreboardObjectives": [
+        "burn_stat",
+        "drown_damage",
+        "drown_degree",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "effect",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag"
+      ],
+      "sources": [
+        "data/damage/function/damages/drown_damage/drown_clear.mcfunction",
+        "data/damage/function/damages/drown_damage/drown_degree.mcfunction",
+        "data/damage/function/damages/drown_damage/drown_mild.mcfunction",
+        "data/damage/function/damages/drown_damage/drown_moderate.mcfunction",
+        "data/damage/function/damages/drown_damage/drown_severe.mcfunction",
+        "data/damage/function/damages/drown_damage/drown_start.mcfunction",
+        "data/damage/function/damages/drown_damage/drown_test.mcfunction",
+        "data/damage/function/damages/drown_damage/drowndmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "explode_damage",
+      "name": "震荡",
+      "label": "EXPLODE",
+      "color": "#e8c14b",
+      "messages": [
+        "异常状态:",
+        "『震荡 I 级』",
+        "该异常状态将造成短暂的轻微机动受限与眩晕",
+        "『震荡 II 级』",
+        "该异常状态将造成短暂的机动受限与眩晕、失明",
+        "『震荡 III 级』",
+        "该异常状态将造成角色暂时失能，严重受限"
+      ],
+      "scoreboardObjectives": [
+        "explode_damage",
+        "explode_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "effect",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/explode_damage/explode_clear.mcfunction",
+        "data/damage/function/damages/explode_damage/explode_degree.mcfunction",
+        "data/damage/function/damages/explode_damage/explode_mild.mcfunction",
+        "data/damage/function/damages/explode_damage/explode_moderate.mcfunction",
+        "data/damage/function/damages/explode_damage/explode_severe.mcfunction",
+        "data/damage/function/damages/explode_damage/explode_start.mcfunction",
+        "data/damage/function/damages/explode_damage/explode_test.mcfunction",
+        "data/damage/function/damages/explode_damage/explodedmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "fall_damage",
+      "name": "坠伤",
+      "label": "FALL",
+      "color": "#8a7550",
+      "messages": [
+        "异常状态:",
+        "『坠伤』",
+        "已痊愈！",
+        "『坠伤 I 级』",
+        "在该异常状态被治愈前机动性轻微受限，下落超过",
+        "1m",
+        "将会受伤",
+        "『坠伤 II 级』",
+        "在该异常状态被治愈前机动性受限",
+        "起跳后落地",
+        "将也会受伤,",
+        "摔落伤害倍率",
+        "将小幅度增加!",
+        "『坠伤 III 级』",
+        "在该异常状态被治愈前机动性严重受限",
+        "安全衰落高度",
+        "进一步降低,",
+        "将中幅度增加!"
+      ],
+      "scoreboardObjectives": [
+        "fall_damage",
+        "fall_degree",
+        "fall_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "attribute",
+        "effect",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/fall_damage/fall_clear.mcfunction",
+        "data/damage/function/damages/fall_damage/fall_degree.mcfunction",
+        "data/damage/function/damages/fall_damage/fall_mild.mcfunction",
+        "data/damage/function/damages/fall_damage/fall_moderate.mcfunction",
+        "data/damage/function/damages/fall_damage/fall_severe.mcfunction",
+        "data/damage/function/damages/fall_damage/fall_start.mcfunction",
+        "data/damage/function/damages/fall_damage/fall_test.mcfunction",
+        "data/damage/function/damages/fall_damage/falldmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "freeze_damage",
+      "name": "冻伤",
+      "label": "FREEZE",
+      "color": "#6fb3d4",
+      "messages": [
+        "异常状态:",
+        "『冻伤』",
+        "已痊愈！",
+        "『冻伤 I 级』",
+        "在该异常状态被治愈前",
+        "攻击速度",
+        "小幅度降低",
+        "『冻伤 II 级』",
+        "中等幅度降低",
+        "『冻伤 III 级』",
+        "大幅度降低"
+      ],
+      "scoreboardObjectives": [
+        "freeze_damage",
+        "freeze_degree",
+        "freeze_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "attribute",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/freeze_damage/freeze_clear.mcfunction",
+        "data/damage/function/damages/freeze_damage/freeze_degree.mcfunction",
+        "data/damage/function/damages/freeze_damage/freeze_mild.mcfunction",
+        "data/damage/function/damages/freeze_damage/freeze_moderate.mcfunction",
+        "data/damage/function/damages/freeze_damage/freeze_severe.mcfunction",
+        "data/damage/function/damages/freeze_damage/freeze_start.mcfunction",
+        "data/damage/function/damages/freeze_damage/freeze_test.mcfunction",
+        "data/damage/function/damages/freeze_damage/freezedmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "inwall_damage",
+      "name": "窒息",
+      "label": "SUFFOCATE",
+      "color": "#5a5a5a",
+      "messages": [
+        "异常状态:",
+        "『窒息 I 级』",
+        "该异常状态将使你感到四肢轻微无力",
+        "『窒息 II 级』",
+        "该异常状态将使你感到四肢无力，视线黯淡",
+        "『窒息 III 级』",
+        "该异常状态将使你感到四肢无力，意识昏沉"
+      ],
+      "scoreboardObjectives": [
+        "inwall_damage",
+        "inwall_degree",
+        "inwall_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "effect",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag"
+      ],
+      "sources": [
+        "data/damage/function/damages/inwall_damage/inwall_clear.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwall_degree.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwall_mild.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwall_start.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwall_test.mcfunction",
+        "data/damage/function/damages/inwall_damage/inwalldmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "player_damage",
+      "name": "近战",
+      "label": "MELEE",
+      "color": "#c2a55a",
+      "messages": [],
+      "scoreboardObjectives": [
+        "player_damage",
+        "playerdmg_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag"
+      ],
+      "sources": [
+        "data/damage/function/damages/player_damage/player_start.mcfunction",
+        "data/damage/function/damages/player_damage/player_test.mcfunction",
+        "data/damage/function/damages/player_damage/playerdmg_save.mcfunction"
+      ],
+      "severityStages": []
+    },
+    {
+      "id": "projectile_damage",
+      "name": "投射",
+      "label": "RANGED",
+      "color": "#a8a8a8",
+      "messages": [],
+      "scoreboardObjectives": [
+        "projectile_damage",
+        "projectile_stat",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag"
+      ],
+      "sources": [
+        "data/damage/function/damages/projectile_damage/projectile_start.mcfunction",
+        "data/damage/function/damages/projectile_damage/projectile_test.mcfunction",
+        "data/damage/function/damages/projectile_damage/projectiledmg_save.mcfunction"
+      ],
+      "severityStages": []
+    },
+    {
+      "id": "shock_damage",
+      "name": "触电",
+      "label": "SHOCK",
+      "color": "#e8e04b",
+      "messages": [
+        "异常状态:",
+        "『触电 I 级』",
+        "该异常状态将短暂击晕角色,并进入一段时间的轻微虚弱状态",
+        "『触电 II 级』",
+        "该异常状态将较短暂击晕角色,并进入一段时间的中度虚弱状态",
+        "『触电 III 级』",
+        "该异常状态将直接使角色失能一段时间,并进入一段时间的严重虚弱状态"
+      ],
+      "scoreboardObjectives": [
+        "ready",
+        "shock_damage",
+        "shock_stat"
+      ],
+      "commandKinds": [
+        "advancement",
+        "effect",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag",
+        "tellraw"
+      ],
+      "sources": [
+        "data/damage/function/damages/shock_damage/shock_clear.mcfunction",
+        "data/damage/function/damages/shock_damage/shock_degree.mcfunction",
+        "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+        "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+        "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+        "data/damage/function/damages/shock_damage/shock_start.mcfunction",
+        "data/damage/function/damages/shock_damage/shock_test.mcfunction",
+        "data/damage/function/damages/shock_damage/shockdmg_save.mcfunction"
+      ],
+      "severityStages": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "total_test",
+      "name": "综合检测",
+      "label": "TOTAL",
+      "color": "#555555",
+      "messages": [],
+      "scoreboardObjectives": [
+        "HP",
+        "ready"
+      ],
+      "commandKinds": [
+        "advancement",
+        "execute",
+        "function",
+        "schedule",
+        "scoreboard",
+        "tag"
+      ],
+      "sources": [
+        "data/damage/function/damages/total_test/otherdmg_save.mcfunction",
+        "data/damage/function/damages/total_test/total_delay.mcfunction",
+        "data/damage/function/damages/total_test/total_test.mcfunction"
+      ],
+      "severityStages": []
+    }
+  ]
+}

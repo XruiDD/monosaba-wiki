@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 3,
+  "source": "domain",
+  "recordCount": 21,
+  "records": [
+    {
+      "id": 1,
+      "name": "守护之意",
+      "color": "#b9cae1",
+      "effect": "初始携带道具「残破的圆盾」\n额外效果:格挡成功时眩晕攻击者并震落其武器（对部分特殊武器不生效）",
+      "description": "你从牢房的角落找到了一面老旧的圆盾，拿起它的瞬间，你发觉自己似乎可以与之共鸣...",
+      "function": "talent:effection/1_addition_parry/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:shield",
+        "components": {
+          "item_model": "manosaba:parry"
+        }
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/1_addition_parry/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"守护之意\",name_color:\"#b9cae1\",hover:\"初始携带道具「残破的圆盾」\\n额外效果:格挡成功时眩晕攻击者并震落其武器（对部分特殊武器不生效）\",desc:\"你从牢房的角落找到了一面老旧的圆盾，拿起它的瞬间，你发觉自己似乎可以与之共鸣...\"}"
+    },
+    {
+      "id": 2,
+      "name": "杀意感知",
+      "color": "#b95151",
+      "effect": "在受到他人长时间的注视时将会收到提示，并短暂地获得强力的机动性提升",
+      "description": "胆小的你害怕他人的注视，他人的目光能够激发你最原始的逃跑本能...",
+      "function": "talent:effection/2_ability_alert/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:wooden_sword",
+        "components": {}
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/2_ability_alert/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"杀意感知\",name_color:\"#b95151\",hover:\"在受到他人长时间的注视时将会收到提示，并短暂地获得强力的机动性提升\",desc:\"胆小的你害怕他人的注视，他人的目光能够激发你最原始的逃跑本能...\"}"
+    },
+    {
+      "id": 3,
+      "name": "注魂夷羿",
+      "color": "#d9a7ff",
+      "effect": "初始携带道具「摄魂角弓」，每次挽弓搭箭都会以血量上限增强威力，最后一箭将抽干弓手生命",
+      "description": "你醒来时身上便挂着一张散发诡秘气息的角弓，他人难以操作，但在你手里却十分顺手...",
+      "function": "talent:effection/3_addition_chivalrous/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:bow",
+        "components": {
+          "item_model": "manosaba:chivalrous"
+        }
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/3_addition_chivalrous/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"注魂夷羿\",name_color:\"#d9a7ff\",hover:\"初始携带道具「摄魂角弓」，每次挽弓搭箭都会以血量上限增强威力，最后一箭将抽干弓手生命\",desc:\"你醒来时身上便挂着一张散发诡秘气息的角弓，他人难以操作，但在你手里却十分顺手...\"}"
+    },
+    {
+      "id": 4,
+      "name": "血族亲信",
+      "color": "#de0000",
+      "effect": "开局携带道具吸血鬼之牙\n使用诡血结晶后开始转变过程，期间获得伤害吸收，并散发猩红粒子，极度害怕火焰",
+      "description": "你醒来时，枕边放着一条串着奇怪牙齿的项链与一封信，也许你是某种邪恶类人生物的亲信...",
+      "function": "talent:effection/4_addition_vampire/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:carrot"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/4_addition_vampire/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"血族亲信\",name_color:\"#de0000\",hover:\"开局携带道具吸血鬼之牙\\n使用诡血结晶后开始转变过程，期间获得伤害吸收，并散发猩红粒子，极度害怕火焰\",desc:\"你醒来时，枕边放着一条串着奇怪牙齿的项链与一封信，也许你是某种邪恶类人生物的亲信...\"}"
+    },
+    {
+      "id": 5,
+      "name": "知味雅士",
+      "color": "#ffd168",
+      "effect": "食用美味的食物时，概率能够获得长久的增益效果，但对食用「非正常」食物的耐受度显著低于常人",
+      "description": "你是一名Dokidoki弹幕网的10w粉美食博主，以能够描述出食物中常人难以尝出的韵味而闻名...",
+      "function": "talent:effection/5_ability_gourmet/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:apple"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/5_ability_gourmet/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"知味雅士\",name_color:\"#ffd168\",hover:\"食用美味的食物时，概率能够获得长久的增益效果，但对食用「非正常」食物的耐受度显著低于常人\",desc:\"你是一名Dokidoki弹幕网的10w粉美食博主，以能够描述出食物中常人难以尝出的韵味而闻名...\"}"
+    },
+    {
+      "id": 6,
+      "name": "理工英才",
+      "color": "#12a1ff",
+      "effect": "压力值更不容易上升；\n作为预备魔女时，无法成为杀意魔女",
+      "description": "你时时刻刻都在心中思索着理工问题，不易受到外界环境的干扰，哪怕在面临极端的内外压力下，你的理性仍能压过感性...",
+      "function": "talent:effection/6_ability_insensitive/give",
+      "icon": {
+        "count": 1,
+        "id": "smooth_stone"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/6_ability_insensitive/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"理工英才\",name_color:\"#12a1ff\",hover:\"压力值更不容易上升；\\n作为预备魔女时，无法成为杀意魔女\",desc:\"你时时刻刻都在心中思索着理工问题，不易受到外界环境的干扰，哪怕在面临极端的内外压力下，你的理性仍能压过感性...\"}"
+    },
+    {
+      "id": 7,
+      "name": "魔能熔炉",
+      "color": "#a57ec3",
+      "effect": "潜行状态下持续吸收周围五格内玩家的魔力，并根据吸收的魔力值获取增益效果\n 当任意玩家魔力值被减至20或吸收足量魔力（非单次累积）后将进入冷却60s",
+      "description": "身处周围人都是魔法少女的环境里，你发现你能够从他人身上吸取魔力，并获取某种奇怪的满足感...",
+      "function": "talent:effection/7_ability_vacumm/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:furnace"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/7_ability_vacumm/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"魔能熔炉\",name_color:\"#a57ec3\",hover:\"潜行状态下持续吸收周围五格内玩家的魔力，并根据吸收的魔力值获取增益效果\\n 当任意玩家魔力值被减至20或吸收足量魔力（非单次累积）后将进入冷却60s\",desc:\"身处周围人都是魔法少女的环境里，你发现你能够从他人身上吸取魔力，并获取某种奇怪的满足感...\"}"
+    },
+    {
+      "id": 8,
+      "name": "离群本能",
+      "color": "#c2eb28",
+      "effect": "若周围没有人则获得机动性加成",
+      "description": "你是一位独狼实干派，并不喜欢迎合人类的脸色，独处将使得你事半功倍...",
+      "function": "talent:effection/8_ability_unobtrusive/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:leather_boots"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/8_ability_unobtrusive/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"离群本能\",name_color:\"#c2eb28\",hover:\"若周围没有人则获得机动性加成\",desc:\"你是一位独狼实干派，并不喜欢迎合人类的脸色，独处将使得你事半功倍...\"}"
+    },
+    {
+      "id": 9,
+      "name": "药构感铸",
+      "color": "#8a2be2",
+      "effect": "当副手持有未知药水时可获取其详细信息",
+      "description": "你能够通过想象获知手上的药物中的主要分子结构，结合你丰富的药物知识，能够轻松地获知药物的效果...",
+      "function": "talent:effection/9_ability_pharmacy/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:potion"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/9_ability_pharmacy/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"药构感铸\",name_color:\"#8a2be2\",hover:\"当副手持有未知药水时可获取其详细信息\",desc:\"你能够通过想象获知手上的药物中的主要分子结构，结合你丰富的药物知识，能够轻松地获知药物的效果...\"}"
+    },
+    {
+      "id": 10,
+      "name": "色彩大师",
+      "color": "#00ffd0",
+      "effect": "初始携带特殊道具「调色盘与画笔」，可以使用画笔令魔法颜料类道具发挥出更强的效果",
+      "description": "你是一名画家，这座宅邸画室中的颜料貌似有着十分神奇的性质，运用你的色彩知识，或许能在这座岛上绘出独属于你的作品...",
+      "function": "talent:effection/10_addition_painter/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:red_dye"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/10_addition_painter/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"色彩大师\",name_color:\"#00ffd0\",hover:\"初始携带特殊道具「调色盘与画笔」，可以使用画笔令魔法颜料类道具发挥出更强的效果\",desc:\"你是一名画家，这座宅邸画室中的颜料貌似有着十分神奇的性质，运用你的色彩知识，或许能在这座岛上绘出独属于你的作品...\"}"
+    },
+    {
+      "id": 11,
+      "name": "墨隙遗痕",
+      "color": "#651676",
+      "effect": "初始携带「绘卷」，副手使用可激活绘卷，使用激活的绘卷将转变回普通绘卷\n将激活的绘卷掷到地上可开启通往画中位面的通道",
+      "description": "曾经有位魔女在这里留下了一处画中世界，显然，你被她选中了...你手边的「绘卷」，或许能够开启前往该位面的通道。",
+      "function": "talent:effection/11_addition_draw/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:painting",
+        "components": {
+          "item_model": "manosaba:activated_scroll"
+        }
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/11_addition_draw/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"墨隙遗痕\",name_color:\"#651676\",hover:\"初始携带「绘卷」，副手使用可激活绘卷，使用激活的绘卷将转变回普通绘卷\\n将激活的绘卷掷到地上可开启通往画中位面的通道\",desc:\"曾经有位魔女在这里留下了一处画中世界，显然，你被她选中了...你手边的「绘卷」，或许能够开启前往该位面的通道。\"}"
+    },
+    {
+      "id": 12,
+      "name": "藏珍纳奇",
+      "color": "#fff20b",
+      "effect": "根据所持有的饰品数量，获取不同的增益效果",
+      "description": "俗话说得好，物满则溢，器满则倾，但这句话放在你身上显然不适用...",
+      "function": "talent:effection/12_ability_collector/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:diamond"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/12_ability_collector/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"藏珍纳奇\",name_color:\"#fff20b\",hover:\"根据所持有的饰品数量，获取不同的增益效果\",desc:\"俗话说得好，物满则溢，器满则倾，但这句话放在你身上显然不适用...\"}"
+    },
+    {
+      "id": 13,
+      "name": "踵武前贤",
+      "color": "#e9b22c",
+      "effect": "初始携带一把全局唯一的「佩剑」，为合成「简易长矛」的必要道具",
+      "description": "你醒来时，发现身上别有一把十分精美的佩剑，据你的观察，这并不只是单纯的装饰品...",
+      "function": "talent:effection/22_addition_foil/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:diamond_sword",
+        "components": {
+          "item_model": "manosaba:foil"
+        }
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/22_addition_foil/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"踵武前贤\",name_color:\"#e9b22c\",hover:\"初始携带一把全局唯一的「佩剑」，为合成「简易长矛」的必要道具\",desc:\"你醒来时，发现身上别有一把十分精美的佩剑，据你的观察，这并不只是单纯的装饰品...\"}"
+    },
+    {
+      "id": 14,
+      "name": "不渝不屈",
+      "color": "#ff4329",
+      "effect": "每天一次，受伤后若生命值≤5则最大生命值-4，获得2秒无敌并恢复4点生命值",
+      "description": "你小时候是全小区打针最安静的小孩，即使很痛很害怕，但你还是故作镇定，最终练就了坚持蛊...",
+      "function": "talent:effection/14_ability_ward/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_door"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"不渝不屈\",name_color:\"#ff4329\",hover:\"每天一次，受伤后若生命值≤5则最大生命值-4，获得2秒无敌并恢复4点生命值\",desc:\"你小时候是全小区打针最安静的小孩，即使很痛很害怕，但你还是故作镇定，最终练就了坚持蛊...\"}"
+    },
+    {
+      "id": 15,
+      "name": "魔女因子",
+      "color": "#81002b",
+      "effect": "初始意志力变为60；你在任何时候都没有意志力下限；如果你是魔女或共犯，你将额外获得1点武器获取进度",
+      "description": "这是，回溯了...？那，只能从头开始了...",
+      "function": "talent:effection/15_ability_reverse/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_sword"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/15_ability_reverse/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"魔女因子\",name_color:\"#81002b\",hover:\"初始意志力变为60；你在任何时候都没有意志力下限；如果你是魔女或共犯，你将额外获得1点武器获取进度\",desc:\"这是，回溯了...？那，只能从头开始了...\"}"
+    },
+    {
+      "id": 16,
+      "name": "运筹帷幄",
+      "color": "#87cefa",
+      "effect": "你能够精确看到某些进度的具体数值",
+      "description": "自幼时起，你便展露出了惊人的计算及建模能力，这令你可以获悉每一项进度的准确数值...",
+      "function": "talent:effection/16_advanced_mathematics/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:repeater"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/16_advanced_mathematics/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"运筹帷幄\",name_color:\"#87cefa\",hover:\"你能够精确看到某些进度的具体数值\",desc:\"自幼时起，你便展露出了惊人的计算及建模能力，这令你可以获悉每一项进度的准确数值...\"}"
+    },
+    {
+      "id": 17,
+      "name": "澈圭难觅",
+      "color": "#b79dc0",
+      "effect": "站定7s后进入隐身状态，长时间收敛气息有概率突然爆发",
+      "description": "你是一位存在感很低的人，幼时与玩伴出去玩时，你做了一件可能仅有极少数人能体验的事----跟着朋友一起寻找自己...",
+      "function": "talent:effection/17_ability_unseen/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:glass"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/17_ability_unseen/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"澈圭难觅\",name_color:\"#b79dc0\",hover:\"站定7s后进入隐身状态，长时间收敛气息有概率突然爆发\",desc:\"你是一位存在感很低的人，幼时与玩伴出去玩时，你做了一件可能仅有极少数人能体验的事----跟着朋友一起寻找自己...\"}"
+    },
+    {
+      "id": 18,
+      "name": "循梭微步",
+      "color": "#9bcdff",
+      "effect": "奔跑时额外消耗饱食度，但速度会不断加快；停止奔跑后回复少量饱食度",
+      "description": "你是一名优秀黑皮体育生，在体考最后一项长跑接近终点时你被带离收监，魔女岛毁了你的北体梦...",
+      "function": "talent:effection/18_ability_speed/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_boots"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/18_ability_speed/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"循梭微步\",name_color:\"#9bcdff\",hover:\"奔跑时额外消耗饱食度，但速度会不断加快；停止奔跑后回复少量饱食度\",desc:\"你是一名优秀黑皮体育生，在体考最后一项长跑接近终点时你被带离收监，魔女岛毁了你的北体梦...\"}"
+    },
+    {
+      "id": 19,
+      "name": "通灵残响",
+      "color": "#e82397",
+      "effect": "初始获得特殊道具「染血的铃铛」，在尸体附近使用以能够获知凶手的大致距离",
+      "description": "你出生于一个通灵世家，自小时候起，你便能听见跨越两界的唏声...",
+      "function": "talent:effection/19_addition_tracker/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:bell"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/19_addition_tracker/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"通灵残响\",name_color:\"#e82397\",hover:\"初始获得特殊道具「染血的铃铛」，在尸体附近使用以能够获知凶手的大致距离\",desc:\"你出生于一个通灵世家，自小时候起，你便能听见跨越两界的唏声...\"}"
+    },
+    {
+      "id": 20,
+      "name": "狂嗜无度",
+      "color": "#c16372",
+      "effect": "服药之后获得 +15% ⚔ 增益，但服药的后遗症将令你的精神近乎崩溃",
+      "description": "幻听？失控？崩溃？你真的讨厌它们嘛？甚至有些上瘾吧，哈哈...",
+      "function": "talent:effection/23_ability_narcolepsy/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:sculk_vein"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/23_ability_narcolepsy/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"狂嗜无度\",name_color:\"#c16372\",hover:\"服药之后获得 +15% ⚔ 增益，但服药的后遗症将令你的精神近乎崩溃\",desc:\"幻听？失控？崩溃？你真的讨厌它们嘛？甚至有些上瘾吧，哈哈...\"}"
+    },
+    {
+      "id": 21,
+      "name": "敏锐直觉",
+      "color": "#7579ff",
+      "effect": "在某处停留时，若附近存在线索/尸体，能够获得提示信息",
+      "description": "你是一名推理小说的狂热爱好者，也有着超乎常人的洞察力，能够注意到常人难以留意到的细节...",
+      "function": "talent:effection/21_ability_careful/give",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:skeleton_skull"
+      },
+      "sources": [
+        "data/talent/function/api/descript/talent_desc_storage.mcfunction",
+        "data/talent/function/talent_give/give.mcfunction",
+        "data/talent/function/effection/21_ability_careful/give.mcfunction"
+      ],
+      "rawPayload": "{name:\"敏锐直觉\",name_color:\"#7579ff\",hover:\"在某处停留时，若附近存在线索/尸体，能够获得提示信息\",desc:\"你是一名推理小说的狂热爱好者，也有着超乎常人的洞察力，能够注意到常人难以留意到的细节...\"}"
+    }
+  ]
+}

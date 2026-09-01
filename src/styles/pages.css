@@ -1206,6 +1206,18 @@ body[data-variant="paper"] .home-menu-item:hover { box-shadow: 2px 4px 0 rgba(13
   white-space: pre-line;
   word-break: break-word;
 }
+.lore-sprite {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.08em;
+  font-family: sans-serif;
+  font-style: normal;
+  line-height: 1;
+  object-fit: contain;
+  image-rendering: pixelated;
+  vertical-align: -0.08em;
+}
 /* 不再加暗色 overlay —— line-clamp 自带的 … 省略号已经够提示了 */
 /* 紧凑模式：2 行 */
 body[data-density="compact"] .item-lore {
@@ -1248,7 +1260,6 @@ body[data-density="compact"] .item-lore {
   color: var(--ink-faint);
   margin-bottom: -1px;
 }
-.mtab.locked { opacity: 0.5; }
 .mtab:hover { color: var(--ink-dim); }
 .mtab.active {
   color: var(--accent); border-bottom-color: var(--accent);
@@ -1256,6 +1267,15 @@ body[data-density="compact"] .item-lore {
 body[data-variant="paper"] .mtab.active { color: var(--seal); border-bottom-color: var(--seal); }
 
 .magic-name-row .variant-name { font-size: 15px; letter-spacing: 2px; }
+
+.magic-unlock {
+  display: flex; gap: 10px; align-items: baseline;
+  margin: 10px 0 0; padding: 7px 10px;
+  border-left: 2px solid var(--accent); background: var(--bg-0);
+  font-family: var(--mono); font-size: 11px;
+}
+.magic-unlock span { color: var(--ink-faint); letter-spacing: 2px; flex: none; }
+.magic-unlock strong { color: var(--ink-dim); font-weight: 400; }
 
 .magic-stats {
   display: flex; gap: 6px; flex-wrap: wrap;
@@ -1403,11 +1423,6 @@ body[data-variant="paper"] .faction-gist { background: rgba(0,0,0,0.04); }
 .ls-title { font-size: 16px; letter-spacing: 2px; margin: 10px 0 6px; color: var(--ink); }
 .ls-desc { font-size: 12px; color: var(--ink-dim); line-height: 1.7; }
 
-.dmg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 6px; }
-.dmg-chip { padding: 10px 12px; border: 1px solid var(--rule-strong); background: var(--bg-card); }
-.dmg-en { font-size: 11px; letter-spacing: 3px; }
-.dmg-zh { font-size: 16px; margin-top: 4px; color: var(--ink); }
-
 .attrs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
 .attr-card { padding: 18px; }
 .attr-en { font-size: 10px; letter-spacing: 4px; }
@@ -1445,6 +1460,43 @@ body[data-variant="paper"] .tut-script { background: rgba(0,0,0,0.04); border-le
   margin: 0 0 6px;
   animation: tutIn 0.4s ease both;
 }
+.tut-annotation {
+  position: relative;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  cursor: help;
+}
+.tut-annotation::after {
+  content: attr(data-annotation);
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  width: max-content;
+  max-width: min(360px, 72vw);
+  padding: 8px 11px;
+  border: 1px solid var(--accent);
+  background: var(--bg-card);
+  color: var(--ink);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.6;
+  text-align: left;
+  white-space: pre-line;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, 4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.tut-annotation:hover::after,
+.tut-annotation:focus::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.tut-annotation:focus-visible { outline: 1px solid var(--accent); outline-offset: 2px; }
 @keyframes tutIn {
   from { opacity: 0; transform: translateX(-6px); }
 }
@@ -1503,4 +1555,54 @@ body[data-density="compact"] .page-title { font-size: 40px; }
   .home-menu-grid { grid-template-columns: repeat(2, 1fr); }
   .char-layout, .tut-layout { grid-template-columns: 1fr; }
   .loop-flow, .factions-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Talents */
+.talent-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 14px; }
+.talent-card { border-top-color: var(--talent-color); }
+.talent-number { color: var(--talent-color); font-size: 10px; letter-spacing: 2px; }
+.talent-name { margin: 5px 0 12px; color: var(--talent-color); font-size: 26px; font-weight: 400; }
+.talent-effect { white-space: pre-line; line-height: 1.8; }
+
+/* Recipes */
+.recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(390px, 1fr)); gap: 14px; }
+.recipe-name { margin: 5px 0 16px; font-size: 24px; font-weight: 400; }
+.recipe-workbench { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 8px 0 18px; }
+.craft-grid { display: grid; grid-template-columns: repeat(3, 62px); grid-template-rows: repeat(3, 62px); gap: 3px; padding: 6px; border: 1px solid var(--rule-strong); background: var(--bg-0); }
+.craft-slot, .craft-result-slot { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; border: 1px solid var(--rule-strong); background: var(--bg-card); color: var(--ink-dim); }
+.craft-slot:hover, .craft-result-slot[href]:hover { border-color: var(--accent); color: var(--accent); }
+.craft-result-slot[href] { cursor: pointer; }
+.craft-result-slot[href]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.craft-slot.empty { background: color-mix(in srgb, var(--bg-0) 86%, transparent); }
+.craft-item { width: 34px; height: 34px; object-fit: contain; image-rendering: pixelated; }
+.craft-slot span { width: calc(100% - 6px); margin-top: 2px; overflow: hidden; color: inherit; font: 8px/1.2 var(--mono); text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+.recipe-arrow { color: var(--accent); font: 28px/1 var(--serif); }
+.craft-result-slot { width: 72px; height: 72px; border-width: 2px; }
+.craft-result-image { width: 46px; height: 46px; object-fit: contain; image-rendering: pixelated; }
+.craft-count { position: absolute; right: 5px; bottom: 3px; color: var(--ink); font: 12px/1 var(--mono); text-shadow: 0 1px 2px var(--bg-0); }
+.recipe-link { display: inline-flex; margin-top: 4px; }
+.recipe-result-name-link { color: inherit; text-decoration: none; }
+.recipe-result-name-link:hover { color: var(--accent); }
+.recipe-result-name-link:focus-visible { outline: 1px solid var(--accent); outline-offset: 3px; }
+.item-modal-recipes { display: grid; gap: 12px; }
+.item-modal-recipe { padding: 12px; border: 1px solid var(--rule); background: var(--bg-card); }
+.item-modal-recipe-name { margin-top: 4px; color: var(--ink); font-size: 17px; }
+.item-modal-workbench { margin: 12px 0 2px; }
+
+/* Damage systems */
+.system-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.system-card { border-top: 2px solid var(--system-color); }
+.system-card h2 { margin: 4px 0 12px; font-size: 28px; font-weight: 400; }
+.system-label { color: var(--system-color); font-size: 10px; letter-spacing: 3px; }
+.system-messages { margin: 14px 0; border-left: 2px solid var(--system-color); padding-left: 12px; }
+.system-messages p { margin: 4px 0; color: var(--ink-dim); }
+.token-cloud { display: flex; flex-wrap: wrap; gap: 5px; }
+
+.token-cloud a { border: 1px solid var(--rule); padding: 3px 6px; color: var(--ink-dim); font: 10px var(--mono); }
+.token-cloud a:hover { border-color: var(--accent); color: var(--accent); }
+@media (max-width: 720px) {
+  .talent-grid, .recipe-grid, .system-grid { grid-template-columns: 1fr; }
+  .recipe-workbench { gap: 10px; }
+  .craft-grid { grid-template-columns: repeat(3, 52px); grid-template-rows: repeat(3, 52px); }
+  .craft-item { width: 28px; height: 28px; }
 }

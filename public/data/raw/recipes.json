@@ -1,0 +1,1866 @@
+{
+  "schemaVersion": 3,
+  "source": "datapack",
+  "records": [
+    {
+      "id": "props:13/arrow",
+      "source": "data/props/recipe/13/arrow.json",
+      "document": {
+        "type": "crafting_transmute",
+        "input": "minecraft:spectral_arrow",
+        "material": "minecraft:sunflower",
+        "result": {
+          "id": "minecraft:spectral_arrow",
+          "components": {
+            "custom_data": "{\"potion\":13}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props:simple_spear/simple_spear",
+      "source": "data/props/recipe/simple_spear/simple_spear.json",
+      "document": {
+        "type": "crafting_shaped",
+        "show_notification": false,
+        "key": {
+          "A": "minecraft:stick",
+          "B": "minecraft:rabbit_hide",
+          "C": "minecraft:copper_sword",
+          "D": "minecraft:spectral_arrow",
+          "E": "minecraft:glass_pane"
+        },
+        "pattern": [
+          " ED",
+          "BC ",
+          "A  "
+        ],
+        "result": {
+          "count": 1,
+          "id": "minecraft:iron_chain",
+          "components": {
+            "item_model": "manosaba:spear",
+            "custom_name": {
+              "text": "简易长矛",
+              "color": "red",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "独特锐利近战",
+                  "color": "#ff301a"
+                }
+              ],
+              [
+                {
+                  "text": "一次性",
+                  "color": "red",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "10000.0",
+                  "bold": true,
+                  "italic": false,
+                  "color": "white"
+                },
+                {
+                  "text": " 🗡",
+                  "italic": false,
+                  "color": "#ff2e2e"
+                },
+                {
+                  "text": " | ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "1.6",
+                  "bold": true,
+                  "italic": false,
+                  "color": "white"
+                },
+                {
+                  "text": " ⌚",
+                  "italic": false,
+                  "color": "#ffd438"
+                },
+                {
+                  "text": " | ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "9.0",
+                  "bold": true,
+                  "italic": false,
+                  "color": "green"
+                },
+                {
+                  "text": " 📏",
+                  "bold": true,
+                  "italic": false,
+                  "color": "#90ecfe"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "拥有极长的攻击距离，可以从背后扎破彩色气球。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "i诺tv",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "tooltip_display": {
+              "hidden_components": [
+                "attribute_modifiers"
+              ]
+            },
+            "max_stack_size": 1,
+            "max_damage": 1,
+            "damage": 0,
+            "attribute_modifiers": [
+              {
+                "amount": 6,
+                "type": "minecraft:entity_interaction_range",
+                "slot": "mainhand",
+                "operation": "add_value",
+                "id": "props:base_attack_range"
+              },
+              {
+                "amount": 9999,
+                "type": "minecraft:attack_damage",
+                "slot": "mainhand",
+                "operation": "add_value",
+                "id": "props:base_attack_damage"
+              }
+            ],
+            "custom_data": {
+              "sharp": 1
+            }
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_mtiao:fire",
+      "source": "data/props_mtiao/recipe/fire.json",
+      "document": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          "minecraft:magma_block",
+          "minecraft:potion"
+        ],
+        "result": {
+          "id": "minecraft:potion",
+          "components": {
+            "custom_name": {
+              "text": "抗火药水",
+              "color": "blue",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "一次性",
+                  "bold": true,
+                  "italic": false,
+                  "color": "red"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "获得3分钟抗火",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "请输入文本",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            ],
+            "consumable": {
+              "animation": "drink",
+              "has_consume_particles": false,
+              "consume_seconds": 1,
+              "sound": "entity.generic.drink",
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "fire_resistance",
+                      "duration": 3600
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_stack_size": 1,
+            "potion_contents": {
+              "custom_color": 16750848
+            },
+            "tooltip_display": {
+              "hidden_components": [
+                "potion_contents"
+              ]
+            }
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_mtiao:master",
+      "source": "data/props_mtiao/recipe/master.json",
+      "document": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          "minecraft:blue_dye",
+          "minecraft:red_dye"
+        ],
+        "result": {
+          "id": "minecraft:purple_dye",
+          "components": {
+            "item_model": "manosaba:master",
+            "custom_name": {
+              "text": "「杰作」",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "60.0s",
+                  "bold": true,
+                  "italic": false,
+                  "color": "white"
+                },
+                {
+                  "text": " ⌚",
+                  "italic": false,
+                  "bold": false,
+                  "color": "#ffd438"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "获得10秒力量I、速度I、伤害吸收III和抗性提升I",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "那场暴雨它们跃下高台,不谋而合,彼此搀扶,互相欣赏。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "“我们志同道合,我们诠释自由,我们绝不妥协”",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "拥有反抗命运的些微力量...",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            ],
+            "use_cooldown": {
+              "seconds": 60
+            },
+            "consumable": {
+              "has_consume_particles": false,
+              "consume_seconds": 0,
+              "sound": "intentionally_empty"
+            },
+            "max_stack_size": 1,
+            "custom_data": "{\"master\":1}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_mtiao:steel",
+      "source": "data/props_mtiao/recipe/steel.json",
+      "document": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          "minecraft:magma_cream",
+          "minecraft:clay_ball",
+          "minecraft:prismarine_shard",
+          "minecraft:iron_bars"
+        ],
+        "result": {
+          "id": "minecraft:copper_sword",
+          "components": {
+            "item_model": "manosaba:steel",
+            "item_name": "weapon",
+            "custom_name": {
+              "text": "螺纹钢",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "钝拙近战",
+                  "color": "#40436b"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "8.0",
+                  "bold": true,
+                  "italic": false,
+                  "color": "white"
+                },
+                {
+                  "text": " 🗡",
+                  "color": "#ff2e2e",
+                  "italic": false
+                },
+                {
+                  "text": " | ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "0.9",
+                  "bold": true,
+                  "italic": false,
+                  "color": "red"
+                },
+                {
+                  "text": " ⌚",
+                  "italic": false,
+                  "color": "#ffd438"
+                },
+                {
+                  "text": " | ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "3.0",
+                  "bold": true,
+                  "italic": false,
+                  "color": "white"
+                },
+                {
+                  "text": " 📏",
+                  "bold": true,
+                  "italic": false,
+                  "color": "#90ecfe"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "-3% ",
+                  "bold": true,
+                  "italic": false,
+                  "color": "red"
+                },
+                {
+                  "atlas": "minecraft:gui",
+                  "sprite": "mob_effect/speed",
+                  "italic": false,
+                  "color": "white"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "仔细想想,普通魔女随便融入社会的话也会被压榨吧（",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "古代魔法、现代配方,这就叫“古为今用”",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "在古代的庄园拥有一根螺纹钢究竟有多爽（）",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "tooltip_display": {
+              "hidden_components": [
+                "attribute_modifiers"
+              ]
+            },
+            "max_damage": 6,
+            "damage": 0,
+            "weapon": {
+              "item_damage_per_attack": 1
+            },
+            "attribute_modifiers": [
+              {
+                "amount": 7,
+                "type": "minecraft:attack_damage",
+                "slot": "mainhand",
+                "operation": "add_value",
+                "id": "props:rebar_damage"
+              },
+              {
+                "amount": -3.1,
+                "type": "minecraft:attack_speed",
+                "slot": "mainhand",
+                "operation": "add_value",
+                "id": "props:rebar_speed"
+              },
+              {
+                "amount": -0.003,
+                "type": "minecraft:movement_speed",
+                "slot": "mainhand",
+                "operation": "add_value",
+                "id": "props:rebar_move"
+              }
+            ],
+            "max_stack_size": 1,
+            "enchantment_glint_override": true,
+            "custom_data": "{\"blunt\":1}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_skadi:simple_explosive",
+      "source": "data/props_skadi/recipe/simple_explosive.json",
+      "document": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          "minecraft:yellow_glazed_terracotta",
+          "minecraft:yellow_glazed_terracotta",
+          "minecraft:yellow_glazed_terracotta",
+          "minecraft:green_glazed_terracotta"
+        ],
+        "result": {
+          "id": "minecraft:gunpowder",
+          "components": {
+            "custom_name": {
+              "text": "简易炸药",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "一次性",
+                  "color": "red",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "使用后在原地布置，被丢出的火柴点燃后立即爆炸并对附近3格内的玩家造成6点火焰伤害",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "[灼伤]：每次受伤都会额外附加伤害",
+                  "italic": false,
+                  "color": "dark_gray"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "强氧化剂和可燃物的组合那可太有力气了。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "氯磷好汉",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "consumable": {
+              "has_consume_particles": false,
+              "consume_seconds": 2,
+              "sound": "intentionally_empty",
+              "animation": "bow"
+            },
+            "item_model": "manosaba:simple_explosive",
+            "max_stack_size": 1,
+            "custom_data": {
+              "simple_explosive": 1
+            }
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_skadi:simple_molotov",
+      "source": "data/props_skadi/recipe/simple_molotov.json",
+      "document": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          "minecraft:red_glazed_terracotta",
+          "minecraft:black_glazed_terracotta",
+          "minecraft:string"
+        ],
+        "result": {
+          "id": "minecraft:gunpowder",
+          "components": {
+            "custom_name": {
+              "text": "简易莫洛托夫",
+              "color": "blue",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "一次性",
+                  "color": "red",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "副手拥有空火柴盒时使用时较高速地丢出以创造一片火焰区域，对其上方目标每秒造成1.5点火焰伤害",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "[灼伤]：每次受伤都会额外附加伤害",
+                  "italic": false,
+                  "color": "dark_gray"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "变革的象征，也是混沌的开始。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "其实莫洛托夫鸡尾酒里装的是汽油哦",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "item_model": "manosaba:simple_molotov",
+            "potion_contents": {
+              "custom_color": 8647167
+            },
+            "tooltip_display": {
+              "hidden_components": [
+                "potion_contents"
+              ]
+            },
+            "max_stack_size": 1,
+            "custom_data": {
+              "simple_molotov": 1
+            },
+            "consumable": {
+              "has_consume_particles": false,
+              "consume_seconds": 1,
+              "sound": "intentionally_empty",
+              "animation": "bow"
+            }
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_songbing:eastern_master",
+      "source": "data/props_songbing/recipe/eastern_master.json",
+      "document": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          "minecraft:feather",
+          "minecraft:book",
+          "minecraft:paper"
+        ],
+        "result": {
+          "id": "minecraft:archer_pottery_sherd",
+          "components": {
+            "item_model": "manosaba:eastern_master_off",
+            "custom_name": {
+              "text": "东方宗师(关)",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "10.0s",
+                  "bold": true,
+                  "italic": false,
+                  "color": "white"
+                },
+                {
+                  "text": " ⌚",
+                  "italic": false,
+                  "bold": false,
+                  "color": "#ffd438"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "开启并获得15秒速度II、跳跃提升III、伤害吸收II；开启后手持会持续消耗耐久",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "来自神秘东方的古籍，似乎是不同著作的集大成者，",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "将不同的战略融会贯通，方能成就宗师。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "Be water,my friend.",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "consumable": {
+              "animation": "brush",
+              "has_consume_particles": false,
+              "consume_seconds": 1,
+              "sound": "intentionally_empty"
+            },
+            "max_stack_size": 1,
+            "max_damage": 45,
+            "damage": 0,
+            "custom_data": {
+              "eastern": 1
+            },
+            "use_cooldown": {
+              "cooldown_group": "eastern",
+              "seconds": 10
+            }
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:broken_umbrella_1",
+      "source": "data/props_tiroaw/recipe/broken_umbrella_1.json",
+      "document": {
+        "type": "crafting_transmute",
+        "input": "minecraft:waxed_copper_door",
+        "material": "minecraft:stick",
+        "result": {
+          "id": "minecraft:exposed_copper_door",
+          "components": {
+            "item_model": "manosaba:broken_umbrella",
+            "custom_name": {
+              "text": "坏掉的雨伞",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "材料",
+                  "color": "#69ff24"
+                }
+              ],
+              [
+                {
+                  "text": "可合成：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "green"
+                },
+                {
+                  "text": "雨伞(1/3)",
+                  "italic": false,
+                  "color": "dark_green"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "一把损坏的雨伞，已经不能使用，伞面上依稀可见精美的花纹。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "也许可以用针线修复伞面...",
+                  "color": "gray"
+                }
+              ]
+            ],
+            "max_stack_size": 1,
+            "max_damage": 2,
+            "damage": 1,
+            "custom_data": "{\"surveyable\":1}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:broken_umbrella_2",
+      "source": "data/props_tiroaw/recipe/broken_umbrella_2.json",
+      "document": {
+        "type": "crafting_transmute",
+        "input": "minecraft:exposed_copper_door",
+        "material": "minecraft:string",
+        "result": {
+          "id": "minecraft:waxed_exposed_copper_door",
+          "components": {
+            "item_model": "manosaba:umbrella",
+            "custom_name": {
+              "text": "雨伞",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "手持时额外获得4护甲值，使用时获得缓降",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "一把造型奇特的雨伞，部分伞骨被木棍替换，伞面斑驳",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "修好后似乎激活了某种残余的魔法？",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "consumable": {
+              "animation": "spyglass",
+              "has_consume_particles": false,
+              "consume_seconds": 32767,
+              "sound": {
+                "sound_id": "",
+                "range": 0
+              }
+            },
+            "tooltip_display": {
+              "hidden_components": [
+                "attribute_modifiers"
+              ]
+            },
+            "attribute_modifiers": [
+              {
+                "amount": 4,
+                "type": "minecraft:armor",
+                "operation": "add_value",
+                "id": "props:base_defence"
+              }
+            ],
+            "max_stack_size": 1,
+            "max_damage": 2,
+            "damage": 0,
+            "custom_data": "{\"umbrella\":1}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:broom",
+      "source": "data/props_tiroaw/recipe/broom.json",
+      "document": {
+        "type": "crafting_shapeless",
+        "ingredients": [
+          "minecraft:stick",
+          "minecraft:wheat"
+        ],
+        "result": {
+          "id": "minecraft:bone",
+          "components": {
+            "item_model": "manosaba:broom",
+            "max_stack_size": 1,
+            "custom_name": {
+              "text": "扫帚",
+              "color": "green",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "30%概率获得8秒速度III",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              [
+                {
+                  "text": "可合成：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "green"
+                },
+                {
+                  "text": "稻草人(1/2)（需要两个本道具以合成）",
+                  "italic": false,
+                  "color": "dark_green"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "其中蕴含些许魔力，长期使用可能导致损坏并散架。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "说不定……这是一个魔法扫帚",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "consumable": {
+              "animation": "brush",
+              "has_consume_particles": false,
+              "consume_seconds": 1,
+              "sound": "minecraft:item.brush.brushing.generic",
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 2,
+                      "duration": 160,
+                      "show_particles": false
+                    }
+                  ],
+                  "probability": 0.3
+                }
+              ]
+            },
+            "weapon": {},
+            "max_damage": 8,
+            "damage": 0
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:decorated_umbrella",
+      "source": "data/props_tiroaw/recipe/decorated_umbrella.json",
+      "document": {
+        "type": "crafting_transmute",
+        "input": "minecraft:waxed_exposed_copper_door",
+        "material": "minecraft:oxeye_daisy",
+        "result": {
+          "id": "minecraft:oxidized_copper_door",
+          "components": {
+            "item_model": "manosaba:umbrella",
+            "custom_name": {
+              "text": "雨伞",
+              "color": "gold",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              {
+                "text": ""
+              },
+              {
+                "text": "一把造型奇特的雨伞，伞尾系上了蒲公英的茎秆",
+                "color": "white",
+                "bold": false,
+                "italic": true
+              },
+              "",
+              {
+                "text": "拿着它总有一种莫名的安心",
+                "color": "gray",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "magic props",
+                "color": "red",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "consumable": {
+              "animation": "block",
+              "has_consume_particles": false,
+              "consume_seconds": 32767,
+              "sound": {
+                "sound_id": "",
+                "range": 0
+              }
+            },
+            "death_protection": {
+              "death_effects": [
+                {
+                  "type": "minecraft:clear_all_effects"
+                },
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "amplifier": 0,
+                      "duration": 200,
+                      "id": "minecraft:invisibility",
+                      "show_icon": true,
+                      "show_particles": false
+                    },
+                    {
+                      "amplifier": 0,
+                      "duration": 200,
+                      "id": "minecraft:regeneration",
+                      "show_icon": true,
+                      "show_particles": false
+                    },
+                    {
+                      "amplifier": 1,
+                      "duration": 100,
+                      "id": "minecraft:absorption",
+                      "show_icon": true,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_stack_size": 1,
+            "max_damage": 2,
+            "damage": 0,
+            "custom_data": "{\"umbrella\":1}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:grilled_orange",
+      "source": "data/props_tiroaw/recipe/grilled_orange.json",
+      "document": {
+        "type": "campfire_cooking",
+        "ingredient": "minecraft:kelp",
+        "category": "food",
+        "cookingtime": 200,
+        "result": {
+          "id": "minecraft:dried_kelp",
+          "components": {
+            "item_model": "manosaba:grilled_pear",
+            "custom_name": {
+              "text": "焗雪梨",
+              "color": "blue",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              {
+                "text": ""
+              },
+              {
+                "text": "一个“熟透了”的雪梨，可以回复大量饱食度",
+                "color": "white",
+                "bold": false,
+                "italic": true
+              },
+              "",
+              {
+                "text": "那么，代价是什么呢？",
+                "color": "gray",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "food",
+                "color": "red",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "consumable": {
+              "animation": "eat",
+              "has_consume_particles": false,
+              "consume_seconds": 4
+            },
+            "food": {
+              "nutrition": 10,
+              "saturation": 10
+            },
+            "damage_resistant": {
+              "types": "#is_fire"
+            },
+            "max_stack_size": 16,
+            "custom_data": "{\"potion\":9}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:immolate_dagger",
+      "source": "data/props_tiroaw/recipe/immolate_dagger.json",
+      "document": {
+        "type": "crafting_transmute",
+        "input": "minecraft:wooden_pickaxe",
+        "material": "minecraft:dandelion",
+        "result": {
+          "id": "minecraft:wooden_axe",
+          "components": {
+            "item_model": "manosaba:dagger",
+            "custom_name": {
+              "text": "献祭匕首",
+              "color": "gold",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              {
+                "text": ""
+              },
+              {
+                "text": "涂上了蒲公英溶液的匕首",
+                "color": "white",
+                "bold": false,
+                "italic": true
+              },
+              "",
+              {
+                "text": "I it meant,that you could live your life againg",
+                "color": "gray",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "I gladly give mine in",
+                "color": "gray",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "weapon/magic props",
+                "color": "red",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "consumable": {
+              "animation": "block",
+              "has_consume_particles": false,
+              "consume_seconds": 32767,
+              "sound": {
+                "sound_id": "minecraft:block.amethyst_block.hit",
+                "range": 0
+              }
+            },
+            "custom_data": "{\"immolate\":1}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:medical_kit",
+      "source": "data/props_tiroaw/recipe/medical_kit.json",
+      "document": {
+        "type": "crafting_shapeless",
+        "ingredients": [
+          "minecraft:white_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:string",
+          "minecraft:honey_bottle"
+        ],
+        "result": {
+          "id": "minecraft:gray_shulker_box",
+          "components": {
+            "item_model": "manosaba:medical_kit",
+            "custom_name": {
+              "text": "医疗包",
+              "color": "blue",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              {
+                "text": ""
+              },
+              {
+                "text": "装有伤口处理物品的医疗包",
+                "color": "white",
+                "bold": false,
+                "italic": true
+              },
+              "",
+              {
+                "text": "希望你不会用上它",
+                "color": "dark_green",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "medicine",
+                "color": "red",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "max_stack_size": 4,
+            "consumable": {
+              "animation": "block",
+              "has_consume_particles": false,
+              "consume_seconds": 3,
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "regeneration",
+                      "show_particles": false,
+                      "show_icon": false,
+                      "duration": 8,
+                      "amplifier": 5
+                    }
+                  ]
+                },
+                {
+                  "type": "remove_effects",
+                  "effects": [
+                    "instant_damage",
+                    "poison",
+                    "wither"
+                  ]
+                }
+              ],
+              "sound": {
+                "sound_id": "minecraft:item.armor.equip_leather"
+              }
+            },
+            "custom_data": "{\"medicine\":2}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:scarecrow",
+      "source": "data/props_tiroaw/recipe/scarecrow.json",
+      "document": {
+        "type": "crafting_shapeless",
+        "ingredients": [
+          "minecraft:bone",
+          "minecraft:bone"
+        ],
+        "result": {
+          "id": "minecraft:copper_chain",
+          "components": {
+            "item_model": "manosaba:scarecrow",
+            "custom_name": {
+              "text": "稻草人",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "材料",
+                  "color": "#69ff24"
+                }
+              ],
+              [
+                {
+                  "text": "可合成：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "green"
+                },
+                {
+                  "text": "假人(1/4)",
+                  "italic": false,
+                  "color": "dark_green"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "用扫把拼出的稻草人，颇具人形",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "也许可以为它缝上一身衣服",
+                  "color": "light_purple"
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:standing",
+      "source": "data/props_tiroaw/recipe/standing.json",
+      "document": {
+        "type": "crafting_shapeless",
+        "ingredients": [
+          "minecraft:copper_chain",
+          "minecraft:string",
+          "minecraft:string",
+          "minecraft:string"
+        ],
+        "result": {
+          "id": "minecraft:exposed_copper_chain",
+          "components": {
+            "item_model": "manosaba:standing",
+            "custom_name": {
+              "text": "假人",
+              "color": "gold",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "原地生成一个4点血量的假人，可以骗过查寝的看守",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "缝上了外套的假人，远看与真人无异",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "其上附着的魔法似乎发生了某种变化",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "max_stack_size": 1,
+            "max_damage": 1,
+            "damage": 0,
+            "consumable": {
+              "animation": "block",
+              "has_consume_particles": false,
+              "consume_seconds": 1,
+              "sound": {
+                "sound_id": "minecraft:block.amethyst_block.hit",
+                "range": 0
+              }
+            },
+            "custom_data": "{\"standing\":2}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:tourniquet",
+      "source": "data/props_tiroaw/recipe/tourniquet.json",
+      "document": {
+        "type": "crafting_shapeless",
+        "ingredients": [
+          "minecraft:white_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:cactus_flower"
+        ],
+        "result": {
+          "id": "minecraft:black_shulker_box",
+          "components": {
+            "item_model": "manosaba:tourniquet",
+            "custom_name": {
+              "text": "加压止血带",
+              "color": "dark_purple",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              {
+                "text": ""
+              },
+              {
+                "text": "一卷粗制的加压止血带",
+                "color": "white",
+                "bold": false,
+                "italic": true
+              },
+              "",
+              {
+                "text": "在危急时刻，这是唯一能拯救你的东西",
+                "color": "dark_green",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "medicine",
+                "color": "red",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "max_stack_size": 2,
+            "consumable": {
+              "animation": "block",
+              "has_consume_particles": false,
+              "consume_seconds": 1,
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "resistance",
+                      "show_particles": false,
+                      "show_icon": true,
+                      "duration": 600,
+                      "amplifier": 1
+                    }
+                  ]
+                }
+              ],
+              "sound": {
+                "sound_id": "minecraft:item.armor.equip_leather"
+              }
+            },
+            "custom_data": "{\"medicine\":3}"
+          }
+        }
+      },
+      "parseError": null
+    },
+    {
+      "id": "props_tiroaw:tp_anchor",
+      "source": "data/props_tiroaw/recipe/tp_anchor.json",
+      "document": {
+        "type": "crafting_transmute",
+        "input": "minecraft:crying_obsidian",
+        "material": "minecraft:glowstone",
+        "result": {
+          "id": "minecraft:respawn_anchor",
+          "components": {
+            "item_model": "manosaba:anchor",
+            "custom_name": {
+              "text": "传送锚",
+              "color": "gold",
+              "bold": true,
+              "italic": false
+            },
+            "lore": [
+              [
+                {
+                  "text": "独特主动道具",
+                  "color": "#00ffbf"
+                }
+              ],
+              [
+                {
+                  "text": "主动效果：",
+                  "bold": true,
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "生成一个所有人可见的锚点，再次使用可以传送到其上方",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "",
+              [
+                "",
+                {
+                  "text": "⊱  ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "满能量的传送锚，可以支持一次单人传送。",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              [
+                "",
+                {
+                  "text": "     ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                {
+                  "text": "再也不怕早八迟到了！",
+                  "color": "light_purple"
+                }
+              ]
+            ],
+            "consumable": {
+              "animation": "bow",
+              "has_consume_particles": false,
+              "consume_seconds": 2,
+              "sound": {
+                "sound_id": "",
+                "range": 0
+              }
+            },
+            "use_cooldown": {
+              "seconds": 2,
+              "cooldown_group": "anchor"
+            },
+            "damage_resistant": {
+              "types": "#is_fire"
+            },
+            "max_stack_size": 1,
+            "custom_data": "{\"bind\":0}",
+            "block_state": {
+              "charge": "1"
+            }
+          }
+        }
+      },
+      "parseError": null
+    }
+  ]
+}

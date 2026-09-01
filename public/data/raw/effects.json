@@ -1,0 +1,3586 @@
+{
+  "schemaVersion": 3,
+  "source": "datapack",
+  "records": [
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction#L3",
+      "source": "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 6 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction#L4",
+      "source": "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 5 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction#L5",
+      "source": "data/damage/function/damages/bleed_damage/bleed_mild.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 6 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction#L3",
+      "source": "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 14,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 14 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction#L4",
+      "source": "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 14,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 14 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction#L5",
+      "source": "data/damage/function/damages/bleed_damage/bleed_moderate.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 14,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 14 4 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction#L3",
+      "source": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 30 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction#L4",
+      "source": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 30 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction#L5",
+      "source": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 6,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 30 6 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction#L6",
+      "source": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 30 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction#L7",
+      "source": "data/damage/function/damages/bleed_damage/bleed_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 30 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction#L2",
+      "source": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 6 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction#L3",
+      "source": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 8 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction#L4",
+      "source": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 1 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction#L5",
+      "source": "data/damage/function/damages/blunt_damage/blunt_mild.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 2 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction#L2",
+      "source": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction#L3",
+      "source": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 15 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction#L4",
+      "source": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 5 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction#L5",
+      "source": "data/damage/function/damages/blunt_damage/blunt_moderate.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 5 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction#L2",
+      "source": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 15 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction#L3",
+      "source": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 23,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 23 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction#L4",
+      "source": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 13,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 13 4 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction#L5",
+      "source": "data/damage/function/damages/blunt_damage/blunt_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 13,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 13 4 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_mild.mcfunction#L2",
+      "source": "data/damage/function/damages/drown_damage/drown_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_mild.mcfunction#L3",
+      "source": "data/damage/function/damages/drown_damage/drown_mild.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 5 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction#L2",
+      "source": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction#L3",
+      "source": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 5 4 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction#L4",
+      "source": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 6 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction#L5",
+      "source": "data/damage/function/damages/drown_damage/drown_moderate.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 6 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_severe.mcfunction#L2",
+      "source": "data/damage/function/damages/drown_damage/drown_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 3 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_severe.mcfunction#L3",
+      "source": "data/damage/function/damages/drown_damage/drown_severe.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 6,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 10 6 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_severe.mcfunction#L4",
+      "source": "data/damage/function/damages/drown_damage/drown_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_severe.mcfunction#L5",
+      "source": "data/damage/function/damages/drown_damage/drown_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/drown_damage/drown_severe.mcfunction#L6",
+      "source": "data/damage/function/damages/drown_damage/drown_severe.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 34,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 34 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_mild.mcfunction#L2",
+      "source": "data/damage/function/damages/explode_damage/explode_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_mild.mcfunction#L3",
+      "source": "data/damage/function/damages/explode_damage/explode_mild.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 9,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 9 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction#L2",
+      "source": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 6 3 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction#L3",
+      "source": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 8 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction#L4",
+      "source": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 8 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction#L5",
+      "source": "data/damage/function/damages/explode_damage/explode_moderate.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 17,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 17 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_severe.mcfunction#L2",
+      "source": "data/damage/function/damages/explode_damage/explode_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 9,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 15 9 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_severe.mcfunction#L3",
+      "source": "data/damage/function/damages/explode_damage/explode_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 25,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 25 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_severe.mcfunction#L4",
+      "source": "data/damage/function/damages/explode_damage/explode_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 25,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 25 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/explode_damage/explode_severe.mcfunction#L5",
+      "source": "data/damage/function/damages/explode_damage/explode_severe.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 38,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 38 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/fall_damage/fall_mild.mcfunction#L2",
+      "source": "data/damage/function/damages/fall_damage/fall_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness infinite 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/fall_damage/fall_moderate.mcfunction#L2",
+      "source": "data/damage/function/damages/fall_damage/fall_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness infinite 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/fall_damage/fall_severe.mcfunction#L2",
+      "source": "data/damage/function/damages/fall_damage/fall_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness infinite 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_mild.mcfunction#L2",
+      "source": "data/damage/function/damages/inwall_damage/inwall_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_mild.mcfunction#L3",
+      "source": "data/damage/function/damages/inwall_damage/inwall_mild.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 5 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction#L2",
+      "source": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction#L3",
+      "source": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 5 4 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction#L4",
+      "source": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 6 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction#L5",
+      "source": "data/damage/function/damages/inwall_damage/inwall_moderate.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 6 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction#L2",
+      "source": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 3 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction#L3",
+      "source": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 6,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 10 6 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction#L4",
+      "source": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction#L5",
+      "source": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction#L6",
+      "source": "data/damage/function/damages/inwall_damage/inwall_severe.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 34,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 34 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_mild.mcfunction#L2",
+      "source": "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 2 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_mild.mcfunction#L3",
+      "source": "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness 15 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_mild.mcfunction#L4",
+      "source": "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 15 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_mild.mcfunction#L5",
+      "source": "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 4 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_mild.mcfunction#L6",
+      "source": "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 4 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_mild.mcfunction#L7",
+      "source": "data/damage/function/damages/shock_damage/shock_mild.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 7,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 7 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction#L2",
+      "source": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction#L3",
+      "source": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness 30 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction#L4",
+      "source": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 30 2 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction#L5",
+      "source": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 7,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 7 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction#L6",
+      "source": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 7,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 7 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction#L7",
+      "source": "data/damage/function/damages/shock_damage/shock_moderate.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 14,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 14 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_severe.mcfunction#L2",
+      "source": "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 9,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 15 9 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_severe.mcfunction#L3",
+      "source": "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 25,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 25 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_severe.mcfunction#L4",
+      "source": "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 25,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 25 0 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_severe.mcfunction#L5",
+      "source": "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 38,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 38 255 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_severe.mcfunction#L6",
+      "source": "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness 30 1 true"
+    },
+    {
+      "recordId": "data/damage/function/damages/shock_damage/shock_severe.mcfunction#L7",
+      "source": "data/damage/function/damages/shock_damage/shock_severe.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 30 3 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_mild.mcfunction#L1",
+      "source": "data/damage/function/regens/debuffs/regen_mild.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_mild.mcfunction#L2",
+      "source": "data/damage/function/regens/debuffs/regen_mild.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 10 3 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_moderate.mcfunction#L1",
+      "source": "data/damage/function/regens/debuffs/regen_moderate.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 2 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_moderate.mcfunction#L2",
+      "source": "data/damage/function/regens/debuffs/regen_moderate.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 5,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 10 5 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_moderate.mcfunction#L3",
+      "source": "data/damage/function/regens/debuffs/regen_moderate.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_severe.mcfunction#L1",
+      "source": "data/damage/function/regens/debuffs/regen_severe.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 4 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_severe.mcfunction#L2",
+      "source": "data/damage/function/regens/debuffs/regen_severe.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 8,
+      "hideParticles": true,
+      "rawCommand": "effect give @s mining_fatigue 10 8 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_severe.mcfunction#L3",
+      "source": "data/damage/function/regens/debuffs/regen_severe.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_severe.mcfunction#L4",
+      "source": "data/damage/function/regens/debuffs/regen_severe.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 10 1 true"
+    },
+    {
+      "recordId": "data/damage/function/regens/debuffs/regen_severe.mcfunction#L5",
+      "source": "data/damage/function/regens/debuffs/regen_severe.mcfunction",
+      "effect": "minecraft:wither",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "effect give @s wither 10 1"
+    },
+    {
+      "recordId": "data/magics/function/dead_test/dead_effection/undead.mcfunction#L8",
+      "source": "data/magics/function/dead_test/dead_effection/undead.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 4,
+      "hideParticles": false,
+      "rawCommand": "execute as @a[tag=undead] run effect give @s resistance 5 4 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/10_firework/magic10a.mcfunction#L7",
+      "source": "data/magics/function/effection/10_firework/magic10a.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "effect give @s glowing 30 0"
+    },
+    {
+      "recordId": "data/magics/function/effection/10_firework/magic10b_update.mcfunction#L17",
+      "source": "data/magics/function/effection/10_firework/magic10b_update.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@e[type=!marker,type=!armor_stand,distance=..4]",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "effect give @e[type=!marker,type=!armor_stand,distance=..4] glowing 10 0"
+    },
+    {
+      "recordId": "data/magics/function/effection/11_ash/magic11a_back.mcfunction#L4",
+      "source": "data/magics/function/effection/11_ash/magic11a_back.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@a[distance=..3,gamemode=adventure]",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": false,
+      "rawCommand": "effect give @a[distance=..3,gamemode=adventure] minecraft:blindness 2 0 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/11_ash/magic11a_back.mcfunction#L5",
+      "source": "data/magics/function/effection/11_ash/magic11a_back.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@a[distance=..3,gamemode=adventure]",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": false,
+      "rawCommand": "effect give @a[distance=..3,gamemode=adventure] minecraft:weakness 2 0 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/11_ash/magic11a_back.mcfunction#L6",
+      "source": "data/magics/function/effection/11_ash/magic11a_back.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@a[distance=..3,gamemode=adventure]",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": false,
+      "rawCommand": "effect give @a[distance=..3,gamemode=adventure] minecraft:slowness 2 0 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/12_charge/magic12a_back_at.mcfunction#L1",
+      "source": "data/magics/function/effection/12_charge/magic12a_back_at.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": false,
+      "rawCommand": "effect give @s minecraft:slowness 10 0 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/13_power/magic13b.mcfunction#L5",
+      "source": "data/magics/function/effection/13_power/magic13b.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 1,
+      "hideParticles": false,
+      "rawCommand": "effect give @s strength 30 1 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/14_gravity_control/magic14b.mcfunction#L17",
+      "source": "data/magics/function/effection/14_gravity_control/magic14b.mcfunction",
+      "effect": "minecraft:levitation",
+      "target": "@a[tag=magic14b_attack]",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[tag=magic14b_attack] levitation infinite 1 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction#L15",
+      "source": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s curse_mark matches 1 run effect give @s blindness 10 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction#L16",
+      "source": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 20,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s curse_mark matches 2 run effect give @s blindness 20 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction#L17",
+      "source": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s curse_mark matches 3 run effect give @s blindness 30 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction#L18",
+      "source": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 40,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s curse_mark matches 4 run effect give @s blindness 40 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction#L19",
+      "source": "data/magics/function/effection/15_curse/magic15b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 50,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s curse_mark matches 5.. run effect give @s blindness 50 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/16_fly/magic16a_toggle.mcfunction#L4",
+      "source": "data/magics/function/effection/16_fly/magic16a_toggle.mcfunction",
+      "effect": "minecraft:levitation",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s fly_state matches 0 run effect give @s levitation 2 1 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/16_fly/magic16a_toggle.mcfunction#L11",
+      "source": "data/magics/function/effection/16_fly/magic16a_toggle.mcfunction",
+      "effect": "minecraft:slow_falling",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s fly_state matches 2 run effect give @s minecraft:slow_falling 2 1"
+    },
+    {
+      "recordId": "data/magics/function/effection/16_fly/magic16b_cast_at.mcfunction#L8",
+      "source": "data/magics/function/effection/16_fly/magic16b_cast_at.mcfunction",
+      "effect": "minecraft:levitation",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s levitation 2 1 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17a.mcfunction#L7",
+      "source": "data/magics/function/effection/17_vampire/magic17a.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@p[distance=0.01..4]",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @p[distance=0.01..4] weakness 3 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17a.mcfunction#L8",
+      "source": "data/magics/function/effection/17_vampire/magic17a.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@p[distance=0.01..4]",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @p[distance=0.01..4] slowness 3 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17a.mcfunction#L14",
+      "source": "data/magics/function/effection/17_vampire/magic17a.mcfunction",
+      "effect": "minecraft:night_vision",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s vampire_rank matches 1 run effect give @s minecraft:night_vision infinite 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17a.mcfunction#L20",
+      "source": "data/magics/function/effection/17_vampire/magic17a.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s vampire_rank matches 6.. run effect give @s minecraft:absorption 10 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17a.mcfunction#L22",
+      "source": "data/magics/function/effection/17_vampire/magic17a.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s minecraft:regeneration 3 2"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17a.mcfunction#L23",
+      "source": "data/magics/function/effection/17_vampire/magic17a.mcfunction",
+      "effect": "minecraft:saturation",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 5,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:saturation 3 5 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17b.mcfunction#L12",
+      "source": "data/magics/function/effection/17_vampire/magic17b.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:speed infinite 2 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/17_vampire/magic17b.mcfunction#L13",
+      "source": "data/magics/function/effection/17_vampire/magic17b.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 9,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:absorption 3 9 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/20_ghost/magic20a_toggle.mcfunction#L2",
+      "source": "data/magics/function/effection/20_ghost/magic20a_toggle.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s ghost_state matches 0 run effect give @s invisibility infinite 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/20_ghost/magic20a_toggle.mcfunction#L14",
+      "source": "data/magics/function/effection/20_ghost/magic20a_toggle.mcfunction",
+      "effect": "minecraft:slow_falling",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s ghost_state matches 2 run effect give @s minecraft:slow_falling 4 1"
+    },
+    {
+      "recordId": "data/magics/function/effection/20_ghost/magic20b.mcfunction#L6",
+      "source": "data/magics/function/effection/20_ghost/magic20b.mcfunction",
+      "effect": "minecraft:wither",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s wither infinite 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/21_eye/magic21b_curse.mcfunction#L11",
+      "source": "data/magics/function/effection/21_eye/magic21b_curse.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 10 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/21_eye/magic21b_curse.mcfunction#L12",
+      "source": "data/magics/function/effection/21_eye/magic21b_curse.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 1 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/21_eye/magic21b_curse.mcfunction#L13",
+      "source": "data/magics/function/effection/21_eye/magic21b_curse.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness 10 1 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/22_red/magic22a_update.mcfunction#L8",
+      "source": "data/magics/function/effection/22_red/magic22a_update.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @a[distance=..5] run effect give @s slowness 3 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/22_red/magic22b_cast_at.mcfunction#L2",
+      "source": "data/magics/function/effection/22_red/magic22b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 5 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/22_red/magic22b_cast_at.mcfunction#L4",
+      "source": "data/magics/function/effection/22_red/magic22b_cast_at.mcfunction",
+      "effect": "minecraft:wither",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s witchProg matches 50.. run effect give @s wither 10 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/22_red/magic22b_cast_at.mcfunction#L5",
+      "source": "data/magics/function/effection/22_red/magic22b_cast_at.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s witchProg matches 50.. run effect give @s blindness 10 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/4_cat/magic4a.mcfunction#L10",
+      "source": "data/magics/function/effection/4_cat/magic4a.mcfunction",
+      "effect": "minecraft:night_vision",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s night_vision infinite 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/4_cat/magic4a_damge_1.mcfunction#L2",
+      "source": "data/magics/function/effection/4_cat/magic4a_damge_1.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 2,
+      "hideParticles": false,
+      "rawCommand": "effect give @s slowness 3 2 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/4_cat/magic4a_damge_2.mcfunction#L2",
+      "source": "data/magics/function/effection/4_cat/magic4a_damge_2.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 2,
+      "hideParticles": false,
+      "rawCommand": "effect give @s slowness 3 2 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/4_cat/magic4b.mcfunction#L19",
+      "source": "data/magics/function/effection/4_cat/magic4b.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s invisibility 30 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/4_cat/magic4b.mcfunction#L20",
+      "source": "data/magics/function/effection/4_cat/magic4b.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s resistance 30 100 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/4_cat/magic4b.mcfunction#L21",
+      "source": "data/magics/function/effection/4_cat/magic4b.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness 30 100 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/5_reflect/magic5a_teleport_back.mcfunction#L13",
+      "source": "data/magics/function/effection/5_reflect/magic5a_teleport_back.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute at @s positioned ~22 ~26 ~10072 if block ~ ~ ~ air if entity @s[scores={magic2=1}] run effect give @s minecraft:invisibility 3 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/5_reflect/magic5a_teleport_back.mcfunction#L14",
+      "source": "data/magics/function/effection/5_reflect/magic5a_teleport_back.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute at @s positioned ~22 ~26 ~10072 if block ~ ~ ~ air if entity @s[scores={magic2=1}] run effect give @s minecraft:speed 3 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/5_reflect/magic5a_teleport_back.mcfunction#L15",
+      "source": "data/magics/function/effection/5_reflect/magic5a_teleport_back.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute at @s positioned ~22 ~26 ~10072 if block ~ ~ ~ air if entity @s[scores={magic2=1}] run effect give @s minecraft:strength 3 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/6_listen/magic6a.mcfunction#L7",
+      "source": "data/magics/function/effection/6_listen/magic6a.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 20,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:darkness 20 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/6_listen/magic6a.mcfunction#L8",
+      "source": "data/magics/function/effection/6_listen/magic6a.mcfunction",
+      "effect": "minecraft:night_vision",
+      "target": "@s",
+      "duration": 20,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:night_vision 20 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/6_listen/magic6a.mcfunction#L9",
+      "source": "data/magics/function/effection/6_listen/magic6a.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 20,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:blindness 20 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/6_listen/magic6b.mcfunction#L3",
+      "source": "data/magics/function/effection/6_listen/magic6b.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@a[distance=0.01..8]",
+      "duration": 1,
+      "amplifier": 5,
+      "hideParticles": false,
+      "rawCommand": "effect give @a[distance=0.01..8] weakness 1 5 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/6_listen/magic6b_at.mcfunction#L1",
+      "source": "data/magics/function/effection/6_listen/magic6b_at.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 5,
+      "hideParticles": false,
+      "rawCommand": "effect give @s weakness 5 5 false"
+    },
+    {
+      "recordId": "data/magics/function/effection/8_invisibility/magic8a.mcfunction#L5",
+      "source": "data/magics/function/effection/8_invisibility/magic8a.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "execute if entity @s[predicate=!magics:8_invisibility/magic8a_uninv] run effect give @s speed 1 3 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/8_invisibility/magic8a_uninv.mcfunction#L3",
+      "source": "data/magics/function/effection/8_invisibility/magic8a_uninv.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s invisibility infinite 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/8_invisibility/magic8a_uninv.mcfunction#L4",
+      "source": "data/magics/function/effection/8_invisibility/magic8a_uninv.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 6,
+      "hideParticles": true,
+      "rawCommand": "effect give @s speed infinite 6 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/8_invisibility/magic8b.mcfunction#L13",
+      "source": "data/magics/function/effection/8_invisibility/magic8b.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s invisibility 10 0 true"
+    },
+    {
+      "recordId": "data/magics/function/effection/9_turn/magic9a_cast_at.mcfunction#L3",
+      "source": "data/magics/function/effection/9_turn/magic9a_cast_at.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "effect give @s minecraft:slowness 2 0"
+    },
+    {
+      "recordId": "data/props/function/asks/common/crystalball.mcfunction#L3",
+      "source": "data/props/function/asks/common/crystalball.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@a[scores={ready=1,dead=0},distance=..6,tag=!crystalball]",
+      "duration": 15,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..6,tag=!crystalball] minecraft:glowing 15 0 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/mirror.mcfunction#L6",
+      "source": "data/props/function/asks/common/mirror.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s Mirror matches 1 run return run effect give @s minecraft:invisibility 10 0 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/mirror.mcfunction#L9",
+      "source": "data/props/function/asks/common/mirror.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s Mirror matches 2 run return run effect give @s minecraft:invisibility 15 0 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/mirror.mcfunction#L11",
+      "source": "data/props/function/asks/common/mirror.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 20,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:invisibility 20 0 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/rope.mcfunction#L14",
+      "source": "data/props/function/asks/common/rope.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@p[tag=rope,scores={ready=1,dead=0}]",
+      "duration": 10,
+      "amplifier": 5,
+      "hideParticles": true,
+      "rawCommand": "effect give @p[tag=rope,scores={ready=1,dead=0}] weakness 10 5 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/rope.mcfunction#L23",
+      "source": "data/props/function/asks/common/rope.mcfunction",
+      "effect": "minecraft:hunger",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 160,
+      "hideParticles": true,
+      "rawCommand": "effect give @s hunger 1 160 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/scroll.mcfunction#L9",
+      "source": "data/props/function/asks/common/scroll.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:speed 6 1 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/sparklingwater.mcfunction#L2",
+      "source": "data/props/function/asks/common/sparklingwater.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 180,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:invisibility 180 0 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/sparklingwater.mcfunction#L3",
+      "source": "data/props/function/asks/common/sparklingwater.mcfunction",
+      "effect": "minecraft:slow_falling",
+      "target": "@s",
+      "duration": 180,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:slow_falling 180 0 true"
+    },
+    {
+      "recordId": "data/props/function/asks/common/treatment_potion.mcfunction#L2",
+      "source": "data/props/function/asks/common/treatment_potion.mcfunction",
+      "effect": "minecraft:instant_health",
+      "target": "@s",
+      "duration": null,
+      "amplifier": null,
+      "hideParticles": null,
+      "rawCommand": "execute run effect give @s minecraft:instant_health"
+    },
+    {
+      "recordId": "data/props/function/effection/common/landmine/landmine_boom.mcfunction#L3",
+      "source": "data/props/function/effection/common/landmine/landmine_boom.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@a[scores={ready=1,dead=0},distance=..1.5]",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..1.5] minecraft:blindness 10 0 true"
+    },
+    {
+      "recordId": "data/props/function/effection/common/landmine/landmine_boom.mcfunction#L4",
+      "source": "data/props/function/effection/common/landmine/landmine_boom.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@a[scores={ready=1,dead=0},distance=..1.5]",
+      "duration": 15,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..1.5] minecraft:slowness 15 4 true"
+    },
+    {
+      "recordId": "data/props/function/effection/common/landmine/landmine_boom.mcfunction#L5",
+      "source": "data/props/function/effection/common/landmine/landmine_boom.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@a[scores={ready=1,dead=0},distance=..1.5]",
+      "duration": 20,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..1.5] minecraft:weakness 20 4 true"
+    },
+    {
+      "recordId": "data/props/function/effection/common/tarot/tarot_effection/tarot_effect.mcfunction#L1",
+      "source": "data/props/function/effection/common/tarot/tarot_effection/tarot_effect.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 40,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if entity @s[tag=tarot1] run effect give @s minecraft:invisibility 40 0 true"
+    },
+    {
+      "recordId": "data/props/function/effection/common/tarot/tarot_effection/tarot_effect.mcfunction#L23",
+      "source": "data/props/function/effection/common/tarot/tarot_effection/tarot_effect.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@s",
+      "duration": 40,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if entity @s[tag=tarot7] run effect give @s minecraft:glowing 40 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/judge_anan/target/jd_main.mcfunction#L8",
+      "source": "data/props_anan/function/effection/judge_anan/target/jd_main.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 3,
+      "hideParticles": null,
+      "rawCommand": "execute as @e[type=!item,tag=jd_target,limit=1] at @s run effect give @s minecraft:slowness 5 3"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/judge_anan/target/th_main.mcfunction#L8",
+      "source": "data/props_anan/function/effection/judge_anan/target/th_main.mcfunction",
+      "effect": "minecraft:levitation",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 3,
+      "hideParticles": null,
+      "rawCommand": "execute as @e[type=!item,tag=th_target,limit=1] at @s run effect give @s minecraft:levitation 5 3"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_paralyze.mcfunction#L1",
+      "source": "data/props_anan/function/effection/stun_gun/stun_paralyze.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 254,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:slowness 1 254 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_paralyze.mcfunction#L2",
+      "source": "data/props_anan/function/effection/stun_gun/stun_paralyze.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 254,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:weakness 1 254 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_paralyze.mcfunction#L3",
+      "source": "data/props_anan/function/effection/stun_gun/stun_paralyze.mcfunction",
+      "effect": "minecraft:levitation",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:levitation 1 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction#L21",
+      "source": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 200,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score #global weather.storm_timer_temp matches 0 as @a[tag=weather.charged,tag=!weather.drenched,tag=!weather.cursed] if predicate props_anan:random_30 run effect give @s minecraft:weakness 200 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction#L22",
+      "source": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 100,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score #global weather.storm_timer_temp matches 0 as @a[tag=weather.charged,tag=!weather.drenched,tag=!weather.cursed] if predicate props_anan:random_30 if predicate props_anan:random_15 run effect give @s minecraft:slowness 100 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction#L23",
+      "source": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 40,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score #global weather.storm_timer_temp matches 0 as @a[tag=weather.charged,tag=!weather.drenched,tag=!weather.cursed] if predicate props_anan:random_30 if predicate props_anan:random_10 run effect give @s minecraft:blindness 40 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction#L26",
+      "source": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 200,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score #global weather.storm_timer_temp matches 0 as @a[tag=weather.drenched,tag=!weather.cursed] if predicate props_anan:random_20 run effect give @s minecraft:mining_fatigue 200 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction#L29",
+      "source": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 200,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score #global weather.storm_timer_temp matches 0 as @a[tag=weather.cursed] run effect give @s minecraft:nausea 200 0 true"
+    },
+    {
+      "recordId": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction#L30",
+      "source": "data/props_anan/function/effection/stun_gun/stun_weather.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 100,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score #global weather.storm_timer_temp matches 0 as @a[tag=weather.cursed] run effect give @s minecraft:darkness 100 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/art/art.mcfunction#L1",
+      "source": "data/props_mtiao/function/effection/art/art.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s absorption infinite 1 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/beauty/beethoven.mcfunction#L6",
+      "source": "data/props_mtiao/function/effection/beauty/beethoven.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s strength 5 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/beauty/master.mcfunction#L6",
+      "source": "data/props_mtiao/function/effection/beauty/master.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s strength 10 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/beauty/master.mcfunction#L7",
+      "source": "data/props_mtiao/function/effection/beauty/master.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s speed 10 1 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/beauty/master.mcfunction#L8",
+      "source": "data/props_mtiao/function/effection/beauty/master.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s absorption 10 2 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/beauty/master.mcfunction#L9",
+      "source": "data/props_mtiao/function/effection/beauty/master.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s resistance 10 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/beauty/picasso.mcfunction#L6",
+      "source": "data/props_mtiao/function/effection/beauty/picasso.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s speed 5 1 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/dart/fear/target.mcfunction#L5",
+      "source": "data/props_mtiao/function/effection/dart/fear/target.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 20,
+      "hideParticles": null,
+      "rawCommand": "effect give @s weakness 5 20"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/eject_button/eject.mcfunction#L8",
+      "source": "data/props_mtiao/function/effection/eject_button/eject.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness infinite 100 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/eject_button/eject.mcfunction#L9",
+      "source": "data/props_mtiao/function/effection/eject_button/eject.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness infinite 100 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/tablet/consume.mcfunction#L8",
+      "source": "data/props_mtiao/function/effection/tablet/consume.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 3 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/tablet/consume.mcfunction#L9",
+      "source": "data/props_mtiao/function/effection/tablet/consume.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 3 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/thrown_object/ice/on_landing_armor_stand.mcfunction#L13",
+      "source": "data/props_mtiao/function/effection/thrown_object/ice/on_landing_armor_stand.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "execute positioned ~ ~ ~ as @a[tag=temp_freeze_target] at @s run effect give @s slowness 3 4 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/thrown_object/ice/on_landing_armor_stand.mcfunction#L14",
+      "source": "data/props_mtiao/function/effection/thrown_object/ice/on_landing_armor_stand.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "execute positioned ~ ~ ~ as @a[tag=temp_freeze_target] at @s run effect give @s mining_fatigue 8 4 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/vampire/crystallization.mcfunction#L6",
+      "source": "data/props_mtiao/function/effection/vampire/crystallization.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 4 run effect give @s absorption infinite 2 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/vampire/crystallization.mcfunction#L7",
+      "source": "data/props_mtiao/function/effection/vampire/crystallization.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 6,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s TalentSort matches 4 run effect give @s absorption infinite 6 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/vampire/vampire_tick.mcfunction#L3",
+      "source": "data/props_mtiao/function/effection/vampire/vampire_tick.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@a[tag=vampire]",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[tag=vampire] resistance infinite 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/effection/vampire/vampire_tick.mcfunction#L4",
+      "source": "data/props_mtiao/function/effection/vampire/vampire_tick.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s[tag=vampire]",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[tag=vampire] regeneration infinite 1 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/give/unique/lyza/check.mcfunction#L12",
+      "source": "data/props_mtiao/function/give/unique/lyza/check.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @s if score @s count_a > @s count_b run effect give @s strength 10 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/give/unique/lyza/check.mcfunction#L13",
+      "source": "data/props_mtiao/function/give/unique/lyza/check.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @s if score @s count_b > @s count_a run effect give @s resistance 10 0 true"
+    },
+    {
+      "recordId": "data/props_mtiao/function/give/unique/lyza/check.mcfunction#L14",
+      "source": "data/props_mtiao/function/give/unique/lyza/check.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @s if score @s count_a = @s count_b run effect give @s speed 10 0 true"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/eye_crystal/eye_crystal.mcfunction#L7",
+      "source": "data/props_myc/function/effection/common/eye_crystal/eye_crystal.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@e[distance=..16,type=!item_display,type=!block_display,type=!text_display,type=!armor_stand]",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "execute at @s run effect give @e[distance=..16,type=!item_display,type=!block_display,type=!text_display,type=!armor_stand] glowing 5 255 true"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction#L1",
+      "source": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 36,
+      "amplifier": 3,
+      "hideParticles": null,
+      "rawCommand": "effect give @s slowness 36 3"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction#L2",
+      "source": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 66,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s weakness 66 2"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction#L3",
+      "source": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "effect give @s blindness 10 0"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction#L4",
+      "source": "data/props_myc/function/effection/common/nightmare_pendant/morning_effect.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "effect give @s darkness 10 0"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction#L7",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction",
+      "effect": "minecraft:night_vision",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "effect give @s night_vision 3 255"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction#L8",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "effect give @s weakness 3 255"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction#L9",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "effect give @s slowness 3 255"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction#L10",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "effect give @s darkness 5 255"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction#L11",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "effect give @s blindness 5 255"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction#L12",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 90,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s regeneration 90 255 true"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L1",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:poison",
+      "target": "@s",
+      "duration": 180,
+      "amplifier": 20,
+      "hideParticles": null,
+      "rawCommand": "effect give @s poison 180 20"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L2",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "effect give @s slowness 30 1"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L3",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s mining_fatigue 30 2"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L4",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 18,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "effect give @s nausea 18 1"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L5",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s darkness 6 2"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L6",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s blindness 6 2"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction#L7",
+      "source": "data/props_myc/function/effection/common/syringe_majo/syringe_majo_timeout.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s[scores={role=4}]",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={role=4}] regeneration infinite 1 true"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction#L1",
+      "source": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "effect give @s slowness 3 1"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction#L2",
+      "source": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 6,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "effect give @s nausea 6 1"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction#L3",
+      "source": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s darkness 4 2"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction#L4",
+      "source": "data/props_myc/function/effection/common/syringe_shrink/shrink_timeout.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "effect give @s blindness 4 2"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/ticl4/ticl4_pool_effect.mcfunction#L7",
+      "source": "data/props_myc/function/effection/common/ticl4/ticl4_pool_effect.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@a[scores={ready=1,dead=0},distance=..5]",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..5] slowness 3 0 true"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/ticl4/ticl4_pool_effect.mcfunction#L8",
+      "source": "data/props_myc/function/effection/common/ticl4/ticl4_pool_effect.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@a[scores={ready=1,dead=0},distance=..5]",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..5] blindness 4 0 true"
+    },
+    {
+      "recordId": "data/props_myc/function/effection/common/ticl4/ticl4_pool_effect.mcfunction#L9",
+      "source": "data/props_myc/function/effection/common/ticl4/ticl4_pool_effect.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@a[scores={ready=1,dead=0},distance=..5]",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0},distance=..5] darkness 4 0 true"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry.mcfunction#L10",
+      "source": "data/props_rain/function/effection/parry/parry.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s resistance 1 4 true"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_bonus.mcfunction#L1",
+      "source": "data/props_rain/function/effection/parry/parry_bonus.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute as @a[scores={TalentSort=1}] run effect give @s speed 3 1"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_bonus.mcfunction#L2",
+      "source": "data/props_rain/function/effection/parry/parry_bonus.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 1 255 true"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_bonus.mcfunction#L3",
+      "source": "data/props_rain/function/effection/parry/parry_bonus.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness 1 100 true"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_bonus.mcfunction#L4",
+      "source": "data/props_rain/function/effection/parry/parry_bonus.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 1 1 true"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_bonus.mcfunction#L5",
+      "source": "data/props_rain/function/effection/parry/parry_bonus.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 5,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:mining_fatigue 1 5 true"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_fail.mcfunction#L2",
+      "source": "data/props_rain/function/effection/parry/parry_fail.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "effect give @s slowness 1 255"
+    },
+    {
+      "recordId": "data/props_rain/function/effection/parry/parry_fail.mcfunction#L3",
+      "source": "data/props_rain/function/effection/parry/parry_fail.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 10,
+      "hideParticles": null,
+      "rawCommand": "effect give @s blindness 2 10"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/infinite_book/infinite_book_special.mcfunction#L2",
+      "source": "data/props_skadi/function/effection/common/infinite_book/infinite_book_special.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 10 0 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/painkiller/painkiller_addiction_tick.mcfunction#L1",
+      "source": "data/props_skadi/function/effection/common/painkiller/painkiller_addiction_tick.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 10 0 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/painkiller/painkiller_addiction_tick.mcfunction#L2",
+      "source": "data/props_skadi/function/effection/common/painkiller/painkiller_addiction_tick.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 10 1 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/painkiller/painkiller_used.mcfunction#L3",
+      "source": "data/props_skadi/function/effection/common/painkiller/painkiller_used.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": false,
+      "rawCommand": "effect give @s resistance 30 0 false"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/painkiller/painkiller_used.mcfunction#L8",
+      "source": "data/props_skadi/function/effection/common/painkiller/painkiller_used.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 50,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s PainkillerAddictionTimer matches 1500.. run effect give @s darkness 50 0 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/rapier/rapier_block_tick.mcfunction#L1",
+      "source": "data/props_skadi/function/effection/common/rapier/rapier_block_tick.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 1,
+      "hideParticles": false,
+      "rawCommand": "execute if score @s rapierBlockTimer matches 1 unless entity @s[tag=rapier_block_success] run effect give @s weakness 4 1 false"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/rapier/rapier_hold_charge.mcfunction#L58",
+      "source": "data/props_skadi/function/effection/common/rapier/rapier_hold_charge.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 2,
+      "hideParticles": false,
+      "rawCommand": "execute if score @s[tag=rapier_lunge_check] rapierBackStepTimer matches 18 run effect give @s resistance 1 2 false"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/rapier/rapier_hold_shift.mcfunction#L5",
+      "source": "data/props_skadi/function/effection/common/rapier/rapier_hold_shift.mcfunction",
+      "effect": "minecraft:hunger",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 15,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s rapierBackStepCD matches 1.. at @s unless block ~ ~-0.1 ~ air run effect give @s hunger 1 15 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/rapier/rapier_used.mcfunction#L10",
+      "source": "data/props_skadi/function/effection/common/rapier/rapier_used.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 4,
+      "hideParticles": false,
+      "rawCommand": "execute unless score @s rapierBackStepTimer matches 1.. run effect give @s resistance 1 4 false"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/common/rapier/rapier_used.mcfunction#L11",
+      "source": "data/props_skadi/function/effection/common/rapier/rapier_used.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 127,
+      "hideParticles": false,
+      "rawCommand": "execute unless score @s rapierBackStepTimer matches 1.. run effect give @s weakness 1 127 false"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/unique/incorporeity/incorporeity_tick.mcfunction#L3",
+      "source": "data/props_skadi/function/effection/unique/incorporeity/incorporeity_tick.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s resistance infinite 4 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/unique/incorporeity/incorporeity_tick.mcfunction#L6",
+      "source": "data/props_skadi/function/effection/unique/incorporeity/incorporeity_tick.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s invisibility infinite 0 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/unique/incorporeity/incorporeity_used.mcfunction#L11",
+      "source": "data/props_skadi/function/effection/unique/incorporeity/incorporeity_used.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s glowing 3 0 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/unique/nnk_rifle/nnk_rifle_headshot.mcfunction#L2",
+      "source": "data/props_skadi/function/effection/unique/nnk_rifle/nnk_rifle_headshot.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 5 0 true"
+    },
+    {
+      "recordId": "data/props_skadi/function/effection/unique/nnk_rifle/nnk_rifle_headshot.mcfunction#L3",
+      "source": "data/props_skadi/function/effection/unique/nnk_rifle/nnk_rifle_headshot.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness 5 3 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/eastern/eastern_give.mcfunction#L3",
+      "source": "data/props_songbing/function/effection/eastern/eastern_give.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:speed 15 1 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/eastern/eastern_give.mcfunction#L4",
+      "source": "data/props_songbing/function/effection/eastern/eastern_give.mcfunction",
+      "effect": "minecraft:jump_boost",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s jump_boost 15 2 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/eastern/eastern_give.mcfunction#L5",
+      "source": "data/props_songbing/function/effection/eastern/eastern_give.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": 15,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s absorption 15 1 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/dye_blue.mcfunction#L1",
+      "source": "data/props_songbing/function/effection/highlight/dye_blue.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": 60,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 10 run effect give @s absorption 60 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/dye_yellow.mcfunction#L1",
+      "source": "data/props_songbing/function/effection/highlight/dye_yellow.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 10 as @n[distance=0.01..,scores={dead=0}] run effect give @s minecraft:glowing 30 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/blue.mcfunction#L3",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/blue.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@a[distance=..3]",
+      "duration": 60,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute at @s run effect give @a[distance=..3] absorption 60 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/blue.mcfunction#L4",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/blue.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@a[distance=..3]",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute at @s run effect give @a[distance=..3] resistance 30 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction#L3",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute unless entity @a[tag=spell_shooter,distance=..3] run execute as @a[distance=..2.5] run effect give @s blindness 5 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction#L4",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": true,
+      "rawCommand": "execute unless entity @a[tag=spell_shooter,distance=..3] run execute as @a[distance=..2.5] run effect give @s slowness 5 255 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction#L5",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction",
+      "effect": "minecraft:absorption",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "execute unless entity @a[tag=spell_shooter,distance=..3] run execute as @a[distance=..2.5] run effect give @s absorption 5 4 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction#L6",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/purple_shoot.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "execute unless entity @a[tag=spell_shooter,distance=..3] run execute as @a[distance=..2.5] run effect give @s minecraft:mining_fatigue 5 4 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/painter_skill/yellow.mcfunction#L3",
+      "source": "data/props_songbing/function/effection/highlight/painter_skill/yellow.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@s",
+      "duration": 120,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute at @s as @a[distance=1..20,sort=nearest,limit=1] run effect give @s minecraft:glowing 120 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/purple_shoot.mcfunction#L2",
+      "source": "data/props_songbing/function/effection/highlight/purple_shoot.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute as @e[type=player,distance=1..2,tag=!spell_shooter] run effect give @s blindness 5 1 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/highlight/purple_shoot.mcfunction#L3",
+      "source": "data/props_songbing/function/effection/highlight/purple_shoot.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @e[type=player,distance=1..2,tag=!spell_shooter] run effect give @s slowness 5 0 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/ice/target/fr_main.mcfunction#L7",
+      "source": "data/props_songbing/function/effection/ice/target/fr_main.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "execute as @e[type=!item,tag=fr_target,limit=1] at @s run effect give @s minecraft:slowness 5 255"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/ice/target/gl_main.mcfunction#L7",
+      "source": "data/props_songbing/function/effection/ice/target/gl_main.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 255,
+      "hideParticles": null,
+      "rawCommand": "execute as @e[type=!item,tag=fr_target,limit=1] at @s run effect give @s minecraft:slowness 5 255"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/lightdust.mcfunction#L1",
+      "source": "data/props_songbing/function/effection/lightdust.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@a[distance=0.1..5]",
+      "duration": 3,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "effect give @a[distance=0.1..5] minecraft:glowing 3 0"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/nine/nine.mcfunction#L1",
+      "source": "data/props_songbing/function/effection/nine/nine.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:speed 30 1 true"
+    },
+    {
+      "recordId": "data/props_songbing/function/effection/three/three.mcfunction#L1",
+      "source": "data/props_songbing/function/effection/three/three.mcfunction",
+      "effect": "minecraft:jump_boost",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:jump_boost 30 2 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/dandelion/blowing.mcfunction#L5",
+      "source": "data/props_tiroaw/function/effection/dandelion/blowing.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@a",
+      "duration": 50,
+      "amplifier": 50,
+      "hideParticles": true,
+      "rawCommand": "effect give @a weakness 50 50 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/general_effection/dust_effect.mcfunction#L2",
+      "source": "data/props_tiroaw/function/effection/general_effection/dust_effect.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s speed 1 1 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/general_effection/fire_effect.mcfunction#L2",
+      "source": "data/props_tiroaw/function/effection/general_effection/fire_effect.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 6,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:resistance 1 6 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/prison_warden/player_modify.mcfunction#L8",
+      "source": "data/props_tiroaw/function/effection/prison_warden/player_modify.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s invisibility infinite 0 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/prison_warden/player_modify.mcfunction#L9",
+      "source": "data/props_tiroaw/function/effection/prison_warden/player_modify.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 5,
+      "hideParticles": true,
+      "rawCommand": "effect give @s resistance infinite 5 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/prison_warden/player_modify.mcfunction#L10",
+      "source": "data/props_tiroaw/function/effection/prison_warden/player_modify.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 200,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness infinite 200 true"
+    },
+    {
+      "recordId": "data/props_tiroaw/function/effection/umbrella/normal_umbrella.mcfunction#L2",
+      "source": "data/props_tiroaw/function/effection/umbrella/normal_umbrella.mcfunction",
+      "effect": "minecraft:slow_falling",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s minecraft:slow_falling 1 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/13_ability_soul_bond/reward_helper.mcfunction#L1",
+      "source": "data/talent/function/effection/13_ability_soul_bond/reward_helper.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s pluginRole matches 1 run effect give @s minecraft:strength 30 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/13_ability_soul_bond/reward_helper.mcfunction#L2",
+      "source": "data/talent/function/effection/13_ability_soul_bond/reward_helper.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 60,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s pluginRole matches 2 run effect give @s minecraft:strength 60 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/13_ability_soul_bond/reward_helper.mcfunction#L3",
+      "source": "data/talent/function/effection/13_ability_soul_bond/reward_helper.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 90,
+      "amplifier": 3,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s pluginRole matches 3 run effect give @s minecraft:strength 90 3"
+    },
+    {
+      "recordId": "data/talent/function/effection/14_ability_sturdy/check.mcfunction#L3",
+      "source": "data/talent/function/effection/14_ability_sturdy/check.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 4,
+      "hideParticles": false,
+      "rawCommand": "execute as @a unless entity @s[tag=talent14_triggered] if score @s TalentSort matches 14 if score @s Health matches ..5 run effect give @s resistance 2 4 false"
+    },
+    {
+      "recordId": "data/talent/function/effection/14_ability_sturdy/check.mcfunction#L4",
+      "source": "data/talent/function/effection/14_ability_sturdy/check.mcfunction",
+      "effect": "minecraft:instant_health",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @a unless entity @s[tag=talent14_triggered] if score @s TalentSort matches 14 if score @s Health matches ..5 run effect give @s minecraft:instant_health 1 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/17_ability_unseen/buff.mcfunction#L2",
+      "source": "data/talent/function/effection/17_ability_unseen/buff.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @s invisibility infinite 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/18_ability_speed/check.mcfunction#L3",
+      "source": "data/talent/function/effection/18_ability_speed/check.mcfunction",
+      "effect": "minecraft:hunger",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 50,
+      "hideParticles": true,
+      "rawCommand": "execute as @a if score @s TalentSort matches 18 if predicate talent:running_check run effect give @s hunger 1 50 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/18_ability_speed/check.mcfunction#L7",
+      "source": "data/talent/function/effection/18_ability_speed/check.mcfunction",
+      "effect": "minecraft:saturation",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute as @a if score @s TalentSort matches 18 if score @s resting matches 50.. run effect give @s saturation 1 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction#L2",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 1 run effect give @s minecraft:regeneration 5 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction#L3",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 2 run effect give @s minecraft:speed 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction#L4",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 3 run effect give @s minecraft:resistance 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction#L5",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction",
+      "effect": "minecraft:haste",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 4 run effect give @s minecraft:haste 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction#L6",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_buff.mcfunction",
+      "effect": "minecraft:jump_boost",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 5 run effect give @s minecraft:jump_boost 8 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L2",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 1 run effect give @s minecraft:regeneration 10 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L3",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 2 run effect give @s minecraft:resistance 10 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L4",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 3 run effect give @s minecraft:blindness 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L5",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 4 run effect give @s minecraft:nausea 10 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L6",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 5 run effect give @s minecraft:darkness 10 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L7",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 6 run effect give @s minecraft:mining_fatigue 10 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L8",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 7 run effect give @s minecraft:weakness 10 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L9",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 8 run effect give @s minecraft:slowness 10 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L10",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 9 run effect give @s minecraft:blindness 5 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction#L11",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_chaos.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 10 run effect give @s minecraft:nausea 10 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L2",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 1 run effect give @s minecraft:regeneration 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L3",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 2 run effect give @s minecraft:speed 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L4",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 3 run effect give @s minecraft:resistance 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L5",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:haste",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 4 run effect give @s minecraft:haste 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L6",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:jump_boost",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 5 run effect give @s minecraft:jump_boost 8 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L7",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 6 run effect give @s minecraft:blindness 5 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L8",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 7 run effect give @s minecraft:nausea 8 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L9",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 8 run effect give @s minecraft:darkness 8 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L10",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 9 run effect give @s minecraft:mining_fatigue 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction#L11",
+      "source": "data/talent/function/effection/20_ability_chorus/ally_mixed.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 10 run effect give @s minecraft:weakness 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/chorus_consume.mcfunction#L11",
+      "source": "data/talent/function/effection/20_ability_chorus/chorus_consume.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 0..2 run effect give @s minecraft:slowness 5 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/chorus_consume.mcfunction#L12",
+      "source": "data/talent/function/effection/20_ability_chorus/chorus_consume.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 3..5 run effect give @s minecraft:slowness 5 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/chorus_consume.mcfunction#L13",
+      "source": "data/talent/function/effection/20_ability_chorus/chorus_consume.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 6.. run effect give @s minecraft:slowness 10 2"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L2",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 1 run effect give @s minecraft:blindness 5 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L3",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 2 run effect give @s minecraft:nausea 8 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L4",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 3 run effect give @s minecraft:darkness 8 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L5",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 4 run effect give @s minecraft:mining_fatigue 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L6",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score @s chorus_roll matches 5 run effect give @s minecraft:weakness 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L9",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 6.. if score @s chorus_roll matches 1 run effect give @s minecraft:blindness 5 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L10",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 6.. if score @s chorus_roll matches 2 run effect give @s minecraft:nausea 8 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L11",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 0,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 6.. if score @s chorus_roll matches 3 run effect give @s minecraft:darkness 8 0"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L12",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 6.. if score @s chorus_roll matches 4 run effect give @s minecraft:mining_fatigue 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction#L13",
+      "source": "data/talent/function/effection/20_ability_chorus/self_penalty.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 8,
+      "amplifier": 1,
+      "hideParticles": null,
+      "rawCommand": "execute if score #burden tmp matches 6.. if score @s chorus_roll matches 5 run effect give @s minecraft:weakness 8 1"
+    },
+    {
+      "recordId": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction#L3",
+      "source": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction",
+      "effect": "minecraft:invisibility",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @a at @a if score @s TalentSort matches 23 run effect give @s invisibility 1 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction#L4",
+      "source": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @a at @a if score @s TalentSort matches 23 run effect give @s blindness 2 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction#L5",
+      "source": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "execute as @a at @a if score @s TalentSort matches 23 run effect give @s slowness 1 2 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction#L7",
+      "source": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute as @a at @a unless score @s TalentSort matches 23 if score @s scatter matches 1.. run effect give @s blindness 5 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction#L8",
+      "source": "data/talent/function/effection/23_ability_narcolepsy/hallucination.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "execute as @a at @a unless score @s TalentSort matches 23 if score @s scatter matches 1.. run effect give @s slowness 5 3 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/2_ability_alert/alert_success.mcfunction#L3",
+      "source": "data/talent/function/effection/2_ability_alert/alert_success.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 1,
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s speed 1 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow1.mcfunction#L1",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow1.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s[scores={dead=0}]",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 3 run effect give @s[scores={dead=0}] weakness infinite 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow2.mcfunction#L1",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow2.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s[scores={dead=0}]",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 3 run effect give @s[scores={dead=0}] slowness infinite 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow3.mcfunction#L1",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow3.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s[scores={dead=0}]",
+      "duration": "infinite",
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 3 run effect give @s[scores={dead=0}] nausea infinite 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction#L4",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s[scores={dead=0}]",
+      "duration": "infinite",
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute unless score @s TalentSort matches 3 run effect give @s[scores={dead=0}] mining_fatigue infinite 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction#L8",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s[scores={dead=0}]",
+      "duration": 10,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s TalentSort matches 3 run effect give @s[scores={dead=0}] speed 10 2 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction#L9",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction",
+      "effect": "minecraft:night_vision",
+      "target": "@s[scores={dead=0}]",
+      "duration": 10,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s TalentSort matches 3 run effect give @s[scores={dead=0}] night_vision 10 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction#L10",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow4.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s[scores={dead=0}]",
+      "duration": 10,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s TalentSort matches 3 run effect give @s[scores={dead=0}] resistance 10 3 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L4",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:glowing",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] glowing infinite 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L5",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:mining_fatigue",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] mining_fatigue infinite 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L6",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:hunger",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] hunger infinite 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L7",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] weakness infinite 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L8",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] nausea infinite 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L9",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:wither",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] wither infinite 3 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L10",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 4,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] blindness infinite 4 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction#L11",
+      "source": "data/talent/function/effection/3_addition_chivalrous/arrow5.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s[scores={dead=0,TalentSort=3}]",
+      "duration": "infinite",
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @s[scores={dead=0,TalentSort=3}] slowness infinite 2 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/5_ability_gourmet/bad_nausea.mcfunction#L1",
+      "source": "data/talent/function/effection/5_ability_gourmet/bad_nausea.mcfunction",
+      "effect": "minecraft:nausea",
+      "target": "@s",
+      "duration": 10,
+      "amplifier": 3,
+      "hideParticles": true,
+      "rawCommand": "effect give @s nausea 10 3 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/5_ability_gourmet/bad_poison.mcfunction#L1",
+      "source": "data/talent/function/effection/5_ability_gourmet/bad_poison.mcfunction",
+      "effect": "minecraft:poison",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s poison 2 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L4",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 0..100 run effect give @s minecraft:speed 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L6",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:saturation",
+      "target": "@s",
+      "duration": 2,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 100..300 run effect give @s minecraft:saturation 2 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L7",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 100..300 run effect give @s minecraft:speed 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L8",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 100..300 run effect give @s minecraft:strength 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L10",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:saturation",
+      "target": "@s",
+      "duration": 3,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 300..500 run effect give @s minecraft:saturation 3 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L11",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 300..500 run effect give @s minecraft:speed 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L12",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 300..500 run effect give @s minecraft:strength 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L13",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 300..500 run effect give @s minecraft:regeneration 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L15",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:saturation",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 500.. run effect give @s minecraft:saturation 5 1 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L16",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:strength",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 500.. run effect give @s minecraft:strength 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L17",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:speed",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 500.. run effect give @s minecraft:speed 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L18",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:regeneration",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 500.. run effect give @s minecraft:regeneration 30 0 true"
+    },
+    {
+      "recordId": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction#L19",
+      "source": "data/talent/function/effection/7_ability_vacumm/cooldown.mcfunction",
+      "effect": "minecraft:resistance",
+      "target": "@s",
+      "duration": 30,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s consume_MP matches 500.. run effect give @s minecraft:resistance 30 1 true"
+    },
+    {
+      "recordId": "data/tasks/function/back_prison/back_detect.mcfunction#L4",
+      "source": "data/tasks/function/back_prison/back_detect.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@a[scores={ready=1,dead=0}]",
+      "duration": 10,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "effect give @a[scores={ready=1,dead=0}] blindness 10 1 true"
+    },
+    {
+      "recordId": "data/tasks/function/back_prison/punish/punish.mcfunction#L7",
+      "source": "data/tasks/function/back_prison/punish/punish.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s slowness infinite 100 true"
+    },
+    {
+      "recordId": "data/tasks/function/back_prison/punish/punish.mcfunction#L8",
+      "source": "data/tasks/function/back_prison/punish/punish.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": "infinite",
+      "amplifier": 100,
+      "hideParticles": true,
+      "rawCommand": "effect give @s weakness infinite 100 true"
+    },
+    {
+      "recordId": "data/tasks/function/frist_day_task/frist_task_finish.mcfunction#L1",
+      "source": "data/tasks/function/frist_day_task/frist_task_finish.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@a",
+      "duration": 4,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @a blindness 4 2 true"
+    },
+    {
+      "recordId": "data/tasks/function/frist_day_task/frist_task_finish.mcfunction#L2",
+      "source": "data/tasks/function/frist_day_task/frist_task_finish.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@a",
+      "duration": 4,
+      "amplifier": 2,
+      "hideParticles": true,
+      "rawCommand": "effect give @a slowness 4 2 true"
+    },
+    {
+      "recordId": "data/tasks/function/task_frame/fail_punish/punish_assign.mcfunction#L12",
+      "source": "data/tasks/function/task_frame/fail_punish/punish_assign.mcfunction",
+      "effect": "minecraft:weakness",
+      "target": "@s",
+      "duration": 180,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s general_random matches 81..90 run return run effect give @s weakness 180 1 true"
+    },
+    {
+      "recordId": "data/tasks/function/task_frame/fail_punish/punish_assign.mcfunction#L14",
+      "source": "data/tasks/function/task_frame/fail_punish/punish_assign.mcfunction",
+      "effect": "minecraft:slowness",
+      "target": "@s",
+      "duration": 180,
+      "amplifier": 1,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s general_random matches 91..100 run return run effect give @s slowness 180 1 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/cam2_warden_said.mcfunction#L6",
+      "source": "data/lobby/function/tutorials/tutorial_1/cam2_warden_said.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s tutorialT matches 27 run effect give @s darkness 4 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/cam3_warden_said.mcfunction#L4",
+      "source": "data/lobby/function/tutorials/tutorial_1/cam3_warden_said.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s tutorialT matches 18 run effect give @s darkness 4 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/cam4_warden_said.mcfunction#L4",
+      "source": "data/lobby/function/tutorials/tutorial_1/cam4_warden_said.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s tutorialT matches 9 run effect give @s darkness 4 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/cam5_warden_said.mcfunction#L4",
+      "source": "data/lobby/function/tutorials/tutorial_1/cam5_warden_said.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 4,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s tutorialT matches 4 run effect give @s darkness 4 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/cam5_warden_said.mcfunction#L15",
+      "source": "data/lobby/function/tutorials/tutorial_1/cam5_warden_said.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s tutorialT matches 1 run effect give @s darkness 5 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/cam5_warden_said.mcfunction#L16",
+      "source": "data/lobby/function/tutorials/tutorial_1/cam5_warden_said.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 5,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "execute if score @s tutorialT matches 1 run effect give @s blindness 5 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/tutorial1_start.mcfunction#L6",
+      "source": "data/lobby/function/tutorials/tutorial_1/tutorial1_start.mcfunction",
+      "effect": "minecraft:blindness",
+      "target": "@s",
+      "duration": 7,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s blindness 7 0 true"
+    },
+    {
+      "recordId": "data/lobby/function/tutorials/tutorial_1/tutorial1_start.mcfunction#L7",
+      "source": "data/lobby/function/tutorials/tutorial_1/tutorial1_start.mcfunction",
+      "effect": "minecraft:darkness",
+      "target": "@s",
+      "duration": 7,
+      "amplifier": 0,
+      "hideParticles": true,
+      "rawCommand": "effect give @s darkness 7 0 true"
+    }
+  ]
+}

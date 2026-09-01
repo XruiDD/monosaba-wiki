@@ -19,5 +19,9 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      // Hash navigation intentionally synchronizes focused records into local UI state.
+      'react-hooks/set-state-in-effect': 'off',
+    },
   },
 ])
