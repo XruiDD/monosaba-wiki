@@ -100,8 +100,13 @@ export default function App() {
   const routeDataReady = PAGE_DATASETS[page].every((name) => loaded.has(name));
   const searchDataReady = SEARCH_DATASETS.every((name) => loaded.has(name));
 
-  // 全站常驻背景音乐（跨页面保持播放）
-  const bgm = useBgm("assets/sounds/opening.ogg", { volume: 0.5, loop: true });
+  // 受限 WebView 等到首次明确交互后再加载音频，避免首屏同时解码音频与绘制页面。
+  const deferBgmUntilGesture = document.documentElement.dataset.renderProfile === "lite";
+  const bgm = useBgm("assets/sounds/opening.ogg", {
+    volume: 0.5,
+    loop: true,
+    deferUntilGesture: deferBgmUntilGesture,
+  });
 
   useEffect(() => {
     const onHash = () => {

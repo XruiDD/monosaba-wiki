@@ -7,8 +7,8 @@ import { useEffect, useRef, useState } from "react";
  * 但 **静音自动播放始终允许**（除非用户在浏览器设置里全局禁用）。
  *
  * 本 hook 的策略：
- *   1. 组件挂载时创建 <audio>，muted=true、autoplay、loop、playsInline（iOS 必需）
- *   2. 立刻调用 play() —— 因为静音所以不会被拒
+ *   1. 完整模式挂载时创建 <audio>，muted=true、autoplay、loop、playsInline（iOS 必需）
+ *   2. 完整模式立刻调用 play()；受限 WebView 则延迟加载到第一次明确交互
  *   3. 监听全局任意"用户手势"事件（pointerdown / keydown / touchstart / scroll / wheel）
  *   4. 首次手势触发时 unmute + 再 play() 一次（处理罕见的 muted 都不给播的情况）
  *   5. 页面切到后台时自动暂停；切回时恢复（节电 + 隐私）
@@ -19,10 +19,16 @@ import { useEffect, useRef, useState } from "react";
 interface BgmOptions {
   volume?: number;
   loop?: boolean;
+  deferUntilGesture?: boolean;
 }
 
-export function useBgm(src: string, { volume = 0.5, loop = true }: BgmOptions = {}) {
+export function useBgm(src: string, {
+  volume = 0.5,
+  loop = true,
+  deferUntilGesture = false,
+}: BgmOptions = {}) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const activateAudioRef = useRef<(() => void) | null>(null);
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(true);
   const [needsGesture, setNeedsGesture] = useState(false);
@@ -31,18 +37,25 @@ export function useBgm(src: string, { volume = 0.5, loop = true }: BgmOptions = 
     if (!src) return;
 
     const audio = new Audio();
-    audio.src = src;
     audio.loop = loop;
     audio.volume = volume;
     audio.muted = true;            // 关键：静音 → 允许 autoplay
-    audio.preload = "auto";
-    audio.autoplay = true;
+    audio.preload = deferUntilGesture ? "none" : "auto";
+    audio.autoplay = !deferUntilGesture;
     audio.setAttribute("playsinline", "");  // iOS Safari
     audio.crossOrigin = "anonymous";
     audioRef.current = audio;
 
     let unlocked = false;
     let disposed = false;
+    let sourceAttached = false;
+
+    const ensureSource = () => {
+      if (sourceAttached || disposed) return;
+      audio.src = src;
+      sourceAttached = true;
+    };
+    activateAudioRef.current = ensureSource;
 
     // 尝试静音播放
     const tryMutedPlay = () => {
@@ -53,12 +66,17 @@ export function useBgm(src: string, { volume = 0.5, loop = true }: BgmOptions = 
           if (!disposed) setNeedsGesture(true);
         });
     };
-    tryMutedPlay();
+    if (deferUntilGesture) setNeedsGesture(true);
+    else {
+      ensureSource();
+      tryMutedPlay();
+    }
 
     // 手势解锁 —— 第一次任何交互就取消静音
     const unlock = () => {
       if (unlocked || disposed) return;
       unlocked = true;
+      ensureSource();
       audio.muted = false;
       const p = audio.play();
       if (p && typeof p.then === "function") {
@@ -77,10 +95,9 @@ export function useBgm(src: string, { volume = 0.5, loop = true }: BgmOptions = 
       }
     };
 
-    const GESTURE_EVENTS: Array<keyof WindowEventMap> = [
-      "pointerdown", "mousedown", "touchstart", "touchend",
-      "keydown", "scroll", "wheel",
-    ];
+    const GESTURE_EVENTS: Array<keyof WindowEventMap> = deferUntilGesture
+      ? ["pointerdown", "mousedown", "touchstart", "touchend", "keydown"]
+      : ["pointerdown", "mousedown", "touchstart", "touchend", "keydown", "scroll", "wheel"];
     const opts: AddEventListenerOptions = { capture: true, passive: true };
     GESTURE_EVENTS.forEach((e) => window.addEventListener(e, unlock, opts));
 
@@ -104,15 +121,19 @@ export function useBgm(src: string, { volume = 0.5, loop = true }: BgmOptions = 
       audio.removeEventListener("play", onPlay);
       audio.removeEventListener("pause", onPause);
       audio.pause();
-      audio.src = "";
-      audio.load();
+      if (sourceAttached) {
+        audio.src = "";
+        audio.load();
+      }
       audioRef.current = null;
+      activateAudioRef.current = null;
     };
-  }, [src, volume, loop]);
+  }, [src, volume, loop, deferUntilGesture]);
 
   const toggle = () => {
     const a = audioRef.current;
     if (!a) return;
+    activateAudioRef.current?.();
     if (a.paused) a.play().catch(() => {});
     else a.pause();
   };
@@ -120,6 +141,7 @@ export function useBgm(src: string, { volume = 0.5, loop = true }: BgmOptions = 
   const toggleMute = () => {
     const a = audioRef.current;
     if (!a) return;
+    activateAudioRef.current?.();
     a.muted = !a.muted;
     setMuted(a.muted);
     if (!a.muted && a.paused) a.play().catch(() => {});

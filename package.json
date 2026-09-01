@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "check-render-profile": "node --no-warnings --experimental-strip-types tools/check-render-profile.ts",
     "render-icons": "node --no-warnings --experimental-strip-types tools/render-item-icons.ts",
     "sync-data": "python sync_wiki.py",
     "check-data": "python sync_wiki.py --check"

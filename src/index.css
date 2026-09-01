@@ -344,6 +344,90 @@
 @keyframes mobileBackdropIn { from { opacity: 0; } }
 @keyframes mobileNavIn { from { transform: translateX(-100%); } }
 
+/* QQ/TBS、Android WebView、UC：保留排版与信息，关闭持续占用合成层的装饰。 */
+html[data-render-profile="lite"] body {
+  --texture: none;
+  background-attachment: scroll;
+}
+
+html[data-render-profile="lite"] .home-bg-fx {
+  display: none;
+}
+
+html[data-render-profile="lite"] .mobile-header,
+html[data-render-profile="lite"] .mobile-nav-backdrop,
+html[data-render-profile="lite"] .palette-backdrop,
+html[data-render-profile="lite"] .audio-toggle {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+html[data-render-profile="lite"] .gate-frame,
+html[data-render-profile="lite"] .owl-seal,
+html[data-render-profile="lite"] .os-crest,
+html[data-render-profile="lite"] .os-crest path,
+html[data-render-profile="lite"] .os-glow,
+html[data-render-profile="lite"] .warden-caret,
+html[data-render-profile="lite"] .tut-cursor,
+html[data-render-profile="lite"] .ac-wave span,
+html[data-render-profile="lite"] .page-loading-mark {
+  animation: none;
+  filter: none;
+}
+
+html[data-render-profile="lite"] .home-map-title,
+html[data-render-profile="lite"] .ttl-char,
+html[data-render-profile="lite"] .home-masthead.hv2 .home-sub,
+html[data-render-profile="lite"] .home-masthead.hv2 .home-warden-quote,
+html[data-render-profile="lite"] .menu-card,
+html[data-render-profile="lite"] .menu-card.reveal,
+html[data-render-profile="lite"] .cb-divider-line,
+html[data-render-profile="lite"] .cb-divider-text,
+html[data-render-profile="lite"] .cb-headline,
+html[data-render-profile="lite"] .cb-grid-2 .cb-card,
+html[data-render-profile="lite"] .home-landing.hv2 .home-footer {
+  animation: none;
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+html[data-render-profile="lite"] .ttl-char:not(:last-child)::before {
+  animation: none;
+  transform: translate(50%, -50%) rotate(45deg) scale(1);
+}
+
+html[data-render-profile="lite"] .ttl-char:not(:last-child)::after {
+  animation: none;
+  transform: translateX(-50%) scaleY(1);
+}
+
+html[data-render-profile="lite"] .home-menu-grid.hv2,
+html[data-render-profile="lite"] .cb-grid-2 {
+  perspective: none;
+}
+
+html[data-render-profile="lite"] .menu-card,
+html[data-render-profile="lite"] .cb-headline {
+  transform-style: flat;
+}
+
+html[data-render-profile="lite"] .mc-inner {
+  transform: none;
+}
+
+html[data-render-profile="lite"] .mc-glow,
+html[data-render-profile="lite"] .mc-sweep {
+  display: none;
+}
+
+html[data-render-profile="lite"] .menu-card:hover,
+html[data-render-profile="lite"] .cb-headline:hover,
+html[data-render-profile="lite"] .cb-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within { scroll-behavior: auto; }
   *, *::before, *::after {
