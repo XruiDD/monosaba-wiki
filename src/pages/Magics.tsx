@@ -53,7 +53,7 @@ function MagicCard({ magic, pulse }: { magic: MagicRecord; pulse: boolean }) {
       <div className="corner tl"/><div className="corner tr"/><div className="corner bl"/><div className="corner br"/>
       <div className="magic-head">
         <div className="icon-frame">
-          <img src={variant.image.path} className="pixel" alt={variant.name} onError={(event) => {
+          <img src={variant.image.path} className="pixel" alt={variant.name} loading="lazy" decoding="async" onError={(event) => {
             event.currentTarget.src = "assets/magics/missingno.png";
             event.currentTarget.onerror = null;
           }}/>

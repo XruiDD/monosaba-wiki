@@ -236,10 +236,42 @@ interface ItemModalProps {
 }
 
 function ItemModal({ item, recipes, ingredientRecipes, itemMap, itemModelMap, onClose }: ItemModalProps) {
+  const modalRef = useRef<HTMLDivElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    const restoreFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    closeRef.current?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+      if (event.key === "Tab" && modalRef.current) {
+        const focusable = [...modalRef.current.querySelectorAll<HTMLElement>("a[href], button:not([disabled]), [tabindex]:not([tabindex='-1'])")]
+          .filter((element) => element.offsetParent !== null);
+        const first = focusable[0];
+        const last = focusable.at(-1);
+        if (event.shiftKey && document.activeElement === first && last) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last && first) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = previousOverflow;
+      restoreFocus?.focus();
+    };
+  }, [onClose]);
+
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal" onClick={(event) => event.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>×</button>
+      <div ref={modalRef} className="modal" role="dialog" aria-modal="true" aria-label={`${item.name} 道具详情`} onClick={(event) => event.stopPropagation()}>
+        <button ref={closeRef} className="modal-close" aria-label="关闭道具详情" onClick={onClose}>×</button>
         <div className="flex gap-20 mb-16" style={{ alignItems: "flex-start" }}>
           <ItemIcon item={item} large/>
           <div style={{ flex: 1 }}>

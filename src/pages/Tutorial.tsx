@@ -74,7 +74,7 @@ export default function TutorialPage({ tutorials, focus }: { tutorials: Tutorial
 
           <div className="tut-header">
             <div className="tut-owl">
-              <img src="assets/characters/warden.png" className="pixel" alt="warden"/>
+              <img src="assets/characters/warden.png" className="pixel" alt="warden" decoding="async"/>
             </div>
             <div>
               <div className="page-kicker accent">典狱长 · 播报中</div>

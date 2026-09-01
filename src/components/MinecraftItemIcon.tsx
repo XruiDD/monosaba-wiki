@@ -7,7 +7,7 @@ interface MinecraftItemIconProps extends Omit<ImgHTMLAttributes<HTMLImageElement
 }
 
 /** Displays an icon produced from the Minecraft 1.21.10 item model. */
-export function MinecraftItemIcon({ src, onError, ...props }: MinecraftItemIconProps) {
+export function MinecraftItemIcon({ src, onError, loading = "lazy", decoding = "async", ...props }: MinecraftItemIconProps) {
   const handleError = (event: SyntheticEvent<HTMLImageElement>) => {
     onError?.(event);
     const image = event.currentTarget;
@@ -16,5 +16,5 @@ export function MinecraftItemIcon({ src, onError, ...props }: MinecraftItemIconP
     image.src = FALLBACK_ICON;
   };
 
-  return <img {...props} src={src || FALLBACK_ICON} onError={handleError}/>;
+  return <img {...props} src={src || FALLBACK_ICON} loading={loading} decoding={decoding} onError={handleError}/>;
 }

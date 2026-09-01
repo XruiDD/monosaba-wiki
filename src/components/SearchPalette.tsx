@@ -160,13 +160,21 @@ export default function SearchPalette({ open, onClose, wikiData, navigate }: { o
   const [recent, setRecent] = useState(() => loadRecent());
   const inputRef = useRef<HTMLInputElement | null>(null);
   const listRef = useRef<HTMLDivElement | null>(null);
+  const restoreFocusRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     if (open) {
+      restoreFocusRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+      const previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
       setQ("");
       setActive(0);
       setRecent(loadRecent());
       requestAnimationFrame(() => inputRef.current?.focus());
+      return () => {
+        document.body.style.overflow = previousOverflow;
+        restoreFocusRef.current?.focus();
+      };
     }
   }, [open]);
 
@@ -327,7 +335,7 @@ export default function SearchPalette({ open, onClose, wikiData, navigate }: { o
   // 为当前列表分组显示（仅搜索时带 kind 头）
   return (
     <div className="palette-backdrop" onClick={onClose}>
-      <div className="palette" onClick={(e) => e.stopPropagation()}>
+      <div className="palette" role="dialog" aria-modal="true" aria-label="搜索全部档案" onClick={(e) => e.stopPropagation()}>
         <div className="palette-head">
           <span className="sicon">⌕</span>
           <input
@@ -446,6 +454,8 @@ function PaletteItem({ r, active, q, onHover, onClick }: { r: SearchEntry; activ
               src={r.icon}
               alt=""
               className="pixel"
+              loading="lazy"
+              decoding="async"
               onError={(e) => { e.currentTarget.style.display = "none"; }}
             />
           </div>

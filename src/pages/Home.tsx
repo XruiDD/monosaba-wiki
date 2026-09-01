@@ -37,7 +37,11 @@ function rememberOpening() {
 //    1  猫头鹰封印
 //    2  典狱长旁白（打字机）
 //    3  主菜单
-export default function HomePage({ wikiData, navigate }: { wikiData: WikiData; navigate: Navigate }) {
+export default function HomePage({ wikiData, navigate, preloadPage }: {
+  wikiData: WikiData;
+  navigate: Navigate;
+  preloadPage: (page: PageId) => void;
+}) {
   const [phase, setPhase] = useState(() => hasSeenOpening() ? 3 : -1);
   const [lineIdx, setLineIdx] = useState(0);
   const [charIdx, setCharIdx] = useState(0);
@@ -107,17 +111,17 @@ export default function HomePage({ wikiData, navigate }: { wikiData: WikiData; n
   };
 
   return (
-    <div className="home-stage" onClick={phase === -1 ? beginOpening : undefined}>
+    <div className="home-stage">
       {/* 点击以继续：首屏门禁，浮窗全部隐藏 */}
       {phase === -1 && (
-        <div className="opening-gate">
+        <button type="button" className="opening-gate" onClick={beginOpening}>
           <div className="gate-frame">
             <div className="gate-line"/>
             <div className="gate-hint serif">点击以继续</div>
             <div className="gate-sub mono">CLICK · ANYWHERE · TO · ENTER</div>
             <div className="gate-line"/>
           </div>
-        </div>
+        </button>
       )}
 
       {phase >= 0 && phase < 3 && (
@@ -180,7 +184,7 @@ export default function HomePage({ wikiData, navigate }: { wikiData: WikiData; n
         </div>
       )}
 
-      {phase >= 3 && <HomeMenu wikiData={wikiData} navigate={navigate}/>}
+      {phase >= 3 && <HomeMenu wikiData={wikiData} navigate={navigate} preloadPage={preloadPage}/>}
     </div>
   );
 }
@@ -197,18 +201,23 @@ interface MenuItem {
   idx: string;
 }
 
-function HomeMenu({ wikiData, navigate }: { wikiData: WikiData; navigate: Navigate }) {
+function HomeMenu({ wikiData, navigate, preloadPage }: {
+  wikiData: WikiData;
+  navigate: Navigate;
+  preloadPage: (page: PageId) => void;
+}) {
   const [licenseOpen, setLicenseOpen] = useState(false);
+  const count = (name: Exclude<keyof WikiData, "catalog">) => wikiData.catalog?.counts[name] ?? wikiData[name].length;
   const menu: MenuItem[] = [
-    { id: "items",    t: "道具大全",   sub: "ITEMS · ARCHIVE",    n: `${wikiData.items.length} 件`,    glyph: "◈", idx: "I"    },
-    { id: "recipes",  t: "合成配方",   sub: "CRAFTING",           n: `${wikiData.recipes.length} 份`,  glyph: "◇", idx: "II"   },
-    { id: "magics",   t: "魔法总表",   sub: "GRIMOIRE",           n: `${wikiData.magics.length} 分支`,  glyph: "✦", idx: "III"  },
-    { id: "talents",  t: "天赋档案",   sub: "TALENTS",            n: `${wikiData.talents.length} 项`,   glyph: "✧", idx: "IV"   },
+    { id: "items",    t: "道具大全",   sub: "ITEMS · ARCHIVE",    n: `${count("items")} 件`,    glyph: "◈", idx: "I"    },
+    { id: "recipes",  t: "合成配方",   sub: "CRAFTING",           n: `${count("recipes")} 份`,  glyph: "◇", idx: "II"   },
+    { id: "magics",   t: "魔法总表",   sub: "GRIMOIRE",           n: `${count("magics")} 分支`,  glyph: "✦", idx: "III"  },
+    { id: "talents",  t: "天赋档案",   sub: "TALENTS",            n: `${count("talents")} 项`,   glyph: "✧", idx: "IV"   },
     { id: "chars",    t: "饰品图鉴",   sub: "ACCESSORIES",        n: "16 件 + 联动",                 glyph: "❂", idx: "V"    },
-    { id: "tasks",    t: "任务与线索", sub: "DAILY TRIALS",       n: `${wikiData.tasks.length} 份`,     glyph: "⚖", idx: "VI"   },
-    { id: "systems",  t: "伤害机制",   sub: "DAMAGE SYSTEM",      n: `${wikiData.damage.length} 类`,    glyph: "⌁", idx: "VII"  },
+    { id: "tasks",    t: "任务与线索", sub: "DAILY TRIALS",       n: `${count("tasks")} 份`,     glyph: "⚖", idx: "VI"   },
+    { id: "systems",  t: "伤害机制",   sub: "DAMAGE SYSTEM",      n: `${count("damage")} 类`,    glyph: "⌁", idx: "VII"  },
     { id: "rules",    t: "规则与阵营", sub: "THE ORDER",          n: "三方审判",                      glyph: "✚", idx: "VIII" },
-    { id: "tutorial", t: "典狱长旁白", sub: "WARDEN'S BRIEFING", n: `${wikiData.tutorials.length} 套`, glyph: "✎", idx: "IX"   },
+    { id: "tutorial", t: "典狱长旁白", sub: "WARDEN'S BRIEFING", n: `${count("tutorials")} 套`, glyph: "✎", idx: "IX"   },
   ];
 
   return (
@@ -228,7 +237,13 @@ function HomeMenu({ wikiData, navigate }: { wikiData: WikiData; navigate: Naviga
 
       <div className="home-menu-grid hv2">
         {menu.map((m, i) => (
-          <MenuCard key={m.id} m={m} delay={400 + i * 90} onClick={() => navigate(m.id)}/>
+          <MenuCard
+            key={m.id}
+            m={m}
+            delay={400 + i * 90}
+            onClick={() => navigate(m.id)}
+            onPreload={() => preloadPage(m.id)}
+          />
         ))}
       </div>
 
@@ -263,7 +278,12 @@ function HomeMenu({ wikiData, navigate }: { wikiData: WikiData; navigate: Naviga
 }
 
 /* 单张菜单卡：鼠标视差倾斜 + 金线扫过 + 延迟浮起 */
-function MenuCard({ m, delay, onClick }: { m: MenuItem; delay: number; onClick: () => void }) {
+function MenuCard({ m, delay, onClick, onPreload }: {
+  m: MenuItem;
+  delay: number;
+  onClick: () => void;
+  onPreload: () => void;
+}) {
   const ref = useRef<HTMLButtonElement | null>(null);
   const rafRef = useRef(0);
   const [visible, setVisible] = useState(false);
@@ -302,6 +322,8 @@ function MenuCard({ m, delay, onClick }: { m: MenuItem; delay: number; onClick: 
       className={`menu-card ${visible ? "reveal" : ""}`}
       onMouseMove={onMove}
       onMouseLeave={onLeave}
+      onPointerEnter={onPreload}
+      onFocus={onPreload}
       onClick={onClick}
     >
       {/* 金线扫过高光 */}

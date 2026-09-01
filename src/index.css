@@ -3,3 +3,354 @@
 @import "./styles/wiki.css";
 @import "./styles/pages.css";
 @import "./styles/accessories.css";
+
+/* 生产环境通用交互与响应式保护，放在最后以覆盖页面局部样式。 */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.nav-item {
+  width: 100%;
+  text-align: left;
+}
+
+.mobile-header,
+.mobile-navigation-layer {
+  display: none;
+}
+
+.page-loading {
+  min-height: min(52vh, 420px);
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  color: var(--ink-dim);
+  letter-spacing: 2px;
+}
+
+.page-loading-mark {
+  color: var(--accent);
+  font-size: 24px;
+  animation: loadingPulse 1.4s ease-in-out infinite;
+}
+
+.page-loading-detail {
+  max-width: min(520px, 80vw);
+  color: var(--ink-faint);
+  font-size: 11px;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.palette-loading {
+  min-height: 160px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  color: var(--ink-dim);
+}
+
+/* 长卷宗保留完整 DOM，但让浏览器跳过视口外卡片的布局与绘制。 */
+.item-card,
+.magic-card,
+.talent-card,
+.recipe-card,
+.system-card,
+.task-row,
+.combo-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 180px;
+}
+
+.recipe-card,
+.task-row {
+  contain-intrinsic-size: auto 340px;
+}
+
+@keyframes loadingPulse {
+  50% { opacity: 0.35; transform: rotate(45deg) scale(0.8); }
+}
+
+@media (max-width: 1080px) {
+  .app {
+    display: block;
+    min-width: 0;
+    min-height: 100dvh;
+  }
+
+  .desktop-sidebar { display: none; }
+
+  .mobile-header {
+    position: sticky;
+    top: 0;
+    z-index: 800;
+    min-height: 58px;
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr) 48px;
+    align-items: center;
+    padding: max(4px, env(safe-area-inset-top)) max(10px, env(safe-area-inset-right)) 4px max(10px, env(safe-area-inset-left));
+    border-bottom: 1px solid var(--rule);
+    background: rgb(from var(--bg-1) r g b / 0.94);
+    backdrop-filter: blur(12px);
+  }
+
+  .mobile-header-btn {
+    min-width: 44px;
+    min-height: 44px;
+    display: grid;
+    place-items: center;
+    border: 1px solid transparent;
+    color: var(--ink-dim);
+    font: 22px/1 var(--sans);
+  }
+
+  .mobile-header-btn:hover,
+  .mobile-header-btn:focus-visible {
+    color: var(--accent);
+    border-color: var(--rule-strong);
+  }
+
+  .mobile-header-title {
+    min-width: 0;
+    padding: 8px;
+    overflow: hidden;
+    color: var(--ink);
+    font-size: 17px;
+    letter-spacing: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mobile-navigation-layer {
+    position: fixed;
+    inset: 0;
+    z-index: 9500;
+    display: block;
+  }
+
+  .mobile-nav-backdrop {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.72);
+    backdrop-filter: blur(2px);
+    animation: mobileBackdropIn 0.18s ease-out;
+  }
+
+  .mobile-sidebar {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: min(328px, 88vw);
+    height: 100dvh;
+    display: block;
+    padding: max(42px, calc(env(safe-area-inset-top) + 38px)) 18px max(40px, env(safe-area-inset-bottom));
+    box-shadow: 20px 0 60px rgba(0, 0, 0, 0.55);
+    animation: mobileNavIn 0.22s cubic-bezier(.2, .8, .2, 1);
+    overscroll-behavior: contain;
+  }
+
+  .mobile-nav-close {
+    position: absolute;
+    top: max(8px, env(safe-area-inset-top));
+    right: 10px;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--rule);
+    color: var(--ink-dim);
+    font: 24px/1 var(--sans);
+  }
+
+  .mobile-sidebar .nav-item,
+  .mobile-sidebar .search-btn {
+    min-height: 44px;
+  }
+
+  body.mobile-nav-open { overflow: hidden; }
+
+  .main {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    padding: 30px clamp(18px, 4vw, 36px) calc(92px + env(safe-area-inset-bottom));
+  }
+
+  .foot-status {
+    left: 0;
+    padding: 7px max(16px, env(safe-area-inset-right)) max(7px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  }
+
+  .audio-toggle {
+    right: max(12px, env(safe-area-inset-right));
+    bottom: calc(48px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 640px) {
+  .main {
+    padding: 22px 14px calc(88px + env(safe-area-inset-bottom));
+  }
+
+  .page-head { margin-bottom: 26px; }
+  .page-title,
+  body[data-variant="monitor"] .page-title,
+  body[data-density="compact"] .page-title {
+    font-size: clamp(34px, 11vw, 42px);
+    line-height: 1.2;
+  }
+  .page-kicker { letter-spacing: 3px; }
+  .page-dek { font-size: 14px; }
+
+  .filters {
+    flex-wrap: nowrap;
+    margin-right: -14px;
+    margin-left: -14px;
+    padding-right: 14px;
+    padding-left: 14px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+  .filter-btn {
+    min-height: 40px;
+    flex: 0 0 auto;
+    padding: 7px 11px;
+  }
+
+  .items-grid,
+  .magics-grid,
+  .talent-grid,
+  .recipe-grid,
+  .system-grid,
+  .combos-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card { padding: 16px; }
+  .item-card { min-height: 0; }
+  .item-card::after { opacity: 1; }
+
+  .modal-backdrop {
+    place-items: end center;
+    padding-top: max(16px, env(safe-area-inset-top));
+  }
+  .modal {
+    width: 100%;
+    max-width: none;
+    max-height: calc(100dvh - max(16px, env(safe-area-inset-top)));
+    padding: 28px 18px calc(24px + env(safe-area-inset-bottom));
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    scrollbar-gutter: auto;
+  }
+  .modal h2 { font-size: 27px !important; }
+  .modal > .flex:first-of-type { gap: 12px; }
+  .modal .icon-frame.lg { width: 76px; height: 76px; }
+  .modal .icon-frame.lg img { width: 58px; height: 58px; }
+
+  .palette-backdrop {
+    align-items: flex-start;
+    padding: max(12px, env(safe-area-inset-top)) 10px max(12px, env(safe-area-inset-bottom));
+  }
+  .palette {
+    width: 100%;
+    max-height: calc(100dvh - max(24px, env(safe-area-inset-top)) - max(24px, env(safe-area-inset-bottom)));
+  }
+  .palette-body { max-height: calc(100dvh - 172px); }
+  .palette-foot { display: none; }
+  .palette-esc { display: none; }
+  .palette-item { padding: 11px 12px; }
+
+  .foot-status { justify-content: center; }
+  .foot-shortcuts { display: none; }
+
+  .task-head { gap: 10px; padding: 12px; }
+  .task-num { min-width: 28px; }
+  .task-body { padding: 4px 14px 18px; }
+  .tb-row { grid-template-columns: 1fr; gap: 12px; }
+  .loop-flow,
+  .factions-grid { grid-template-columns: 1fr; }
+
+  .char-card {
+    max-height: none;
+    padding: 20px 16px;
+  }
+  .cd-head { gap: 14px; align-items: flex-start; }
+  .cd-portrait { width: 82px; height: 82px; }
+  .cd-portrait img { width: 62px; height: 62px; }
+  .cd-name { font-size: 30px; }
+  .cd-desc { font-size: 15px; }
+
+  .tut-chapters {
+    position: static;
+    flex-direction: row;
+    margin: 0 -14px;
+    padding: 0 14px 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .tut-chapters::-webkit-scrollbar { display: none; }
+  .tut-chap { flex: 0 0 min(260px, 78vw); }
+  .tut-stage { min-height: 480px; padding: 20px 16px 26px; }
+  .tut-header { align-items: flex-start; }
+  .tut-owl { width: 52px; height: 52px; flex: 0 0 auto; }
+  .tut-owl img { width: 40px; height: 40px; }
+  .tut-script { min-height: 260px; padding: 16px 14px; font-size: 15px; }
+  .tut-skip { right: 16px; bottom: 14px; }
+  .audio-grid { grid-template-columns: 1fr; }
+
+  .home-stage { padding: 22px 14px; }
+  .home-masthead.hv2 { margin-bottom: 36px; padding-top: 18px; }
+  .home-map-title { font-size: 12px; letter-spacing: 5px; padding-left: 5px; }
+  .home-masthead.hv2 .home-title {
+    font-size: clamp(50px, 17vw, 72px);
+    gap: 0.28em;
+  }
+  .home-masthead.hv2 .home-sub { font-size: 9px; letter-spacing: 3px; }
+  .home-menu-grid.hv2 { gap: 12px; }
+  .menu-card { min-height: 148px; }
+  .mc-inner { padding: 20px 18px 16px; transform: none; }
+  .community-board { margin: 38px 0 26px; }
+  .home-landing.hv2 .home-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .recipe-workbench { gap: 6px; }
+  .craft-grid {
+    grid-template-columns: repeat(3, 46px);
+    grid-template-rows: repeat(3, 46px);
+    padding: 5px;
+  }
+  .craft-item { width: 24px; height: 24px; }
+  .craft-result-slot { width: 60px; height: 60px; }
+  .craft-result-image { width: 40px; height: 40px; }
+  .recipe-arrow { font-size: 20px; }
+}
+
+@keyframes mobileBackdropIn { from { opacity: 0; } }
+@keyframes mobileNavIn { from { transform: translateX(-100%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within { scroll-behavior: auto; }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .menu-card.reveal { opacity: 1; transform: none; }
+}

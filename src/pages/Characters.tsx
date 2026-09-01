@@ -44,7 +44,7 @@ export default function CharactersPage({ focus }: { focus: string | null }) {
                 style={{ "--team-color": TEAM[a.team] } as StyleWithVariables}
                 onClick={() => setSelected(a)}
                 title={a.name}>
-                <img src={`assets/characters/${a.img}`} className="pixel" alt=""/>
+                <img src={`assets/characters/${a.img}`} className="pixel" alt="" loading="lazy" decoding="async"/>
                 <span className="cp-name">{a.name}</span>
               </button>
             ))}
@@ -70,7 +70,7 @@ function AccessoryDetail({ a, relatedCombos }: { a: AccessoryRecord; relatedComb
 
       <div className="cd-head">
         <div className="cd-portrait">
-          <img src={`assets/characters/${a.img}`} className="pixel" alt=""/>
+          <img src={`assets/characters/${a.img}`} className="pixel" alt="" loading="lazy" decoding="async"/>
         </div>
         <div style={{flex: 1}}>
           <div className="page-kicker" style={{ color: TEAM[a.team] }}>
@@ -96,7 +96,7 @@ function AccessoryDetail({ a, relatedCombos }: { a: AccessoryRecord; relatedComb
                     if (!ac) return null;
                     return (
                       <span key={m} className="combo-dot" style={{borderColor: TEAM[ac.team]}}>
-                        <img src={`assets/characters/${ac.img}`} className="pixel" alt=""/>
+                        <img src={`assets/characters/${ac.img}`} className="pixel" alt="" loading="lazy" decoding="async"/>
                       </span>
                     );
                   })}
@@ -139,7 +139,7 @@ function CombosTable({ selected, setSelected }: { selected: AccessoryRecord; set
                         style={{borderColor: TEAM[ac.team]}}
                         onClick={() => setSelected(ac)}
                         title={ac.name}>
-                        <img src={`assets/characters/${ac.img}`} className="pixel" alt=""/>
+                        <img src={`assets/characters/${ac.img}`} className="pixel" alt="" loading="lazy" decoding="async"/>
                       </button>
                     );
                   })}
